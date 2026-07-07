@@ -1,0 +1,2317 @@
+  /*  Theme Responsive Css */
+
+
+  @media only screen and (max-width: 1850px){
+
+  }
+  
+  @media only screen and (max-width: 1700px){
+
+
+  }
+
+  @media only screen and (max-width: 1680px){
+
+    .vector-shape{
+      top: 0;
+    }
+
+    .vector-two {
+      bottom: 100px;
+    }
+
+
+
+
+  }
+
+  @media only screen and (max-width: 1650px){
+
+  }
+
+  @media only screen and (min-width: 1367px) and (max-width: 1567px){
+
+
+
+
+
+
+  }
+
+  @media only screen and (max-width: 1499px){
+  
+  }
+
+  @media only screen and (max-width: 1449px){
+
+
+  }
+
+  @media only screen and (max-width: 1400px){
+
+
+  }
+
+  @media only screen and (max-width: 1366px){
+
+    /* header */
+    .header_top {
+      padding: 15px 10px;
+    }
+    .home-three-header .logo-box {
+      padding: 0px;
+    }
+    /* header */
+
+    /* banner */
+    .banner-right-image {
+      width: 450px;
+      height: 525px;
+    }
+    .border-image {
+      height: 542px;
+      width: 490px;
+     }
+    /* banner */
+
+    /* service */
+    .services {
+      padding-bottom: 80px;
+  }
+    /* service */
+
+    /* about */
+    .about-left-container .about-image-1 {
+      width: 470px;
+      height: 580px;
+    }
+
+    .home-two-about .about-image-1::after{
+      display: none;
+    }
+
+    .home-three-video-btn {
+      margin-left: 21px;
+    }
+
+    .home-three-about .about-right-container .btn-1 {
+      margin-top: 10px;
+      padding: 20px 33px;
+    }
+    /* about */
+
+    /* causes */
+    .causes-content h5{
+      font-size: 24px;
+    }
+
+    .causes-image {
+      height: 250px;
+    }
+
+    .causes-bar{
+      padding: 20px 30px;
+    }
+
+    .home3-causes-left-content {
+      padding: 50px 0 50px 0px;
+    }
+    /* causes */
+
+    /* team */
+    .team-image{
+      width: 275px;
+      height: 275px;
+    }
+    /* team */
+
+    /* blog */
+    .blog .causes-content a {
+      font-size: 21px;
+    }
+
+    .blog .hover-content {
+      font-size: 22px;
+      line-height: 38px;
+      margin-bottom: 0;
+    }
+
+    .blog .blog-btn {
+      padding: 15px 30px 30px 30px;
+  }
+
+    .blog .event-btn {
+        padding: 15px 30px 30px 0;
+    }
+    /* blog */
+
+    /* event */
+    .event-image{
+      height: 394px;
+    }
+
+    .event-content {
+      bottom: -112px;
+    }
+
+    .event-card:hover .event-content{
+      bottom: -50px;
+    }
+    
+    .event-content .comments a{
+      margin-bottom: 0;
+    }
+
+    .event-details-container {
+      height: 590px;
+    }
+
+    .home2-event-content{
+      bottom: -75px;
+    }
+    /* event */
+
+    /* faq */
+    .faq-content{
+      width: 570px;
+    }
+    .faq-page-accordion .accordion-button {
+      padding: 24px 40px;
+      font-size: 19px;
+    }
+    /* faq */
+
+    /* footer */
+    .footer_widget.left {
+      margin-left: 25px;
+    }
+    /* footer */
+
+    /* blog details */
+    .main-causes-content-img{
+      display: block;
+    }
+
+    .main-causes-content-img img{
+      margin-top: 20px;
+    }
+    /* blog details */
+
+    /* home 3 */
+    .team-three-image {
+      height: 350px;
+    }
+
+    .team-three-top-bg {
+      left: -56px;
+    }
+    /* home 3 */
+
+    /* about page */
+    .about-volunteer .volunteers-info {
+      width: 90%;
+    }
+    /* about page */
+
+    /* event */
+    .hover-content {
+      font-size: 26px;
+      line-height: 22px;
+      margin-bottom: 0;
+    }
+    .blog-btn {
+      padding: 25px 0px 40px 0;
+    }
+    .event-page .event-content {
+      bottom: -75px;
+    }
+
+    .about-event-content{
+      bottom: -79px;
+    }
+    /* event */
+
+
+
+
+  }
+
+  @media only screen and (min-width: 1300px){
+
+  }
+
+  @media only screen and (max-width: 1300px){
+   
+
+  }
+
+  @media only screen and (max-width: 1215px){
+
+  }
+
+  @media only screen and (min-width: 1201px) and (max-width: 1365px){
+
+  }
+  @media only screen and (max-width: 1200px){
+    .main-menu{
+      display: none !important;
+    }
+    .menu-area .mobile-nav-toggler {
+      display: block;
+      margin-top: 20px;
+      padding: 12px;
+      margin-bottom: 20px;
+    }
+    .sticky-header{
+      display: none !important;
+    }
+    header.main-header.style-one .menu-area {
+      order: 3;
+    }
+    .anim-icon{
+      display: none;
+    }
+    br{
+      display: none;
+    }
+
+    
+  }
+
+  @media only screen and (min-width: 1025px) and (max-width: 1200px){
+
+    .header__right {
+      margin-left: 50%;
+    }
+
+    .main-header .logo-box {
+      padding: 0px 50px 0px 0px;
+    }
+
+    .menu-area .mobile-nav-toggler .icon-bar {
+      background-color: var(--theme-color);
+    }
+
+    nav.menu-box.mCustomScrollbar._mCS_1.mCS_no_scrollbar {
+      background: #ffffff;
+    }
+
+    nav.menu-box.mCustomScrollbar._mCS_1 {
+      background: #ffffff;
+  }
+
+    .contact-info{
+      display: block;
+    }
+
+    .mobile-menu .contact-info ul li a{
+      color: #000;
+    }
+    
+    .mobile-menu .navigation li > a{
+      color: #000;
+    }
+
+
+    
+
+  }
+
+  @media only screen and (max-width: 1024px){
+
+    /* header */
+    .menu-area .mobile-nav-toggler .icon-bar{
+      background-color: var(--theme-color);
+    }
+
+    .header_top_right ul{
+      gap: 25px;
+    }
+
+    .header_top .header_top_left .top_left{
+      gap: 30px;
+    }
+
+    .main-header .logo-box {
+      padding: 0px 100px 0px 0px;
+    }
+    .main-header.style-one .logo__shape {
+      width: calc(50% - 330px);
+      height: 90px;
+    }
+
+    .main-header .logo-box .logo {
+      padding: 10px 0;
+    }
+
+    .header__right {
+      margin-left: 45%;
+    }
+
+    .mobile-menu{
+      background: #ffffff;
+    }
+
+    .mobile-menu .navigation li > a{
+      color: black;
+    }
+    /* header */
+
+    /* banner */
+    .banner{
+      height: 650px;
+    }
+
+    .banner .btn-1{
+      padding: 20px 40px;
+    }
+
+    .banner-content-wrapper{
+      height: 650px;
+    }
+
+    .banner-right-content{
+      height: 650px;
+    }
+
+    .banner-content-wrapper-inner h2{
+      font-size: 45px;
+      line-height: 55px;
+    }
+
+    .banner-right-image {
+      width: 390px;
+      height: 445px;
+    }
+
+    .border-image {
+      height: 460px;
+      width: 420px;
+    }
+    /* banner */
+
+    /* service */
+    .services{
+      padding: 80px 0;
+    }
+
+    .service-image {
+      position: relative;
+      transition: 0.5s;
+  }
+    /* service */
+
+    /* map */
+    .map {
+      margin-bottom: -281px;
+    }
+    /* map */
+
+    /* about */
+    .about{
+      padding: 100px 0;
+    }
+
+    .about-right-container {
+      margin-top: 125px;
+    }
+
+    .about-left-intro {
+      right: 325px;
+    }
+    /* about */
+
+    /* causes */
+    .causes {
+      padding: 100px 0;
+    }
+
+    .vector-shape {
+      top: 80px;
+      left: 76%;
+    }
+
+    .align-title h3 {
+      font-size: 28px;
+    }
+
+    .causes-content h5 {
+      font-size: 20px;
+    }
+
+    .causes-content {
+      padding: 20px;
+    }
+    /* causes */
+
+    /* event */
+    .event-details-container {
+      height: 480px;
+      border-radius: 20px;
+    }
+
+    .event-content ul li {
+      margin: 0 0;
+    }
+    /* event */
+
+    /* mission */
+    .mission{
+      padding-top: 100px;
+      padding-bottom: 125px;
+    }
+    .mission-video-image {
+      width: 50%;
+      height: 680px;
+      margin: 50px auto;
+  }
+    /* mission */
+
+    /* fun fact */
+    .fun-fact-container {
+      padding: 50px 0;
+      border-radius: 30px;
+    }
+
+    .funfact-block-two {
+      margin: 30px 0;
+    }
+    /* fun fact */
+
+    /* faq */
+    .accordion-button:not(.collapsed) {
+      padding: 20px 20px;
+    }
+    .accordion-button {
+      padding: 20px 20px !important;
+    }
+    .accordion-button {
+      font-size: 18px !important;
+      line-height: 25px;
+    }
+    .accordion-button:not(.collapsed){
+      font-size: 18px;
+      line-height: 25px;
+    }
+    .accordion-body {
+      padding: 0 73px 30px 20px;
+    }
+    .accordion-button::before {
+      right: 20px;
+    }
+    .accordion-button::after {
+      right: 24px;
+      top: 21px;
+    }
+    .accordion-button:not(.collapsed)::after {
+      right: 27px;
+      top: -7px;
+    }
+    .faq-page-accordion .accordion-button:not(.collapsed)::after {
+      top: -7px;
+    }
+    .faq-page-accordion .accordion-button::after {
+      top: 21px;
+    }
+    /* faq */
+
+    /* team */
+    .team{
+      padding: 100px 0;
+    }
+
+    .team-content {
+      margin-bottom: 50px;
+   }
+    /* team */
+
+    /* blog */
+    .blog .comments ul{
+      margin: 15px 0;
+    }
+    .blog .causes-content a{
+      font-size: 18px;
+      line-height: 27px;
+    }
+    .hover-content {
+      font-size: 24px;
+      line-height: 33px;
+    }
+    .blog .hover-content {
+      font-size: 17px;
+      line-height: 32px;
+      margin-bottom: 15px;
+    }
+    /* blog */
+
+    /* ================
+      home two starts
+    ===================*/
+    /* banner */
+    .home-two-banner .banner-content-wrapper{
+      height: 649px;
+    }
+
+    .banner-content-wrapper-inner h2{
+      font-size: 38px;
+    }
+    /* banner */
+
+    /* about */
+    .home-two-about .about-image-1 {
+      left: 175px;
+    }
+
+    .home-two-about-image-bottom{
+      right: 150px;
+    }
+
+    .home-two-about-image-top {
+      left: 90px;
+    }
+
+    .about-right-container{
+      margin-top: 100px;
+    }
+    /* about */
+
+    /* home two cuses */
+    .home-two-causes-card {
+      padding: 10px 10px 20px 10px;
+    }
+    /* home two cuses */
+
+    /* home 2 video */
+    .home-two-video{
+      padding-top: 100px;
+      height: 550px;
+    }
+    /* home 2 video */
+
+    /* faq */
+    .faq-content {
+      width: 445px;
+    }
+
+    .accordion-right{
+      margin-top: 0px;
+    }
+    /* faq */
+
+    /* blog */
+    .blog{
+      padding: 100px 0;
+    }
+    /* blog */
+
+    /* event */
+    .home2-event-content{
+      bottom: -85px;
+    }
+    .home2-event-content .hover-content{
+      margin-bottom: 0;
+    }
+    /* event */
+
+    /* call */
+    .call{
+      padding: 100px 0;
+    }
+    /* call */
+
+    /* volunteer */
+    .volunteers{
+      padding: 100px 0;
+    }
+
+    .volunteers-content{
+      margin-bottom: 100px;
+    }
+
+    .volunteers .btn-1{
+      margin-top: 30px;
+    }
+    /* volunteer */
+
+    /* home 2 blog */
+    .home-two-blog{
+      padding: 100px 0;
+    }
+    /* home 2 blog */
+
+    /* home 2 contact */
+    .home-two-contact{
+      padding: 100px 0;
+    }
+    .contact-form textarea {
+      width: 97%;
+    }
+    /* home 2 contact */
+
+    /* home 2 footer */
+    .home-two-footer .main__footer__top {
+      padding: 100px 0;
+  }
+  /* home 2 footer */
+  /* ================
+    home two ends
+  ===================*/
+
+  /* ================
+    home 3 starts
+  ===================*/
+    /* header */
+    .home-three-header .header_top .header_top_left .top_left {
+      gap: 25px;
+    }
+    /* header */
+
+    /* banner */
+    .home-three-banner{
+      height: 750px;
+    }
+
+    .home-three-banner .banner-content-wrapper {
+      height: 750px;
+    }
+
+    .home-three-banner .banner-right-content {
+      height: 750px;
+    }
+
+    .home-three-banner .banner-right-image{
+      right: 0 !important;
+      width: 500px;
+      height: 420px;
+    }
+    /* banner */
+
+    /* about */
+    .home-three-video-btn {
+      margin-left: 60px;
+    }
+    /* about */
+
+    /* causes */
+    .home-three-causes .progress p{
+      display: none;
+    }
+
+    .causes-bar-info-bottom-img h6{
+      display: none;
+    }
+    /* causes */
+
+    /* gallery */
+    .home-threee-gallery .team-image {
+      height: 200px;
+    }
+    .main-gallery .team-image {
+      width: 100%;
+      height: 367px;
+      border-radius: 10px;
+    }
+    .team-icon {
+      top: 34%;
+      left: 33%;
+      width: 60px;
+      height: 60px;
+    }
+    .main-gallery .team-icon {
+      top: 42%;
+      left: 42%;
+      width: 80px;
+      height: 80px;
+    }
+    /* gallery */
+
+    /* testimonial */
+    .home-3-testimonial-wrapper {
+      padding-top: 50px;
+    }
+    .testimonial-right-wrapper-inner{
+      gap: 0;
+    }
+
+    .testimonial-info h6 {
+      font-size: 15px;
+   }
+
+   .testimonial-right-wrapper-inner img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      margin-right: 0;
+    }
+    /* testimonial */
+    /* ================
+      home 3 ends
+    ===================*/
+
+    /*=================
+     about 
+    =================*/
+    .common-banner{
+      padding: 130px 0;
+    }
+
+    .about-volunteers .btn-1 {
+      margin-top: 0;
+    }
+
+    .news_letter_right .form-inner{
+      margin-top: 30px;
+    }
+
+    .about-volunteer .volunteers-image{
+      height: 500px;
+    }
+
+    .blog .comments ul li {
+      display: flex;
+      margin-right: 25px;
+    }
+    /*==================
+     about 
+    ====================*/
+
+    /* contact */
+    .contact-containt .contact-info{
+      display: block;
+    }
+
+    .contact-containt .contact-info-left{
+      margin-bottom: 10px;
+    }
+    /* contact */
+
+    /* team 2 */
+    .team-2-image img{
+      width: 100%;
+    }
+
+    .home-two-continer p{
+      margin-bottom: 30px;
+    }
+    /* team 2 */
+
+    /* team 3 */
+    .team-three-top-bg{
+      margin-left: 0;
+    }
+
+    .team-three-image {
+      height: 500px;
+      width: 500px;
+      margin-bottom: 30px;
+    }
+
+    .team-three-top-wrapper {
+      margin-left: 0px;
+    }
+    /* team 3 */
+
+    /* team */
+    .main-team-container{
+      padding: 100px 0;
+    }
+
+    .main-team-container .volunteers-content {
+      margin-top: 0;
+    }
+    /* team */
+
+    /* causes */
+    .causes-page .event-details-image {
+      height: 370px;
+      width: 100%;
+    }
+    /* causes */
+
+    /* blog */
+    .causes-categories {
+      padding-top: 30px;
+    }
+
+    .causes-details-title h3 {
+      font-size: 28px;
+      line-height: 40px;
+    }
+
+    #accordion h4 {
+      font-size: 28px;
+      line-height: 40px;
+    }
+    /* blog */
+
+    /* donet */
+    .donate-card h5 {
+      font-size: 22px;
+      line-height: 30px;
+    }
+    .donate-text-area {
+      margin-bottom: 30px;
+    }
+    /* donet */
+    
+    /* event */
+    .events .comments ul {
+      margin: 5px 0 !important;
+    }
+    .event-content a {
+      font-size: 17px;
+    }
+    .event-page .event-content {
+      bottom: -98px;
+    }
+    .about-event-content {
+      bottom: -98px;
+    }
+    /* event */
+
+
+
+
+  }
+
+
+  @media only screen and (min-width: 768px){
+    .main-menu .navigation > li > ul,
+    .main-menu .navigation > li > ul > li > ul,
+    .main-menu .navigation > li > .megamenu{
+      display:block !important;
+      visibility:hidden;
+      opacity:0;
+    }
+  }
+
+  
+@media only screen and (max-width: 768px){
+
+  /* header */
+  .header_top_left{
+    display: none;
+  }
+
+  .header_top .auto_container{
+    justify-content: center;
+  }
+
+  .header_right_info ul li{
+    margin: 0 15px;
+  }
+
+  .main-header.style-one .logo__shape {
+    width: calc(50% - 180px);
+    height: 100%;
+  }
+
+  .main-header .logo-box .logo {
+    padding: 30px 0;
+  }
+
+  .header__right{
+    display: none;
+  }
+
+  .menu-area .mobile-nav-toggler .icon-bar{
+    margin-bottom: 8px;
+  }
+  /* header */
+
+  /* banner */
+  .banner-right-content{
+    display: none;
+  }
+  .home-two-banner .banner-content-wrapper {
+    height: 710px;
+  }
+  /* banner */
+
+  /* about */
+  .about-left-intro {
+    right: 100px;
+    bottom: -50px;
+  }
+  /* about */
+
+  /* causes */
+  .causes-card{
+    margin-bottom: 50px;
+  }
+
+  .align-title h3 {
+    font-size: 50px;
+  }
+
+  .causes-image-container {
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+    height: 480px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+
+  .causes-image {
+    height: 100%;
+  }
+
+  .causes-content a {
+    font-size: 37px;
+    line-height: 58px;
+  }
+
+  .causes-content h5 {
+    font-size: 43px;
+    line-height: 60px;
+  }
+  /* causes */
+
+  /* mission */
+  .mission-contant{
+    display: block;
+  }
+
+  .mossion-info {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .vector-two{
+    left: 70%;
+  }
+
+  .mission-video-image{
+    width: 70%;
+    margin: 30px 0;
+  }
+  /* mission */
+
+  /* fun fact */
+  .funfact-block-two {
+    margin: 50px 0;
+  }
+  /* fun fact */
+
+  /* team */
+  .team-image {
+    width: 400px;
+    height: 400px;
+  }
+  /* team */
+
+  /* blog */
+  .blog .hover-content {
+    font-size: 33px;
+    line-height: 45px;
+    margin-bottom: 15px;
+  }
+  /* blog */
+
+  /* map */
+  .map {
+    margin-bottom: -327px;
+  }
+  /* map */
+
+  /* footer */
+  .footer_widget.links_widget {
+    margin-top: 20px;
+  }
+  /* footer */
+
+  /* ===============
+  home two starts
+  ==================*/
+  .banner {
+    height: 710px;
+  }
+
+  /* about */
+  .home-two-about .about-image-1 {
+    left: 110px;
+  }
+
+  .home-two-about-shape{
+    width: 550px;
+  }
+
+  /* causes */
+  .home-two-causes{
+    height: 100%;
+    margin-bottom: 100px;
+  }
+
+  .home-two-causes-card{
+    padding: 20px;
+  }
+
+  .causes-bar-info-bottom-img h6{
+    display: block;
+  }
+  /* causes */
+
+  /* fun fact */
+  .fun-fact-container {
+    padding: 50px 0;
+    border-radius: 67px;
+  }
+  /* fun fact */
+
+  /* event */
+  .event-image {
+    height: 600px;
+  }
+
+  .event-content {
+    bottom: -100px;
+  }
+
+  .blog .causes-content a {
+    font-size: 42px;
+    line-height: 48px;
+  }
+
+  .blog-contant .header-link-btn .btn-1 {
+    top: -35px;
+  }
+
+  .event-bottom-btn {
+    margin-top: 0;
+  }
+
+  .event-btn{
+    padding: 40px 0;
+  }
+
+  .event-btn a{
+    font-size: 30px !important;
+  }
+  /* event */
+
+  /* faq */
+  .faq {
+    display: block;
+    height: 872px;
+  }
+
+  .faq-left{
+    width: 100%;
+  }
+
+  .faq-right{
+    display: none;
+  }
+
+  .faq-content {
+    width: 95%;
+    right: 20px;
+  }
+  /* faq */
+
+  /* volunteer */
+  .volunteers-content {
+    margin-bottom: 100px;
+    width: 100%;
+  }
+
+  .about-volunteer .volunteers-image {
+    height: 700px;
+    width: 100%;
+  }
+
+  .volunteers-info{
+    height: 20%;
+  }
+  /* volunteer */
+
+  /* testimonial */
+  .home-3-testimonial-wrapper {
+    padding-top: 90px;
+  }
+  /* testimonial */
+
+  /* blog */
+  .home-two-blog .causes-image {
+    height: 450px;
+  }
+  /* blog */
+
+  /* footer */
+  .footer_widget.left {
+    margin-left: 0;
+  }
+  /* footer */
+  /* ===============
+  home two ends
+  ==================*/
+
+  /* ===============
+  home three starts
+  ==================*/
+  /* banner */
+  .banner-content-wrapper-inner h2 {
+    font-size: 54px;
+    line-height: 70px;
+  }
+  /* banner */
+  /* about */
+  .home-three-about .about-left-container .about-image-1{
+    width: 100%;
+  }
+
+  .home-three-about .about-left-container .about-image-1 img{
+    width: 100%;
+  }
+
+  .home-three-about .about-bnt-group{
+    margin-top: 50px;
+  }
+  /* about */
+
+  /* causes */
+  .home-three-causes .causes-right-content {
+    margin-bottom: 50px;
+  }
+
+  .home-three-causes div#skills-section-one {
+    margin-top: 50px;
+  }
+
+  .home-three-causes .causes-right-content {
+    margin-left: 20px;
+  }
+  /* causes */
+
+  /* event */
+  .home-three-event{
+    padding-top: 100px;
+    padding-bottom: 65px;
+  }
+  .event-3-right {
+    margin-top: 100px;
+  }
+  /* event */
+
+  /* gallery */
+  .home-threee-gallery {
+    padding-bottom: 80px;
+  }
+
+  .home-threee-gallery .collomn{
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .home-three-testimonial{
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .home-threee-gallery .team-image {
+    height: 300px;
+  }
+  .team-icon {
+    top: 40%;
+    left: 40%;
+    width: 80px;
+    height: 80px;
+    line-height: 98px;
+  }
+  .main-gallery .team-icon {
+    top: 39%;
+    left: 39%;
+    width: 80px;
+    height: 80px;
+    line-height: 105px;
+  }
+  /* gallery */
+
+  /* news letter */
+  .home-three-news_letter .news_letter_right{
+    margin-top: 30px;
+  }
+
+  .news_letter_content {
+    padding: 75px 20px;
+  }
+  /* news letter */
+  /* ===============
+  home three ends
+  ==================*/
+
+  .owl-theme .owl-dots .owl-dot:nth-child(4),
+  .owl-theme .owl-dots .owl-dot:nth-child(5),
+  .owl-theme .owl-dots .owl-dot:nth-child(6),
+  .owl-theme .owl-dots .owl-dot:nth-child(7),
+  .owl-theme .owl-dots .owl-dot:nth-child(8),
+  .owl-theme .owl-dots .owl-dot:nth-child(9){
+    display: none;
+  }
+
+  /* contact */
+  .contact-us{
+    padding: 100px 0;
+  }
+  .contact-containt{
+    margin-bottom: 30px;
+  }
+  .contact-us-btn{
+    margin-top: 0;
+  }
+  /* contact */
+
+  /* blog */
+  .blog-gallery-link {
+    height: 199px;
+    width: 199px;
+  }
+  /* blog */
+
+  /* event */
+  .event-rilated-title h3{
+    margin-left: 30px;
+  }
+
+  .event-content a {
+    font-size: 37px;
+    line-height: 50px;
+  }
+
+  .blog-btn a i {
+    right: -40px;
+    top: 5px;
+  }
+  /* event */
+
+  /* team */
+  .team-container .volunteers-image {
+    height: 725px;
+  }
+  .team-container .volunteers-info {
+    width: 550px;
+    padding: 45px 0;
+    height: 150px;
+  }
+
+  .volunteers-content:hover .volunteers-info{
+    height: 200px;
+  }
+
+  .volunteers-info h5{
+    font-size: 44px;
+    margin-bottom: 20px;
+  }
+
+  .volunteers-info p{
+    font-size: 24px;
+  }
+  /* team */
+
+  /* team 2 */
+  .team-2-image {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .team-2-image img{
+    width: 100%;
+  }
+  /* team 2 */
+
+  /* team 3 */
+  .team-three-image {
+    height: 580px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .team-three-top-wrapper {
+    margin-left: 0;
+  }
+  /* team 3 */
+
+  /* causes */
+  .causes-page .event-details-image {
+    height: 750px;
+  }
+
+  .causes-page .volunteers-info {
+    height: 25%;
+    width: 550px;
+  }
+  /* causes */
+
+
+
+}
+
+
+
+  @media only screen and (max-width: 991px){
+
+  }
+
+  @media only screen and (min-width: 998px) and (max-width: 1118px){
+
+    .home-two-header .header_top .header_top_left .top_left {
+      gap: 40px;
+    }
+
+
+  }
+
+  @media only screen and (min-width: 821px) and (max-width: 993px){
+    .header__right {
+      margin-left: 34%;
+    }
+
+    .header__right {
+      /* margin-left: 48%; */
+    }
+
+    .header_top_left {
+      display: none;
+    }
+
+    .header_top_right {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    
+
+  }
+
+  @media only screen and (max-width: 820px){
+    .header__right {
+      margin-left: 34%;
+    }
+
+    .main-header.style-one .logo__shape {
+      width: calc(50% - 200px);
+    }
+
+    .banner-right-image {
+      display: none;
+    }
+
+
+
+
+  }
+
+  @media only screen and (max-width: 928px){
+    
+  }
+
+  @media only screen and (min-width: 769px)and (max-width: 825px){
+    /* header */
+    .main-header.style-one .logo__shape {
+      width: calc(50% - 230px);
+      height: 90px;
+    }
+    .main-header .logo-box {
+      padding: 0px 35px 0px 0px;
+    }
+    .header_top_left {
+      display: none;
+    }
+    .header_top_right {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    /* header */
+
+    /* causes */
+    .causes-card {
+      margin-bottom: 30px;
+    }
+    /* causes */
+
+  }
+
+  @media only screen and (max-width: 599px){
+  
+
+  }
+
+  @media only screen and (max-width: 499px) {
+    
+
+  }
+
+  @media only screen and (max-width: 420px){
+   
+  }
+
+  @media only screen and (max-width: 399px){
+    
+
+  }
+
+@media only screen and (min-width: 320px) and (max-width: 359px){
+    .main-header .logo-box {
+      padding: 0px;
+    }
+    .main-header .logo-box .logo {
+      padding: 0px 0;
+    }
+
+}
+
+  @media only screen and (min-width: 360px) and (max-width: 740px){
+  /* header */
+  .header_top_right ul{
+    gap: 5px;
+  }
+  .main-header.style-one .logo__shape {
+    width: calc(50% - 30px);
+    height: 90px;
+  }
+
+  .main-header.style-one .logo__shape:after{
+    height: 90px;
+  }
+
+  .main-header .logo-box .logo img {
+    width: 130px;
+  }
+
+  .main-header .logo-box .logo {
+    padding: 15px 0px;
+  }
+
+  .header_bottom{
+    height: 90px;
+  }
+
+  .btn-1{
+    font-size: 12px;
+    padding: 15px 18px;
+    font-weight: 400;
+  }
+
+  .banner-content .btn-2{
+    margin-left: 10px;
+  }
+
+  .mobile-menu .contact-info{
+    display: block;
+  }
+
+  .mobile-menu .contact-info ul li a{
+    color: #000;
+  }
+  /* header */
+
+  /* banner */
+  .banner {
+    height: 615px;
+  }
+
+  .banner-content-wrapper-inner h4{
+    font-size: 32px;
+  }
+
+  .banner .btn-2{
+    display: none;
+  }
+  /* banner */
+
+  /* about */
+  .about-blank{
+    display: none;
+  }
+
+  .vector-shape{
+    display: none;
+  }
+
+  .vector-two {
+    display: none;
+  }
+
+  .about-left-container .about-image-1 {
+    width: 336px;
+    height: 480px;
+    left: 0;
+  }
+
+  .about-left-intro {
+    right: 0;
+  }
+
+  .about-left-container .about-image-2{
+    display: none;
+  }
+
+  .about-right-container {
+    margin-top: 60px;
+  }
+
+  .home-three-about .about-right-container {
+    margin-left: 0px;  
+  }
+  /* about */
+
+  /* causes */
+  .causes {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  .causes-image-container {
+    height: 314px;
+  }
+
+  .causes-content a {
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .causes-content h5 {
+    font-size: 24px;
+    line-height: 35px;
+  }
+
+  .causes-image {
+    height: 250px;
+  }
+  /* causes */
+
+  /* call to actionn */
+  .call{
+    padding: 100px 0;
+  }
+
+  .call-title h2 {
+    font-size: 32px;
+    line-height: 49px;
+  }
+  /* call to actionn */
+
+  /* mossion */
+  .mission-video-image{
+    width: 100%;
+    height: 500px;
+  }
+  .mission-video-text{
+    position: initial;
+    margin-top: 50px;
+  }
+  .mission-video-text h2 {
+    font-family: 'Yeseva One';
+    font-size: 51px;
+    text-transform: capitalize;
+    color: rgba(0, 113, 93, 0.08);
+    transform: rotate(0);
+  }
+  /* mossion */
+
+  /* team */
+  .team-image {
+    width: 300px;
+    height: 300px;
+  }
+  /* team */
+
+  /* testimonial */
+  .tesstimonial-right-content{
+    padding: 20px;
+  }
+
+  .quait {
+    display: none;
+  }
+  /* testimonial */
+
+  /* contact */
+  .home-contact{
+    padding: 100px 0;
+  }
+
+  .home-contact .btn-group .btn-1{
+    padding: 15px 25px;
+  }
+
+  .home-contact .btn-group .btn-2{
+    display: none;
+  }
+  /* contact */
+
+  /* blog */
+  .blog{
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  .hover-content {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .blog .hover-content {
+    font-size: 20px;
+    line-height: 29px;
+    margin-bottom: 0px;
+  }
+  /* blog */
+
+  /* fun fact */
+  .fun-fact{
+    margin-top: 100px;
+  }
+  .fun-fact-container{
+    margin-top: 0;
+    border-radius: 60px;
+  }
+
+  .funfact-block-two {
+    margin: 35px 0;
+  }
+  /* fun fact */
+
+  /* map */
+  .map {
+    margin-bottom: -332px;
+  }
+  /* map */
+
+  /* services */
+  .align-title h3 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .common-title h3 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .service-image{
+    width: 150px;
+  }
+
+  .service-icon {
+    top: 50px;
+  }
+  /* services */
+
+  /* event */
+  .event-content {
+    bottom: -80px;
+  }
+  /* event */
+
+  /* news letter */
+  .auto_container{
+    padding: 0px 10px;
+  }
+
+  .news_letter_content{
+    padding: 30px 10px;
+  }
+
+  .news_letter_left h4 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.news_letter_right input[type="email"] {
+  padding: 20px;
+}
+
+.news_letter_right .btn-1 {
+  font-size: 15px;
+  padding: 21px 18px;
+  font-weight: 400;
+}
+
+.home-three-news_letter .news-form-btn .btn-alt {
+  padding: 31px 20px;
+}
+/* news letter */
+
+  /* footer */
+  .main__footer__top {
+    padding: 200px 0px 80px;
+  }
+  /* footer */
+
+/* ===================
+home 2 starts
+======================*/
+/* banner */
+.home-two-banner{
+  height: 620px;
+}
+
+.home-two-banner .banner-content-wrapper {
+  height: 620px;
+}
+
+.home-two-banner .banner-content-wrapper-inner {
+  margin-top: 120px;
+}
+
+.home-two-banner .banner-content-wrapper-inner h2{
+  margin-bottom: 30px;
+  font-size: 26px;
+  line-height: 36px;
+}
+
+.home-two-banner .banner-content-wrapper-inner p{
+ font-size: 14px;
+ line-height: 26px;
+}
+/* banner */
+
+/* about */
+.home-two-about-wrapper h6::after {
+  height: 110px;
+}
+/* about */
+
+/* cuses */
+.home-two-causes-card {
+  padding: 10px;
+}
+/* cuses */
+
+/* video */
+.home-two-video-title h3 {
+  font-size: 42px;
+  line-height: 58px;
+}
+
+.home-two-video-btn {
+  position: absolute;
+  bottom: -200px;
+  left: 40%;
+  transform: translateY(-50%);
+}
+/* video */
+
+/* event */
+.blog .causes-content a {
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.causes-image {
+  height: 316px;
+}
+
+.home-two-blog .causes-image {
+  height: 316px;
+}
+
+.causes-image img{
+  height: 316px;
+}
+
+.event-btn a {
+  font-size: 18px !important;
+}
+
+.event-btn {
+  padding: 20px 0;
+}
+/* event */
+
+/* faq */
+.faq{
+  height: 872px;
+}
+
+.faq-content {
+  width: 95%;
+  right: 10px;
+}
+
+.accordion-button{
+  font-size: 21px;
+}
+
+.accordion-button:not(.collapsed){
+  font-size: 21px;
+}
+
+.accordion-button{
+  line-height: 25px;
+  font-size: 21px !important;
+}
+
+.accordion-button::after {
+  height: 24px;
+}
+
+.accordion-button:not(.collapsed)::after{
+  height: 24px;
+}
+
+.faq-container {
+  padding-top: 60px;
+  margin-bottom: -220px;
+}
+/* faq */
+
+/* volunteer */
+.about-volunteer .volunteers-image {
+  height: 375px;
+  width: 100%;
+}
+
+.team-container .volunteers-image {
+  height: 430px;
+  border-radius: 10px;
+}
+/* volunteer */
+
+/* home 2 blog */
+.home-two-blog .causes-content a {
+  font-size: 29px;
+  line-height: 36px;
+}
+/* home 2 blog */
+
+/* home 2 contact */
+.contact-form .form-upper, .contact-form .form-lower{
+  display: block;
+}
+
+.contact-form .form-upper .number, .contact-form .form-lower .sub{
+  margin-top: 20px;
+}
+
+.contact-form input {
+  width: 100%;
+}
+/* home 2 contact */
+/* ===================
+home 2 ends
+======================*/
+
+/* ===================
+home 3 starts
+======================*/
+/* banner */
+.home-three-banner {
+  height: 650px;
+}
+
+.home-three-banner .banner-content-wrapper {
+  height: 650px;
+}
+
+.banner-content-wrapper-inner h2 {
+  font-size: 34px;
+  line-height: 50px;
+}
+/* banner */
+
+/* about */
+.home-three-about .about-bnt-group h5{
+  display: none;
+}
+
+.home-three-about .about-right-container .btn-1 {
+  margin-top: 0;
+}
+
+.home-three-about .about-left-container .about-image-1 {
+  height: 500px;
+}
+/* about */
+
+/* causes */
+.home-three-causes{
+  padding: 100px 0;
+}
+
+.home-three-causes .causes-right-content h4 {
+  font-size: 29px;
+  line-height: 35px;
+  margin-bottom: 15px;
+}
+
+.home-three-causes .causes-carousel{
+  padding: 0;
+  box-shadow: none;
+}
+
+.home-three-causes .causes-right-content{
+  margin-left: 0;
+}
+
+.causes-right-img{
+  height: 350px !important;
+  margin-bottom: 0 !important;
+}
+
+.testimonial-right-content-wrapper{
+  display: block;
+}
+
+.home-three-causes .causes-right-content .quait .btn-1{
+  margin-top: 30px;
+}
+
+.causes-right-compaign{
+  display: none;
+}
+
+.home-three-causes .owl-nav{
+  top: -40px;
+}
+/* causes */
+
+/* event */
+.home-three-event{
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.event-3-left-content{
+  margin-left: 0;
+}
+
+.event-3-left-content-info ul {
+  display: block;
+}
+
+.event-3-right-image {
+  display: none;
+}
+
+.testimonial-info h6 {
+  font-size: 21px;
+}
+/* event */
+
+/* gallery */
+.home-threee-gallery{
+  padding: 80px 0;
+}
+
+.home-threee-gallery .collomn{
+  width: 100%;
+}
+/* gallery */
+
+/* testiminial */
+.home-three-testimonial {
+  padding-top: 100px;
+}
+
+.home-three-testimonial .testimonial{
+  padding-top: 0;
+}
+
+.home-three-testimonial .testimonial-right-wrapper-inner{
+  display: none;
+}
+
+.home-3-testimonial-wrapper {
+    padding-top: 20px;
+}
+
+.home-three-testimonial .testimonial-right-content-wrapper {
+  top: 0;
+  right: -165px;
+}
+/* testiminial */
+
+/* blog */
+.blog-contant .header-link-btn .btn-1 {
+  top: -20px;
+}
+
+.home-three-news_letter .news_letter_right {
+  margin-top: 0;
+}
+
+.footer_widget.links_widget {
+  margin-top: 50px;
+}
+/* blog */
+
+/* home three contact */
+.contact-form textarea {
+  width: 100%;
+}
+/* home three contact */
+/* ===================
+home 3 ends
+======================*/
+
+/* common banner */
+.common-banner{
+  padding: 100px 0;
+}
+
+.common-banner-title h3 {
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.common-banner-title a{
+  font-size: 18px;
+}
+
+.common-banner-title span{
+  font-size: 18px;
+}
+/* common banner */
+
+/* causes */
+.cause-details-image img {
+  width: 100%;
+  height: inherit;
+}
+
+.main-causes-content-img{
+  display: block;
+}
+
+.main-causes-content-img img{
+  margin-bottom: 20px;
+}
+
+.causes-page .volunteers-info {
+  height: 25%;
+  width: 286px;
+}
+
+.causes-page .event-details-image {
+  height: 450px;
+}
+/* causes */
+
+/* about page */
+.news_letter_right .form-inner {
+  margin-top: 0;
+}
+
+.volunteers-info {
+  height: 25%;
+}
+/* about page*/
+
+/* event */
+.event-carousel .owl-dots{
+  margin-top: 0;
+}
+.event-content a {
+  font-size: 20px;
+  line-height: 28px;
+}
+.event-page .event-content {
+  bottom: -80px;
+}
+.about-event-content{
+  bottom: -80px;
+}
+.event-btn {
+  padding: 10px 0 30px 0;
+}
+/* event */
+
+/* blog details */
+.card-footer{
+  display: block;
+}
+
+.causes-details-title h3{
+  line-height: 39px;
+}
+
+.blog-tags-right{
+  position: relative;
+}
+
+.blog-tags-right li h5{
+  position: absolute;
+  top: -25px;
+  left: 0;
+}
+
+.causes-details-title h3 {
+  font-size: 27px;
+  line-height: 36px;
+}
+
+.blog-gallery-link {
+  height: 125px;
+  width: 125px;
+}
+
+.causes-categories {
+  padding-top: 30px;
+}
+
+blockquote {
+  padding: 30px;
+}
+
+.card-footer-right{
+  margin-top: 20px;
+}
+
+.main-causes-content p {
+  margin-bottom: 50px;
+}
+
+.card-body {
+  padding: 30px 0 0 0;
+}
+/* blog details */
+
+/* testimonial */
+.testimonial-wrapper {
+  padding: 30px;
+}
+/* testimonial */
+
+/* faq */
+.accordion-button::after {
+  top: 33px;
+}
+.accordion-button:not(.collapsed)::after {
+  top: 33px;
+}
+.faq-page-accordion .accordion-button::after {
+  top: 33px;
+}
+.faq-page-accordion .accordion-button:not(.collapsed)::after {
+  top: 33px;
+}
+/* faq */
+
+/* donet */
+.donate-card h5 {
+  font-size: 17px;
+}
+
+.donate-btn{
+  margin-top: 20px;
+}
+
+.donate-card{
+  box-shadow: none;
+  padding: 0;
+}
+
+.donate-card .nav{
+  display: block;
+}
+
+.donate-card .nav li{
+  margin: 10px 0;
+}
+
+.donate-card .nav li button{
+  padding: 10px 0;
+}
+
+.donate-card-title {
+  display: block;
+  text-align: center;
+}
+
+.donate-card h5 {
+  font-size: 19px;
+  line-height: 38px;
+}
+
+.donate-card .causes-form-group {
+  margin-top: 10px;
+}
+
+.donate-card-title span {
+  display: block;
+  text-align: center;
+}
+.donate-card-title .btn-1 {
+  padding: 13px 30px;
+  margin-left: 0;
+  margin-top: 10px;
+}
+.donate-lg-btn .btn-1 {
+  padding: 21px 10px;
+}
+.mm-yy{
+  display: none;
+}
+/* donet */
+
+/* error */
+.error {
+  padding: 100px 0;
+}
+.error-content h2 {
+  font-size: 100px;
+  line-height: 120px;
+  color: #25283A;
+}
+/* error */
+
+/* team */
+.team-container .volunteers-image {
+  height: 430px;
+}
+.team-container .volunteers-info {
+  width: 315px;
+  padding: 45px 0;
+  height: 150px;
+}
+
+.volunteers-content:hover .volunteers-info{
+  height: 200px;
+}
+
+.volunteers-info h5{
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.volunteers-info p{
+  font-size: 24px;
+}
+
+.team-three-mid-content h4 {
+  font-size: 28px;
+  line-height: 36px;
+}
+/* team */
+
+/* team 3 */
+.team-three-continer{
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.team-three-top-content {
+  box-shadow: none;
+  padding: 0;
+}
+
+.team-three-image {
+  height: 350px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.team-three-mid-content h4 {
+  line-height: 46px;
+}
+/* team 3 */
+
+
+}
+

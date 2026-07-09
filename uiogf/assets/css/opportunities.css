@@ -1,4 +1,3 @@
-
 :root {
     --earth: #2D4A3E;
     --earth-dark: #182E25;
@@ -258,6 +257,104 @@ h1, h2, h3, h4, h5 {
     text-transform: uppercase;
     margin-bottom: 12px;
     display: block;
+}
+
+.opp-group {
+    margin-bottom: 65px;
+}
+
+.opp-group:last-child {
+    margin-bottom: 0;
+}
+
+.opp-group-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 40px;
+}
+
+.opp-group-header h3 {
+    color: var(--earth);
+    font-size: clamp(26px, 3vw, 36px);
+    font-weight: 500;
+    margin: 6px 0 8px;
+}
+
+.opp-group-header p {
+    color: var(--muted);
+    font-size: 15px;
+    font-style: italic;
+}
+
+.role-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.role-card i {
+    width: 54px;
+    height: 54px;
+    border-radius: 15px;
+    background: rgba(212,147,58,.15);
+    color: var(--gold);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+
+.role-card h4 {
+    color: var(--earth);
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.role-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+}
+
+.role-list li {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 14px;
+    padding: 14px 0;
+    border-top: 1px solid rgba(45,74,62,.08);
+}
+
+.role-list li:first-child {
+    border-top: none;
+    padding-top: 0;
+}
+
+.role-info {
+    color: var(--muted);
+    line-height: 1.6;
+    font-size: 14.5px;
+    flex: 1;
+}
+
+.role-list strong {
+    color: var(--earth);
+    font-weight: 700;
+}
+
+.role-apply {
+    color: var(--gold);
+    font-weight: 700;
+    font-size: 13px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.role-apply:hover {
+    color: var(--clay);
 }
 
 .opportunity-card h3 {

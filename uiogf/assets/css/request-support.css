@@ -1,0 +1,389 @@
+/* Request Support — multi-step form styles (uses tokens defined in partner.css) */
+
+.support-intro {
+    background: #fff;
+    border-radius: 26px;
+    padding: 44px 46px;
+    box-shadow: 0 14px 40px rgba(45,74,62,.08);
+    border: 1px solid rgba(45,74,62,.08);
+    margin-bottom: 10px;
+}
+
+.support-intro h3 {
+    color: var(--earth);
+    font-size: 26px;
+    margin-bottom: 14px;
+}
+
+.support-intro p {
+    color: var(--muted);
+    line-height: 1.8;
+    margin-bottom: 14px;
+}
+
+.support-intro ul {
+    list-style: none;
+    padding: 0;
+    margin: 18px 0 0;
+}
+
+.support-intro ul li {
+    position: relative;
+    padding-left: 26px;
+    margin-bottom: 12px;
+    color: var(--muted);
+    line-height: 1.7;
+}
+
+.support-intro ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--gold);
+    font-weight: 800;
+}
+
+.support-intro .urgent-note {
+    background: var(--warm);
+    border-radius: 14px;
+    padding: 16px 20px;
+    margin-top: 18px;
+    font-size: 14.5px;
+    color: var(--earth);
+}
+
+.support-intro .urgent-note a {
+    color: var(--clay, var(--gold));
+    font-weight: 700;
+}
+
+/* Progress bar */
+.wizard-progress {
+    margin-bottom: 36px;
+}
+
+.wizard-progress-track {
+    position: relative;
+    height: 6px;
+    background: rgba(45,74,62,.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 18px;
+}
+
+.wizard-progress-fill {
+    height: 100%;
+    width: 25%;
+    background: linear-gradient(90deg, var(--gold), var(--earth));
+    border-radius: 10px;
+    transition: width .35s ease;
+}
+
+.wizard-steps {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.wizard-step-label {
+    flex: 1;
+    text-align: center;
+    font-size: 12.5px;
+    font-weight: 700;
+    letter-spacing: .02em;
+    color: var(--muted);
+    position: relative;
+    padding-top: 4px;
+}
+
+.wizard-step-label.is-active {
+    color: var(--earth);
+}
+
+.wizard-step-label.is-done {
+    color: var(--gold);
+}
+
+.wizard-step-num {
+    display: block;
+    font-family: 'Fraunces', serif;
+    font-size: 13px;
+}
+
+/* Form card / steps */
+.form-card.wizard-card {
+    padding: 45px;
+}
+
+.wizard-step {
+    display: none;
+}
+
+.wizard-step.is-active {
+    display: block;
+    animation: fadeStepIn .35s ease;
+}
+
+@keyframes fadeStepIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.wizard-step h4 {
+    color: var(--earth);
+    font-size: 22px;
+    margin-bottom: 6px;
+}
+
+.wizard-step > p.step-sub {
+    color: var(--muted);
+    font-size: 14.5px;
+    margin-bottom: 26px;
+}
+
+.field-group {
+    margin-bottom: 24px;
+}
+
+.field-group:last-child {
+    margin-bottom: 0;
+}
+
+.field-label {
+    display: block;
+    font-size: 13.5px;
+    font-weight: 700;
+    color: var(--earth);
+    margin-bottom: 10px;
+}
+
+.field-label .req {
+    color: var(--gold);
+}
+
+.field-hint {
+    display: block;
+    font-weight: 400;
+    color: var(--muted);
+    font-size: 12.5px;
+    margin-top: 4px;
+}
+
+.form-card input,
+.form-card select,
+.form-card textarea {
+    margin-bottom: 0;
+}
+
+.checkbox-grid,
+.radio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 10px;
+}
+
+.check-option,
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgba(45,74,62,.18);
+    border-radius: 12px;
+    padding: 12px 14px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.check-option:hover,
+.radio-option:hover {
+    border-color: var(--gold);
+    background: rgba(212,147,58,.06);
+}
+
+.check-option input,
+.radio-option input {
+    width: auto;
+    margin: 0;
+    accent-color: var(--gold);
+}
+
+.word-count {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 6px;
+}
+
+.word-count.is-over {
+    color: var(--clay, #C4603A);
+    font-weight: 700;
+}
+
+.conditional-field {
+    display: none;
+    margin-top: 14px;
+}
+
+.conditional-field.is-visible {
+    display: block;
+}
+
+.file-drop {
+    border: 1.5px dashed rgba(45,74,62,.3);
+    border-radius: 16px;
+    padding: 28px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 14px;
+    background: var(--warm);
+    cursor: pointer;
+}
+
+.file-drop i {
+    display: block;
+    font-size: 26px;
+    color: var(--gold);
+    margin-bottom: 10px;
+}
+
+.file-drop input[type="file"] {
+    display: none;
+}
+
+.file-list {
+    list-style: none;
+    padding: 0;
+    margin: 14px 0 0;
+}
+
+.file-list li {
+    font-size: 13.5px;
+    color: var(--earth);
+    background: #fff;
+    border: 1px solid rgba(45,74,62,.12);
+    border-radius: 10px;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+}
+
+.consent-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.consent-item {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    padding: 16px 0;
+    border-top: 1px solid rgba(45,74,62,.08);
+}
+
+.consent-item:first-child {
+    border-top: none;
+    padding-top: 0;
+}
+
+.consent-item input {
+    width: auto;
+    margin-top: 4px;
+    accent-color: var(--gold);
+    flex-shrink: 0;
+}
+
+.consent-item label {
+    font-size: 13.5px;
+    line-height: 1.7;
+    color: var(--muted);
+}
+
+.consent-item label strong {
+    color: var(--earth);
+}
+
+.wizard-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 34px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(45,74,62,.1);
+}
+
+.wizard-nav .btn-1 {
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+.wizard-nav .btn-back {
+    background: transparent;
+    color: var(--earth);
+    font-weight: 700;
+    padding: 16px 10px;
+    border-radius: 40px;
+}
+
+.wizard-nav .btn-back:hover {
+    color: var(--gold);
+}
+
+.wizard-nav .btn-back[hidden] {
+    visibility: hidden;
+}
+
+.form-error {
+    display: none;
+    background: rgba(196,96,58,.1);
+    color: #C4603A;
+    border-radius: 12px;
+    padding: 12px 16px;
+    font-size: 13.5px;
+    margin-bottom: 20px;
+}
+
+.form-error.is-visible {
+    display: block;
+}
+
+.wizard-success {
+    display: none;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.wizard-success.is-visible {
+    display: block;
+    animation: fadeStepIn .4s ease;
+}
+
+.wizard-success i {
+    font-size: 46px;
+    color: var(--gold);
+    margin-bottom: 18px;
+    display: block;
+}
+
+.wizard-success h3 {
+    color: var(--earth);
+    font-size: 26px;
+    margin-bottom: 12px;
+}
+
+.wizard-success p {
+    color: var(--muted);
+    line-height: 1.8;
+}
+
+@media(max-width: 767px) {
+    .support-intro { padding: 30px; }
+    .form-card.wizard-card { padding: 28px; }
+    .wizard-step-label { font-size: 0; }
+    .wizard-step-label .wizard-step-num { font-size: 13px; }
+    .checkbox-grid, .radio-grid { grid-template-columns: 1fr; }
+}

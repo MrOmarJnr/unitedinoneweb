@@ -1,0 +1,92 @@
+/* ==========================================================================
+   Donation section  (project pages)  -  loaded after the theme CSS.
+   Holds the fund description + Crowded embed widget + QR code.
+   ========================================================================== */
+.donate-block {
+  background: linear-gradient(135deg, #FDFAF6 0%, #F5EFE6 100%);
+  padding: 70px 0;
+}
+.donate-block .container { position: relative; z-index: 2; }
+
+.donate-grid {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  gap: 45px;
+  align-items: start;
+}
+
+.donate-copy .donate-eyebrow {
+  display: inline-block;
+  color: #C4603A;
+  font-weight: 800;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-bottom: 14px;
+}
+.donate-copy h2 {
+  color: #2D4A3E;
+  font-family: 'Fraunces', serif;
+  font-size: 40px;
+  line-height: 1.12;
+  margin-bottom: 18px;
+}
+.donate-copy p { color: #4a4a4a; line-height: 1.75; margin-bottom: 16px; }
+
+.give-list { list-style: none; margin: 0 0 18px; padding: 0; }
+.give-list li {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px dashed rgba(45,74,62,.16);
+  color: #2D4A3E;
+  font-weight: 500;
+}
+.give-list li b { color: #C4603A; min-width: 74px; display: inline-block; }
+
+.donate-note {
+  background: rgba(212,147,58,.12);
+  border-left: 4px solid #D4933A;
+  padding: 14px 18px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+.donate-zelle { font-size: 15px; color: #6D6D6D; }
+.donate-zelle a { color: #2D4A3E; font-weight: 700; }
+
+/* Right-hand action card: widget + QR */
+.donate-action {
+  background: #fff;
+  border: 1px solid rgba(45,74,62,.10);
+  border-radius: 22px;
+  padding: 30px 26px;
+  box-shadow: 0 20px 45px rgba(45,74,62,.10);
+  text-align: center;
+  position: sticky;
+  top: 110px;
+}
+.donate-action h3 { color: #2D4A3E; font-size: 22px; margin-bottom: 6px; }
+.donate-action .sub { color: #6D6D6D; font-size: 14px; margin-bottom: 20px; }
+
+/* Crowded embed button spacing */
+.donate-action #collect-form { margin: 0 auto 26px; min-height: 54px; }
+
+.qr-wrap { border-top: 1px solid rgba(45,74,62,.10); padding-top: 22px; }
+.qr-wrap img {
+  width: 190px; height: 190px; max-width: 100%;
+  border-radius: 14px;
+  border: 1px solid rgba(45,74,62,.10);
+  padding: 8px; background: #fff;
+}
+.qr-wrap p { color: #6D6D6D; font-size: 13px; margin-top: 12px; }
+
+@media only screen and (max-width: 991px) {
+  .donate-grid { grid-template-columns: 1fr; gap: 34px; }
+  .donate-action { position: static; }
+}
+@media only screen and (max-width: 600px) {
+  .donate-block { padding: 45px 0; }
+  .donate-copy h2 { font-size: 28px !important; }
+  .qr-wrap img { width: 160px; height: 160px; }
+}

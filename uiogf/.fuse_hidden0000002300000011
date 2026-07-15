@@ -5,33 +5,7 @@
 <meta charset="utf-8"/>
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Volunteer Opportunities, Remote &amp; On-the-Ground | United In One</title>
-    <meta data-seo="uiogf" name="description" content="Explore remote and on-the-ground volunteer opportunities with United in One Global Foundation across Kenya, Nigeria, Burundi, Ghana, and Madagascar.">
-    <link rel="canonical" href="https://unitedinone.org/opportunities.html">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="United in One Global Foundation">
-    <meta property="og:title" content="Volunteer Opportunities, Remote &amp; On-the-Ground | United In One">
-    <meta property="og:description" content="Explore remote and on-the-ground volunteer opportunities with United in One Global Foundation across Kenya, Nigeria, Burundi, Ghana, and Madagascar.">
-    <meta property="og:url" content="https://unitedinone.org/opportunities.html">
-    <meta property="og:image" content="https://unitedinone.org/assets/images/sitepics/image1.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Volunteer Opportunities, Remote &amp; On-the-Ground | United In One">
-    <meta name="twitter:description" content="Explore remote and on-the-ground volunteer opportunities with United in One Global Foundation across Kenya, Nigeria, Burundi, Ghana, and Madagascar.">
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "NGO",
-  "name": "United in One Global Foundation",
-  "alternateName": "UIOGF",
-  "url": "https://unitedinone.org",
-  "logo": "https://unitedinone.org/assets/images/logo-svg.svg",
-  "description": "A 501(c)(3) nonprofit providing education supplies, clean water, and wellness resources to underserved communities in Africa.",
-  "areaServed": ["Kenya", "Nigeria", "Burundi", "Ghana", "Madagascar"],
-  "foundingDate": "2023",
-  "sameAs": ["https://www.facebook.com/Unitedinoneglobal", "https://www.instagram.com/Unitedinoneglobal"],
-  "contactPoint": { "@type": "ContactPoint", "telephone": "+1-305-549-0857", "email": "info@unitedinone.org", "contactType": "customer service" }
-}
-</script>
+<title>Opportunities | United In One Global Foundation</title>
 <link href="assets/images/favicon.ico" rel="icon" type="image/x-icon"/>
 <link href="assets/images//apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
 <link href="assets/images//favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
@@ -54,8 +28,6 @@
 <link href="assets/css/style.css" rel="stylesheet"/>
 <link href="assets/css/swiper.min.css" rel="stylesheet"/>
 <link href="assets/css/responsive.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="assets/css/mobile-fixes.css">
-  <link rel="stylesheet" href="assets/css/site-updates.css">
 </head>
 <body>
 <div class="boxed_wrapper">
@@ -65,7 +37,7 @@
 <div class="handle-preloader home-1" id="handle-preloader">
 <div class="loading">
 <span></span><span></span><span></span>
-<img src="assets/images/logo-removebg.png" alt="United In One Global Foundation" class="preloader-logo">
+<h2>UIOGF</h2>
 </div>
 </div>
 </div>
@@ -101,7 +73,8 @@
 <li><a href="grants-for-good-program.html">Grants for Good Program</a></li>
 </ul>
 </li>
-<li><a href="about-us.html#team">Team</a></li>
+<li><a href="team.html">Team</a></li>
+<li><a href="gallery.html">Gallery</a></li>
 <li><a href="partner-with-us.html">Partnership</a></li>
 <li><a href="contact-us.html">Contact</a></li>
 </ul>
@@ -111,7 +84,7 @@
 <div class="header__right">
 <div class="header__right__button">
 <div class="header-link-btn">
-<a class="btn-1 btn-alt" href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener">Donate Now <span></span></a>
+<a class="btn-1 btn-alt" href="donate.html">Donate Now <span></span></a>
 </div>
 </div>
 </div>
@@ -142,15 +115,15 @@
 <h4>Contact Info</h4>
 <ul>
 <li>Serving communities globally</li>
-<li><a href="tel:+13055490857">+1 (305) 549-0857</a></li>
-<li><a href="mailto:info@unitedinone.org">info@unitedinone.org</a></li>
+<li><a href="tel:+12085550112">+1 (305) 549-0857</a></li>
+<li><a href="mailto:kwekuappiahjnr8@gmail.com">kwekuappiahjnr8@gmail.com</a></li>
 </ul>
 </div>
 <div class="social-links">
 <ul class="clearfix">
 <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-<li><a href="https://www.facebook.com/Unitedinoneglobal" target="_blank" rel="noopener"><span class="fab fa-facebook-square"></span></a></li>
-<li><a href="https://www.instagram.com/Unitedinoneglobal" target="_blank" rel="noopener"><span class="fab fa-instagram"></span></a></li>
+<li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+<li><a href="#"><span class="fab fa-instagram"></span></a></li>
 <li><a href="#"><span class="fab fa-youtube"></span></a></li>
 </ul>
 </div>
@@ -174,7 +147,7 @@
 <div class="row align-items-center">
 <div class="col-xl-6 col-lg-6">
 <div class="story-img wow fadeInLeft">
-<img loading="lazy" alt="Volunteers and community outreach" src="assets/images/sitepics/image15.webp"/>
+<img alt="Volunteers and community outreach" src="assets/images/sitepics/image15.webp"/>
 </div>
 </div>
 <div class="col-xl-6 col-lg-6">
@@ -202,7 +175,7 @@
 <div class="container">
 <div class="section-title-center">
 <span>Current Opportunities</span>
-<h2 class="opp-oneline" style="font-size:clamp(22px,3vw,34px);">Find a role that fits your skills and passion.</h2>
+<h2>Find a role that fits your skills and passion.</h2>
 <p>
                   Explore opportunities to volunteer, intern, or join our team — from anywhere in the world,
                   or hands-on in the communities we serve. Each role contributes to our mission of creating
@@ -211,8 +184,9 @@
 </div>
 <div class="opp-group">
 <div class="opp-group-header wow fadeInUp">
-<h3 style="color:#C4603A;">Remote Volunteer Opportunities · Worldwide</h3>
-<p>Anyone, anywhere, can take these on from home.</p>
+<span class="program-tag">Remote • Worldwide</span>
+<h3>Remote Volunteer Opportunities</h3>
+<p>Anyone worldwide can do these from home.</p>
 </div>
 <div class="row">
 <div class="col-xl-4 col-lg-6 mb-4">
@@ -255,8 +229,9 @@
 </div>
 <div class="opp-group">
 <div class="opp-group-header wow fadeInUp">
-<h3 style="color:#C4603A;">On-the-Ground Volunteer Opportunities</h3>
-<p>Hands-on roles based in Kenya, Nigeria, Burundi, Ghana, &amp; Madagascar.</p>
+<span class="program-tag">On-The-Ground • Kenya, Rwanda, Nigeria &amp; Ghana</span>
+<h3>On-The-Ground Volunteer Opportunities</h3>
+<p>Hands-on roles based in Kenya, Rwanda, Nigeria &amp; Ghana.</p>
 </div>
 <div class="row">
 <div class="col-xl-3 col-lg-6 mb-4">
@@ -391,14 +366,15 @@
 </div>
 <div class="widget_content">
 <p>
-                                            United in One Global Foundation is a 501(c)(3) nonprofit organization that empowers underserved communities in Africa through education, healthcare, and water initiatives.
+                                            A global foundation dedicated to education, health, and
+                                             water access — building unity and lasting change, one community at a time.
                                         </p>
 </div>
 <div class="widget_media">
 <ul>
-<li><a href="https://www.facebook.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="flaticon-facebook-app-symbol"></i></a></li>
+<li><a href="#"><i class="flaticon-facebook-app-symbol"></i></a></li>
 <li><a href="#"><i class="flaticon-twitter"></i></a></li>
-<li><a href="https://www.instagram.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+<li><a href="#"><i class="flaticon-linkedin"></i></a></li>
 <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
 </ul>
 </div>
@@ -411,10 +387,11 @@
 </div>
 <div class="widget_content">
 <ul class="links_list clearfix">
-                                            <li><a href="about-us.html">About Us</a></li>
-                                            <li><a href="projects.html">Projects</a></li>
-                                            <li><a href="opportunities.html">Opportunities</a></li>
-                                        </ul>
+<li><a href="about-us.html">About Us</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="team.html">Our Team</a></li>
+<li><a href="opportunities.html">opportunities</a></li>
+</ul>
 </div>
 </div>
 </div>
@@ -425,11 +402,11 @@
 </div>
 <div class="widget_content">
 <ul class="links_list clearfix">
-                                            <li><a href="global-classroom-project.html">Global Classroom</a></li>
-                                            <li><a href="healthy-futures-project.html">Healthy Futures</a></li>
-                                            <li><a href="clean-water-project.html">Clean Water</a></li>
-                                            <li><a href="grants-for-good-program.html">Grants for Good</a></li>
-                                        </ul>
+<li><a href="projects.html">Global Classroom</a></li>
+<li><a href="projects.html">Healthy Futures</a></li>
+<li><a href="projects.html">Clean Water</a></li>
+<li><a href="projects.html">Community Support</a></li>
+</ul>
 </div>
 </div>
 </div>
@@ -441,11 +418,11 @@
 <div class="widget_content">
 <ul class="links_list right">
 <li>Serving communities globally</li>
-<li><a href="mailto:info@unitedinone.org"><i class="flaticon-email"></i> info@unitedinone.org</a></li>
-<li><a href="tel:+13055490857"><i class="flaticon-phone-call"></i> +1 (305) 549-0857 (WhatsApp)</a></li>
+<li><a href="mailto:kwekuappiahjnr8@gmail.com"><i class="flaticon-email"></i> kwekuappiahjnr8@gmail.com</a></li>
+<li><a href="tel:+12085550112"><i class="flaticon-phone-call"></i> +1 (305) 549-0857</a></li>
 <li>
 <div class="header-link-btn footer-donate">
-<a class="btn-1 btn-alt" href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener">Donate Now <span></span></a>
+<a class="btn-1 btn-alt" href="donate.html">Donate Now <span></span></a>
 </div>
 </li>
 </ul>
@@ -488,6 +465,5 @@
 <script src="assets/js/parallax-scroll.js"></script>
 <script src="assets/js/jquery.paroller.min.js"></script>
 <script src="assets/js/script.js"></script>
-<a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="floating-donate">&#10084; Donate</a>
 </body>
 </html>

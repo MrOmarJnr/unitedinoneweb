@@ -5,33 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Hygiene &amp; First-Aid Kits for Families in Africa | Healthy Futures Project | United In One</title>
-    <meta data-seo="uiogf" name="description" content="The Healthy Futures Project delivers hygiene kits and first-aid supplies to families across Kenya, Nigeria, Burundi, Ghana, and Madagascar. Donate to support community health.">
-    <link rel="canonical" href="https://unitedinone.org/healthy-futures-project.html">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="United in One Global Foundation">
-    <meta property="og:title" content="Hygiene &amp; First-Aid Kits for Families in Africa | Healthy Futures Project | United In One">
-    <meta property="og:description" content="The Healthy Futures Project delivers hygiene kits and first-aid supplies to families across Kenya, Nigeria, Burundi, Ghana, and Madagascar. Donate to support community health.">
-    <meta property="og:url" content="https://unitedinone.org/healthy-futures-project.html">
-    <meta property="og:image" content="https://unitedinone.org/assets/images/sitepics/image1.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Hygiene &amp; First-Aid Kits for Families in Africa | Healthy Futures Project | United In One">
-    <meta name="twitter:description" content="The Healthy Futures Project delivers hygiene kits and first-aid supplies to families across Kenya, Nigeria, Burundi, Ghana, and Madagascar. Donate to support community health.">
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "NGO",
-  "name": "United in One Global Foundation",
-  "alternateName": "UIOGF",
-  "url": "https://unitedinone.org",
-  "logo": "https://unitedinone.org/assets/images/logo-svg.svg",
-  "description": "A 501(c)(3) nonprofit providing education supplies, clean water, and wellness resources to underserved communities in Africa.",
-  "areaServed": ["Kenya", "Nigeria", "Burundi", "Ghana", "Madagascar"],
-  "foundingDate": "2023",
-  "sameAs": ["https://www.facebook.com/Unitedinoneglobal", "https://www.instagram.com/Unitedinoneglobal"],
-  "contactPoint": { "@type": "ContactPoint", "telephone": "+1-305-549-0857", "email": "info@unitedinone.org", "contactType": "customer service" }
-}
-</script>
+    <title>Healthy Futures Project | United In One Global Foundation</title>
 
       <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
@@ -59,9 +33,6 @@
     <link href="assets/css/responsive.css" rel="stylesheet">
 
    
-  <link rel="stylesheet" href="assets/css/mobile-fixes.css">
-  <link rel="stylesheet" href="assets/css/donations.css">
-  <link rel="stylesheet" href="assets/css/site-updates.css">
 </head>
 
 <body>
@@ -75,7 +46,7 @@
                     <span></span>
                     <span></span>
                     <span></span>
-                    <img src="assets/images/logo-removebg.png" alt="United In One Global Foundation" class="preloader-logo">
+                    <h2>UIOGF</h2>
                 </div>
             </div>
         </div>
@@ -116,8 +87,8 @@
                                                 <li><a href="grants-for-good-program.html">Grants for Good Program</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="about-us.html#team">Team</a></li>
-                                    
+                                        <li><a href="team.html">Team</a></li>
+                                        <li><a href="gallery.html">Gallery</a></li>
                                    <li><a href="partner-with-us.html">Partnership</a></li>
                                         <li><a href="contact-us.html">Contact</a></li>
                                     </ul>
@@ -128,7 +99,7 @@
                         <div class="header__right">
                             <div class="header__right__button">
                                 <div class="header-link-btn">
-                                    <a href="https://collect.crowded.me/collection/db193722-a34c-4563-897a-ab2b7307f05a" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate Now <span></span></a>
+                                    <a href="donate.html" class="btn-1 btn-alt">Donate Now <span></span></a>
                                 </div>
                             </div>
                         </div>
@@ -138,23 +109,15 @@
             </div>
         </div>
 
-       
         <div class="sticky-header">
             <div class="auto_container">
                 <div class="outer-box">
                     <div class="logo-box">
-                        <figure class="logo"><a href="index.html"><img src="assets/images/logo-removebg.png" alt="United In One Global Foundation logo"></a></figure>
+                        <figure class="logo"><a href="index.html"><img src="assets/images/logo-removebg.png" alt=""></a></figure>
                     </div>
                     <div class="menu-area">
                         <nav class="main-menu clearfix"></nav>
                     </div>
-                     <div class="header__right">
-                            <div class="header__right__button">
-                                <div class="header-link-btn">
-                                    <a href="https://collect.crowded.me/collection/db193722-a34c-4563-897a-ab2b7307f05a" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate Now <span></span></a>
-                                </div>
-                            </div>
-                        </div>
                 </div>
             </div>
         </div>
@@ -170,15 +133,15 @@
                 <h4>Contact Info</h4>
                 <ul>
                     <li>Serving communities globally</li>
-                    <li><a href="tel:+13055490857">+1 (‪305) 549-0857‬</a></li>
-                    <li><a href="mailto:info@unitedinone.org">info@unitedinone.org</a></li>
+                    <li><a href="tel:+12085550112">+1 (‪305) 549-0857‬</a></li>
+                    <li><a href="mailto:kwekuappiahjnr8@gmail.com">kwekuappiahjnr8@gmail.com</a></li>
                 </ul>
             </div>
             <div class="social-links">
                 <ul class="clearfix">
                     <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                    <li><a href="https://www.facebook.com/Unitedinoneglobal" target="_blank" rel="noopener"><span class="fab fa-facebook-square"></span></a></li>
-                    <li><a href="https://www.instagram.com/Unitedinoneglobal" target="_blank" rel="noopener"><span class="fab fa-instagram"></span></a></li>
+                    <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+                    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
                     <li><a href="#"><span class="fab fa-youtube"></span></a></li>
                 </ul>
             </div>
@@ -198,61 +161,12 @@
                 </p>
 
                 <div class="hero-actions">
-                    <a href="https://collect.crowded.me/collection/db193722-a34c-4563-897a-ab2b7307f05a" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate to Health <span></span></a>
+                    <a href="donate.html" class="btn-1 btn-alt">Donate to Health <span></span></a>
                     <a href="contact-us.html" class="hero-outline">Partner With Us</a>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- ===== Donation section (added per client feedback) ===== -->
-    <section class="donate-block">
-      <div class="container">
-        <div class="donate-grid">
-          <div class="donate-copy">
-            <span class="donate-eyebrow">Support This Project</span>
-            <h2>Put Health Supplies in a Family&rsquo;s Hands</h2>
-        <p>In the communities we serve across Nigeria, Kenya, Burundi, Ghana, and Madagascar, access to basic health supplies isn&rsquo;t guaranteed. For families without them, getting sick isn&rsquo;t bad luck, it&rsquo;s just Tuesday.</p>
-            <p><strong>Here&rsquo;s what your gift provides:</strong></p>
-            <ul class="give-list">
-          <li><b>$15</b><span>dignity in a kit &mdash; hygiene essentials for 1 person</span></li>
-          <li><b>$30</b><span>a family&rsquo;s first line of defense &mdash; basic first aid covered</span></li>
-          <li><b>$75</b><span>community health day &mdash; supplies and education delivered together</span></li>
-          <li><b>$100</b><span>whole-community care package &mdash; from hygiene to first aid, covered</span></li>
-            </ul>
-            <p>Simple supplies. Life-changing impact.</p>
-            <div class="donate-note">&#128230; Want to help us get supplies there? Add an extra $50 to your gift to help cover international shipping costs and make sure every box reaches its destination.</div>
-            <p>Give with confidence. Every dollar donated to the Healthy Futures Project goes directly to this program. No detours. No exceptions.</p>
-            <p>&#128257; Become a monthly donor and never wonder if your gift made a difference. At just $30/month, you are putting health supplies in the hands of 2 families every single month &mdash; 24 by year&rsquo;s end!</p>
-            <p class="donate-zelle">&#128184; Prefer to Zelle? Send to <a href="mailto:info@unitedinone.org">info@unitedinone.org</a>. Note &ldquo;Healthy Futures Project&rdquo; in the memo.</p>
-          </div>
-          <div class="donate-action">
-            <h3>Donate Now</h3>
-            <p class="sub">Give securely in seconds</p>
-            <script async src="https://pub-31ca444963614d778b3c2a95e3d4b757.r2.dev/crowded-collect.min.js"></script>
-            <div id="collect-form" collect-id="db193722-a34c-4563-897a-ab2b7307f05a" button-text="Donate" button-color="#D5E12D" button-text-color="#ffffff"></div>
-            <div class="qr-wrap">
-              <img loading="lazy" src="assets/images/qr/qr-healthy-futures.png" alt="QR code to donate to the Healthy Futures Project">
-              <p>Scan to donate from your phone</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Fundraising progress (client feedback) -->
-    <section class="section-padding fundraiser-section" style="padding-top:0;">
-      <div class="container">
-        <div class="fundraiser-card">
-          <h3>Help us reach 1,000 community members by 2027 &mdash; <span>150+ supported so far!</span></h3>
-          <div class="fundraiser-track"><div class="fundraiser-fill" style="width:15%;"></div></div>
-          <div class="fundraiser-labels"><span>150+ community members supported</span><span>Goal: 1,000 by 2027</span></div>
-          <a href="https://collect.crowded.me/collection/db193722-a34c-4563-897a-ab2b7307f05a" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate to Healthy Futures <span></span></a>
-        </div>
-      </div>
-    </section>
-
-
 
     <section class="section-padding">
         <div class="container">
@@ -329,13 +243,13 @@ Cuts, burns, and minor injuries shouldn’t result in life-threatening infection
              Every delivery, every conversation, and every contact we make is about helping communities build healthier, brighter futures.
                         </p>
 
-                        <a href="https://collect.crowded.me/collection/db193722-a34c-4563-897a-ab2b7307f05a" target="_blank" rel="noopener" class="btn-1">Support Healthy Futures <span></span></a>
+                        <a href="donate.html" class="btn-1">Support Healthy Futures <span></span></a>
                     </div>
                 </div>
 
                 <div class="col-xl-6 col-lg-6">
                     <div class="wellness-img wow fadeInRight">
-                        <img loading="lazy" src="assets/images/sitepics/image27.webp" alt="Healthy Futures community support">
+                        <img src="assets/images/sitepics/image27.webp" alt="Healthy Futures community support">
                     </div>
                 </div>
             </div>
@@ -452,15 +366,15 @@ Cuts, burns, and minor injuries shouldn’t result in life-threatening infection
 
             <div class="gallery-health">
                 <div class="health-tile rounded-big wow fadeInUp">
-                    <img loading="lazy" src="assets/images/sitepics/image21.webp" alt="Community hygiene support">
+                    <img src="assets/images/sitepics/image21.webp" alt="Community hygiene support">
                 </div>
 
                 <div class="health-tile wow fadeInUp" data-wow-delay="150ms">
-                    <img loading="lazy" src="assets/images/sitepics/image27.webp" alt="Children supported">
+                    <img src="assets/images/sitepics/image27.webp" alt="Children supported">
                 </div>
 
                 <div class="health-tile rounded-big wow fadeInUp" data-wow-delay="300ms">
-                    <img loading="lazy" src="assets/images/sitepics/image5.webp" alt="Healthy Futures beneficiaries">
+                    <img src="assets/images/sitepics/image5.webp" alt="Healthy Futures beneficiaries">
                 </div>
             </div>
         </div>
@@ -491,26 +405,12 @@ Together, we can create a world where dignity and health are within everyone’s
 
                 <div class="col-xl-6 col-lg-6">
                     <div class="commitment-img wow fadeInRight">
-                        <img loading="lazy" src="assets/images/sitepics/image28.webp" alt="First aid support">
+                        <img src="assets/images/sitepics/image28.webp" alt="First aid support">
                     </div>
                 </div>
             </div>
         </div>
    </section>
-
-
-    <!-- Testimonial (client feedback) -->
-    <section class="section-padding project-testimonial" style="padding-top:0;">
-      <div class="container">
-        <div class="testimonial-quote-card">
-          <span class="tq-eyebrow">From the Field</span>
-          <blockquote>
-            “Every kindness kit we pack has first aid supplies and tablets that can clean a cup of water in just 30 minutes. It doesn’t sound like much until you think about who’s receiving it: a mother who’s never been sure her water was safe, a child with no band-aid for a scraped knee. When you pack these kits, you realize you’re not just filling a box, you are handing someone peace of mind.”
-            <cite>— Volunteer</cite>
-          </blockquote>
-        </div>
-      </div>
-    </section>
 
    <section class="help-section section-padding">
         <div class="container">
@@ -546,7 +446,7 @@ Together, we can create a world where dignity and health are within everyone’s
             </div>
 
             <div style="text-align:center; margin-top:35px;">
-                <a href="https://collect.crowded.me/collection/db193722-a34c-4563-897a-ab2b7307f05a" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate to Healthy Futures <span></span></a>
+                <a href="donate.html" class="btn-1 btn-alt">Donate to Healthy Futures <span></span></a>
             </div>
         </div>
    </section>
@@ -575,14 +475,15 @@ Together, we can create a world where dignity and health are within everyone’s
                                     </div>
                                     <div class="widget_content">
                                         <p>
-                                            United in One Global Foundation is a 501(c)(3) nonprofit organization that empowers underserved communities in Africa through education, healthcare, and water initiatives.
+                                            A global foundation dedicated to education, health, and
+                                             water access — building unity and lasting change, one community at a time.
                                         </p>
                                     </div>
                                     <div class="widget_media">
                                         <ul>
-                                            <li><a href="https://www.facebook.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="flaticon-facebook-app-symbol"></i></a></li>
+                                            <li><a href="#"><i class="flaticon-facebook-app-symbol"></i></a></li>
                                             <li><a href="#"><i class="flaticon-twitter"></i></a></li>
-                                            <li><a href="https://www.instagram.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="#"><i class="flaticon-linkedin"></i></a></li>
                                             <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
                                         </ul>
                                     </div>
@@ -598,7 +499,8 @@ Together, we can create a world where dignity and health are within everyone’s
                                         <ul class="links_list clearfix">
                                             <li><a href="about-us.html">About Us</a></li>
                                             <li><a href="projects.html">Projects</a></li>
-                                            <li><a href="opportunities.html">Opportunities</a></li>
+                                            <li><a href="team.html">Our Team</a></li>
+                                            <li><a href="opportunities.html">opportunities</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -611,10 +513,10 @@ Together, we can create a world where dignity and health are within everyone’s
                                     </div>
                                     <div class="widget_content">
                                         <ul class="links_list clearfix">
-                                            <li><a href="global-classroom-project.html">Global Classroom</a></li>
-                                            <li><a href="healthy-futures-project.html">Healthy Futures</a></li>
-                                            <li><a href="clean-water-project.html">Clean Water</a></li>
-                                            <li><a href="grants-for-good-program.html">Grants for Good</a></li>
+                                            <li><a href="projects.html">Global Classroom</a></li>
+                                            <li><a href="projects.html">Healthy Futures</a></li>
+                                            <li><a href="projects.html">Clean Water</a></li>
+                                            <li><a href="projects.html">Community Support</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -628,11 +530,11 @@ Together, we can create a world where dignity and health are within everyone’s
                                     <div class="widget_content">
                                         <ul class="links_list right">
                                             <li>Serving communities globally</li>
-                                            <li><a href="mailto:info@unitedinone.org"><i class="flaticon-email"></i> info@unitedinone.org</a></li>
-                                            <li><a href="tel:+13055490857"><i class="flaticon-phone-call"></i> +1 (305) 549-0857 (WhatsApp)</a></li>
+                                            <li><a href="mailto:kwekuappiahjnr8@gmail.com"><i class="flaticon-email"></i> kwekuappiahjnr8@gmail.com</a></li>
+                                            <li><a href="tel:+12085550112"><i class="flaticon-phone-call"></i> +1 (305) 549-0857</a></li>
                                             <li>
                                                 <div class="header-link-btn footer-donate">
-                                                    <a href="https://collect.crowded.me/collection/db193722-a34c-4563-897a-ab2b7307f05a" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate Now <span></span></a>
+                                                    <a href="donate.html" class="btn-1 btn-alt">Donate Now <span></span></a>
                                                 </div>
                                             </li>
                                         </ul>
@@ -681,6 +583,5 @@ Together, we can create a world where dignity and health are within everyone’s
 <script src="assets/js/jquery.paroller.min.js"></script>
 <script src="assets/js/script.js"></script>
 
-<a href="https://collect.crowded.me/collection/db193722-a34c-4563-897a-ab2b7307f05a" target="_blank" rel="noopener" class="floating-donate">&#10084; Donate</a>
 </body>
 </html>

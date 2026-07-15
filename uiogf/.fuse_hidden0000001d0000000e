@@ -5,33 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Grants for Good Fund | Pooled Giving for Community Nonprofits | United In One</title>
-    <meta data-seo="uiogf" name="description" content="Grants for Good pools donations and awards annual grants to vetted community nonprofits in education, health, and clean water. Give together and multiply your impact.">
-    <link rel="canonical" href="https://unitedinone.org/grants-for-good-program.html">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="United in One Global Foundation">
-    <meta property="og:title" content="Grants for Good Fund | Pooled Giving for Community Nonprofits | United In One">
-    <meta property="og:description" content="Grants for Good pools donations and awards annual grants to vetted community nonprofits in education, health, and clean water. Give together and multiply your impact.">
-    <meta property="og:url" content="https://unitedinone.org/grants-for-good-program.html">
-    <meta property="og:image" content="https://unitedinone.org/assets/images/sitepics/image1.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Grants for Good Fund | Pooled Giving for Community Nonprofits | United In One">
-    <meta name="twitter:description" content="Grants for Good pools donations and awards annual grants to vetted community nonprofits in education, health, and clean water. Give together and multiply your impact.">
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "NGO",
-  "name": "United in One Global Foundation",
-  "alternateName": "UIOGF",
-  "url": "https://unitedinone.org",
-  "logo": "https://unitedinone.org/assets/images/logo-svg.svg",
-  "description": "A 501(c)(3) nonprofit providing education supplies, clean water, and wellness resources to underserved communities in Africa.",
-  "areaServed": ["Kenya", "Nigeria", "Burundi", "Ghana", "Madagascar"],
-  "foundingDate": "2023",
-  "sameAs": ["https://www.facebook.com/Unitedinoneglobal", "https://www.instagram.com/Unitedinoneglobal"],
-  "contactPoint": { "@type": "ContactPoint", "telephone": "+1-305-549-0857", "email": "info@unitedinone.org", "contactType": "customer service" }
-}
-</script>
+    <title>Grants for Good Program | United In One Global Foundation</title>
 
       <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
@@ -60,9 +34,6 @@
     <link href="assets/css/responsive.css" rel="stylesheet">
 
    
-  <link rel="stylesheet" href="assets/css/mobile-fixes.css">
-  <link rel="stylesheet" href="assets/css/donations.css">
-  <link rel="stylesheet" href="assets/css/site-updates.css">
 </head>
 
 <body>
@@ -74,7 +45,7 @@
             <div id="handle-preloader" class="handle-preloader home-1">
                 <div class="loading">
                     <span></span><span></span><span></span>
-                    <img src="assets/images/logo-removebg.png" alt="United In One Global Foundation" class="preloader-logo">
+                    <h2>UIOGF</h2>
                 </div>
             </div>
         </div>
@@ -117,9 +88,9 @@
                                             </ul>
                                         </li>
 
-                                         <li><a href="about-us.html#team">Team</a></li>
+                                         <li><a href="team.html">Team</a></li>
 
-                                    
+                                        <li><a href="gallery.html">Gallery</a></li>
                                    <li><a href="partner-with-us.html">Partnership</a></li>
                                         <li><a href="contact-us.html">Contact</a></li>
                                     </ul>
@@ -129,7 +100,7 @@
 
                         <div class="header__right">
                             <div class="header-link-btn">
-                                <a href="https://collect.crowded.me/collection/475efdc1-49fc-4b0d-a322-ba953d041a57" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate Now <span></span></a>
+                                <a href="donate.html" class="btn-1 btn-alt">Donate Now <span></span></a>
                             </div>
                         </div>
 
@@ -138,23 +109,15 @@
             </div>
         </div>
 
-       
         <div class="sticky-header">
             <div class="auto_container">
                 <div class="outer-box">
                     <div class="logo-box">
-                        <figure class="logo"><a href="index.html"><img src="assets/images/logo-removebg.png" alt="United In One Global Foundation logo"></a></figure>
+                        <figure class="logo"><a href="index.html"><img src="assets/images/logo-removebg.png" alt=""></a></figure>
                     </div>
                     <div class="menu-area">
                         <nav class="main-menu clearfix"></nav>
                     </div>
-                     <div class="header__right">
-                            <div class="header__right__button">
-                                <div class="header-link-btn">
-                                    <a href="https://collect.crowded.me/collection/475efdc1-49fc-4b0d-a322-ba953d041a57" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate Now <span></span></a>
-                                </div>
-                            </div>
-                        </div>
                 </div>
             </div>
         </div>
@@ -170,8 +133,8 @@
                 <h4>Contact Info</h4>
                 <ul>
                     <li>Serving communities globally</li>
-                    <li><a href="tel:+13055490857">+1 (305) 549-0857</a></li>
-                    <li><a href="mailto:info@unitedinone.org">info@unitedinone.org</a></li>
+                    <li><a href="tel:+12085550112">+1 (305) 549-0857</a></li>
+                    <li><a href="mailto:kwekuappiahjnr8@gmail.com">kwekuappiahjnr8@gmail.com</a></li>
                 </ul>
             </div>
         </nav>
@@ -188,53 +151,18 @@
                     Grants for Good supports nonprofit partners and local initiatives creating measurable impact
                     in education, health, clean water, and community development.
                 </p>
-                <a href="https://collect.crowded.me/collection/475efdc1-49fc-4b0d-a322-ba953d041a57" target="_blank" rel="noopener" class="btn-1 btn-alt">Contribute <span></span></a>
+                <a href="donate.html" class="btn-1 btn-alt">Contribute <span></span></a>
                 <a href="contact-us.html" class="hero-outline">Apply / Partner</a>
             </div>
         </div>
     </section>
-
-    <!-- ===== Donation section (added per client feedback) ===== -->
-    <section class="donate-block">
-      <div class="container">
-        <div class="donate-grid">
-          <div class="donate-copy">
-            <span class="donate-eyebrow">Support This Project</span>
-            <h2>Give Together, Multiply the Impact</h2>
-        <p>What if your $50 became $5,000 in impact? That&rsquo;s the power of giving together.</p>
-        <p>The Grants for Good Fund pools donations from communities of givers like you and awards an annual grant to a vetted, community-based nonprofit doing real work in education, health, or clean water in the United States of America.</p>
-            <p><strong>Here&rsquo;s what your gift provides:</strong></p>
-            <ul class="give-list">
-          <li><b>$25</b><span>adds your voice to the fund</span></li>
-          <li><b>$50</b><span>puts a qualified organization one step closer to life-changing funding</span></li>
-          <li><b>$100</b><span>multiplies &mdash; pooled with donors like you and awarded where the need is greatest</span></li>
-          <li><b>$500+</b><span>you become a named Fund Champion</span></li>
-            </ul>
-            <p>Every dollar is pooled, reviewed by our panel, and awarded to an organization ready to deliver real results on the ground.</p>
-            <p>&#128257; You give once a month. A nonprofit gets funded for a year! That&rsquo;s the power of recurring giving, and it starts with you.</p>
-            <p class="donate-zelle">&#128184; Prefer to Zelle? Send to <a href="mailto:info@unitedinone.org">info@unitedinone.org</a>. Note &ldquo;Grants for Good&rdquo; in the memo.</p>
-          </div>
-          <div class="donate-action">
-            <h3>Donate Now</h3>
-            <p class="sub">Give securely in seconds</p>
-            <script async src="https://pub-31ca444963614d778b3c2a95e3d4b757.r2.dev/crowded-collect.min.js"></script>
-            <div id="collect-form" collect-id="475efdc1-49fc-4b0d-a322-ba953d041a57" button-text="Donate" button-color="#CDD01B" button-text-color="#ffffff"></div>
-            <div class="qr-wrap">
-              <img loading="lazy" src="assets/images/qr/qr-grants-for-good.png" alt="QR code to donate to the Grants for Good Fund">
-              <p>Scan to donate from your phone</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
 
     <section class="section-padding">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6">
                     <div class="grant-img wow fadeInLeft">
-                        <img loading="lazy" src="assets/images/sitepics/image33.webp" alt="Grants for Good">
+                        <img src="assets/images/sitepics/image33.webp" alt="Grants for Good">
                     </div>
                 </div>
 
@@ -250,30 +178,17 @@
                             By pooling donations and awarding focused grants, United In One helps partners deepen impact,
                             strengthen equity, and deliver lasting change where it is needed most.
                         </p>
-                        <a href="https://collect.crowded.me/collection/475efdc1-49fc-4b0d-a322-ba953d041a57" target="_blank" rel="noopener" class="btn-1">Support the Fund <span></span></a>
+                        <a href="donate.html" class="btn-1">Support the Fund <span></span></a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    
-    <!-- Metric row (project consistency) -->
-    <section class="section-padding metric-band" style="padding-top:0;">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-6"><div class="metric-item"><h3>$50&rarr;$5K</h3><p>the multiplying power of giving together</p></div></div>
-          <div class="col-md-3 col-6"><div class="metric-item"><h3>1</h3><p>annual grant awarded to a vetted nonprofit</p></div></div>
-          <div class="col-md-3 col-6"><div class="metric-item"><h3>100%</h3><p>of the fund pooled and awarded to partners</p></div></div>
-          <div class="col-md-3 col-6"><div class="metric-item"><h3>3</h3><p>focus areas: education, health &amp; clean water</p></div></div>
-        </div>
-      </div>
-    </section>
-
-<section class="funding-section section-padding">
+    <section class="funding-section section-padding">
         <div class="container">
             <div class="section-title-center">
-                <span>How We Work</span>
+                <span>How It Works</span>
                 <h2 style="text-align:center;">A simple process for meaningful impact.</h2>
             </div>
 
@@ -311,28 +226,48 @@
         </div>
     </section>
 
-  
-
-    
-    <!-- Join Us (project consistency) -->
     <section class="section-padding">
-      <div class="container">
-        <div class="section-title-center">
-          <span>Join Us</span>
-          <h2>Join Us in Making a Difference.</h2>
-          <p style="max-width:760px; margin-left:auto; margin-right:auto;">
-            Give once a month and a nonprofit gets funded for a year. Every dollar is pooled, reviewed by our
-            panel, and awarded where the need is greatest &mdash; that is the power of giving together.
-          </p>
+        <div class="container">
+            <div class="section-title-center">
+                <span>Funding Areas</span>
+                <h2>Focused support across our core mission areas.</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 mb-4">
+                    <div class="funding-card wow fadeInUp">
+                        <i class="fas fa-book-open"></i>
+                        <h3>Education</h3>
+                        <p>
+                            Support for learning materials, classrooms, tutoring, mentoring, and programs that help children grow.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 mb-4">
+                    <div class="funding-card wow fadeInUp" data-wow-delay="150ms">
+                        <i class="fas fa-heartbeat"></i>
+                        <h3>Health</h3>
+                        <p>
+                            Funding for hygiene supplies, wellness support, preventive care, and basic health outreach.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 mb-4">
+                    <div class="funding-card wow fadeInUp" data-wow-delay="300ms">
+                        <i class="fas fa-tint"></i>
+                        <h3>Clean Water</h3>
+                        <p>
+                            Support for water access, hygiene awareness, and sustainable community water solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div style="text-align:center;">
-          <a href="https://collect.crowded.me/collection/475efdc1-49fc-4b0d-a322-ba953d041a57" target="_blank" rel="noopener" class="btn-1 btn-alt">Contribute to the Fund <span></span></a>
-          <a href="partner-with-us.html" class="hero-outline">Become a Partner</a>
-        </div>
-      </div>
     </section>
 
-<section class="faq-section section-padding">
+    <section class="faq-section section-padding">
         <div class="container">
             <div class="section-title-center">
                 <span>Grant Questions</span>
@@ -416,7 +351,7 @@
                 Help us support local partners creating measurable difference in classrooms,
                 communities, health outreach, and clean water access.
             </p>
-            <a href="https://collect.crowded.me/collection/475efdc1-49fc-4b0d-a322-ba953d041a57" target="_blank" rel="noopener" class="btn-1 btn-alt">Contribute to the Fund <span></span></a>
+            <a href="donate.html" class="btn-1 btn-alt">Contribute to the Fund <span></span></a>
         </div>
     </section>
 
@@ -471,14 +406,15 @@
                                     </div>
                                     <div class="widget_content">
                                         <p>
-                                            United in One Global Foundation is a 501(c)(3) nonprofit organization that empowers underserved communities in Africa through education, healthcare, and water initiatives.
+                                            A global foundation dedicated to education, health, and
+                                             water access — building unity and lasting change, one community at a time.
                                         </p>
                                     </div>
                                     <div class="widget_media">
                                         <ul>
-                                            <li><a href="https://www.facebook.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="flaticon-facebook-app-symbol"></i></a></li>
+                                            <li><a href="#"><i class="flaticon-facebook-app-symbol"></i></a></li>
                                             <li><a href="#"><i class="flaticon-twitter"></i></a></li>
-                                            <li><a href="https://www.instagram.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="#"><i class="flaticon-linkedin"></i></a></li>
                                             <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
                                         </ul>
                                     </div>
@@ -494,7 +430,8 @@
                                         <ul class="links_list clearfix">
                                             <li><a href="about-us.html">About Us</a></li>
                                             <li><a href="projects.html">Projects</a></li>
-                                            <li><a href="opportunities.html">Opportunities</a></li>
+                                            <li><a href="team.html">Our Team</a></li>
+                                            <li><a href="opportunities.html">opportunities</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -507,10 +444,10 @@
                                     </div>
                                     <div class="widget_content">
                                         <ul class="links_list clearfix">
-                                            <li><a href="global-classroom-project.html">Global Classroom</a></li>
-                                            <li><a href="healthy-futures-project.html">Healthy Futures</a></li>
-                                            <li><a href="clean-water-project.html">Clean Water</a></li>
-                                            <li><a href="grants-for-good-program.html">Grants for Good</a></li>
+                                            <li><a href="projects.html">Global Classroom</a></li>
+                                            <li><a href="projects.html">Healthy Futures</a></li>
+                                            <li><a href="projects.html">Clean Water</a></li>
+                                            <li><a href="projects.html">Community Support</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -524,11 +461,11 @@
                                     <div class="widget_content">
                                         <ul class="links_list right">
                                             <li>Serving communities globally</li>
-                                            <li><a href="mailto:info@unitedinone.org"><i class="flaticon-email"></i> info@unitedinone.org</a></li>
-                                            <li><a href="tel:+13055490857"><i class="flaticon-phone-call"></i> +1 (305) 549-0857 (WhatsApp)</a></li>
+                                            <li><a href="mailto:kwekuappiahjnr8@gmail.com"><i class="flaticon-email"></i> kwekuappiahjnr8@gmail.com</a></li>
+                                            <li><a href="tel:+12085550112"><i class="flaticon-phone-call"></i> +1 (305) 549-0857</a></li>
                                             <li>
                                                 <div class="header-link-btn footer-donate">
-                                                    <a href="https://collect.crowded.me/collection/475efdc1-49fc-4b0d-a322-ba953d041a57" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate Now <span></span></a>
+                                                    <a href="donate.html" class="btn-1 btn-alt">Donate Now <span></span></a>
                                                 </div>
                                             </li>
                                         </ul>
@@ -577,6 +514,5 @@
 <script src="assets/js/jquery.paroller.min.js"></script>
 <script src="assets/js/script.js"></script>
 
-<a href="https://collect.crowded.me/collection/475efdc1-49fc-4b0d-a322-ba953d041a57" target="_blank" rel="noopener" class="floating-donate">&#10084; Donate</a>
 </body>
 </html>

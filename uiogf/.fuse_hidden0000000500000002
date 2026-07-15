@@ -5,33 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Apply to Volunteer | United In One Global Foundation</title>
-    <meta data-seo="uiogf" name="description" content="Apply to volunteer with United in One Global Foundation: remote roles worldwide or on-the-ground roles across Africa in education, health, and community development.">
-    <link rel="canonical" href="https://unitedinone.org/apply.html">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="United in One Global Foundation">
-    <meta property="og:title" content="Apply to Volunteer | United In One Global Foundation">
-    <meta property="og:description" content="Apply to volunteer with United in One Global Foundation: remote roles worldwide or on-the-ground roles across Africa in education, health, and community development.">
-    <meta property="og:url" content="https://unitedinone.org/apply.html">
-    <meta property="og:image" content="https://unitedinone.org/assets/images/sitepics/image1.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Apply to Volunteer | United In One Global Foundation">
-    <meta name="twitter:description" content="Apply to volunteer with United in One Global Foundation: remote roles worldwide or on-the-ground roles across Africa in education, health, and community development.">
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "NGO",
-  "name": "United in One Global Foundation",
-  "alternateName": "UIOGF",
-  "url": "https://unitedinone.org",
-  "logo": "https://unitedinone.org/assets/images/logo-svg.svg",
-  "description": "A 501(c)(3) nonprofit providing education supplies, clean water, and wellness resources to underserved communities in Africa.",
-  "areaServed": ["Kenya", "Nigeria", "Burundi", "Ghana", "Madagascar"],
-  "foundingDate": "2023",
-  "sameAs": ["https://www.facebook.com/Unitedinoneglobal", "https://www.instagram.com/Unitedinoneglobal"],
-  "contactPoint": { "@type": "ContactPoint", "telephone": "+1-305-549-0857", "email": "info@unitedinone.org", "contactType": "customer service" }
-}
-</script>
+    <title>Apply | United In One Global Foundation</title>
 
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images//apple-touch-icon.png">
@@ -58,8 +32,6 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/swiper.min.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/mobile-fixes.css">
-  <link rel="stylesheet" href="assets/css/site-updates.css">
 </head>
 
 <body>
@@ -71,7 +43,7 @@
             <div id="handle-preloader" class="handle-preloader home-1">
                 <div class="loading">
                     <span></span><span></span><span></span>
-                    <img src="assets/images/logo-removebg.png" alt="United In One Global Foundation" class="preloader-logo">
+                    <h2>UIOGF</h2>
                 </div>
             </div>
         </div>
@@ -110,8 +82,8 @@
                                                 <li><a href="grants-for-good-program.html">Grants for Good Program</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="about-us.html#team">Team</a></li>
-                                    
+                                        <li><a href="team.html">Team</a></li>
+                                        <li><a href="gallery.html">Gallery</a></li>
                                         <li><a href="partner-with-us.html">Partnership</a></li>
                                         <li><a href="contact-us.html">Contact</a></li>
                                     </ul>
@@ -122,7 +94,7 @@
                         <div class="header__right">
                             <div class="header__right__button">
                                 <div class="header-link-btn">
-                                    <a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate Now <span></span></a>
+                                    <a href="donate.html" class="btn-1 btn-alt">Donate Now <span></span></a>
                                 </div>
                             </div>
                         </div>
@@ -136,19 +108,11 @@
             <div class="auto_container">
                 <div class="outer-box">
                     <div class="logo-box">
-                        <figure class="logo"><a href="index.html"><img src="assets/images/logo-removebg.png" alt="United In One Global Foundation logo"></a></figure>
+                        <figure class="logo"><a href="index.html"><img src="assets/images/logo-removebg.png" alt=""></a></figure>
                     </div>
                     <div class="menu-area">
                         <nav class="main-menu clearfix"></nav>
                     </div>
-
-                     <div class="header__right">
-                            <div class="header__right__button">
-                                <div class="header-link-btn">
-                                    <a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate Now <span></span></a>
-                                </div>
-                            </div>
-                        </div>
                 </div>
             </div>
         </div>
@@ -164,15 +128,15 @@
                 <h4>Contact Info</h4>
                 <ul>
                     <li>Serving communities globally</li>
-                    <li><a href="tel:+13055490857">+1 (305) 549-0857</a></li>
-                    <li><a href="mailto:info@unitedinone.org">info@unitedinone.org</a></li>
+                    <li><a href="tel:+12085550112">+1 (305) 549-0857</a></li>
+                    <li><a href="mailto:kwekuappiahjnr8@gmail.com">kwekuappiahjnr8@gmail.com</a></li>
                 </ul>
             </div>
             <div class="social-links">
                 <ul class="clearfix">
                     <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                    <li><a href="https://www.facebook.com/Unitedinoneglobal" target="_blank" rel="noopener"><span class="fab fa-facebook-square"></span></a></li>
-                    <li><a href="https://www.instagram.com/Unitedinoneglobal" target="_blank" rel="noopener"><span class="fab fa-instagram"></span></a></li>
+                    <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+                    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
                     <li><a href="#"><span class="fab fa-youtube"></span></a></li>
                 </ul>
             </div>
@@ -210,19 +174,9 @@
                         <!-- LOCAL TESTING: pointing at the portal running on localhost:3000.
                              When you deploy the portal (see admin-portal/README.md), change
                              this back to that live URL, e.g. https://portal.unitedinone.org/api/submit/opportunity -->
-                        <form id="applyForm" action="https://formsubmit.co/ajax/info@unitedinone.org" method="POST" enctype="multipart/form-data">
+                        <form id="applyForm" action="http://localhost:3000/api/submit/opportunity" method="POST" enctype="multipart/form-data">
 
                             <input type="hidden" name="_subject" value="New Volunteer Application">
-                            <input type="hidden" name="_template" value="table">
-
-                            <div class="field-group">
-                                <label class="field-label">Which type of role are you applying for? <span class="req">*</span></label>
-                                <select id="roleTypeSelect" name="Role Type" required>
-                                    <option value="" disabled selected>Select role type</option>
-                                    <option value="Remote">Remote — anyone worldwide</option>
-                                    <option value="On-The-Ground">On-the-Ground — Kenya, Nigeria, Burundi, Ghana &amp; Madagascar</option>
-                                </select>
-                            </div>
 
                             <div class="field-group">
                                 <label class="field-label">Which opportunity are you applying for? <span class="req">*</span></label>
@@ -374,14 +328,15 @@
                                     </div>
                                     <div class="widget_content">
                                         <p>
-                                            United in One Global Foundation is a 501(c)(3) nonprofit organization that empowers underserved communities in Africa through education, healthcare, and water initiatives.
+                                            A global foundation dedicated to education, health, and
+                                             water access — building unity and lasting change, one community at a time.
                                         </p>
                                     </div>
                                     <div class="widget_media">
                                         <ul>
-                                            <li><a href="https://www.facebook.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="flaticon-facebook-app-symbol"></i></a></li>
+                                            <li><a href="#"><i class="flaticon-facebook-app-symbol"></i></a></li>
                                             <li><a href="#"><i class="flaticon-twitter"></i></a></li>
-                                            <li><a href="https://www.instagram.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="#"><i class="flaticon-linkedin"></i></a></li>
                                             <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
                                         </ul>
                                     </div>
@@ -397,7 +352,8 @@
                                         <ul class="links_list clearfix">
                                             <li><a href="about-us.html">About Us</a></li>
                                             <li><a href="projects.html">Projects</a></li>
-                                            <li><a href="opportunities.html">Opportunities</a></li>
+                                            <li><a href="team.html">Our Team</a></li>
+                                            <li><a href="opportunities.html">opportunities</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -410,10 +366,10 @@
                                     </div>
                                     <div class="widget_content">
                                         <ul class="links_list clearfix">
-                                            <li><a href="global-classroom-project.html">Global Classroom</a></li>
-                                            <li><a href="healthy-futures-project.html">Healthy Futures</a></li>
-                                            <li><a href="clean-water-project.html">Clean Water</a></li>
-                                            <li><a href="grants-for-good-program.html">Grants for Good</a></li>
+                                            <li><a href="projects.html">Global Classroom</a></li>
+                                            <li><a href="projects.html">Healthy Futures</a></li>
+                                            <li><a href="projects.html">Clean Water</a></li>
+                                            <li><a href="projects.html">Community Support</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -427,11 +383,11 @@
                                     <div class="widget_content">
                                         <ul class="links_list right">
                                             <li>Serving communities globally</li>
-                                            <li><a href="mailto:info@unitedinone.org"><i class="flaticon-email"></i> info@unitedinone.org</a></li>
-                                            <li><a href="tel:+13055490857"><i class="flaticon-phone-call"></i> +1 (305) 549-0857 (WhatsApp)</a></li>
+                                            <li><a href="mailto:kwekuappiahjnr8@gmail.com"><i class="flaticon-email"></i> kwekuappiahjnr8@gmail.com</a></li>
+                                            <li><a href="tel:+12085550112"><i class="flaticon-phone-call"></i> +1 (305) 549-0857</a></li>
                                             <li>
                                                 <div class="header-link-btn footer-donate">
-                                                    <a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate Now <span></span></a>
+                                                    <a href="donate.html" class="btn-1 btn-alt">Donate Now <span></span></a>
                                                 </div>
                                             </li>
                                         </ul>
@@ -513,42 +469,12 @@
         summaryType.textContent = typ;
         summarySub.textContent = typ === 'Remote'
             ? 'A remote volunteer role — anyone worldwide can apply.'
-            : 'An on-the-ground role based in Kenya, Nigeria, Burundi, Ghana & Madagascar.';
+            : 'An on-the-ground role based in Kenya, Rwanda, Nigeria & Ghana.';
         categoryField.value = cat;
         typeField.value = typ;
     }
 
-    // ---- Remote / On-the-Ground filtering of the opportunity dropdown ----
-    var roleTypeSelect = document.getElementById('roleTypeSelect');
-    function filterByType(selectedType) {
-        var groups = select.querySelectorAll('optgroup');
-        Array.prototype.forEach.call(groups, function (g) {
-            var firstOpt = g.querySelector('option');
-            var gtype = firstOpt ? firstOpt.getAttribute('data-type') : '';
-            var show = !selectedType || gtype === selectedType;
-            g.style.display = show ? '' : 'none';
-            g.disabled = !show;
-            Array.prototype.forEach.call(g.querySelectorAll('option'), function (o) {
-                o.hidden = !show; o.disabled = !show;
-            });
-        });
-        var cur = select.options[select.selectedIndex];
-        if (selectedType && cur && cur.getAttribute('data-type') && cur.getAttribute('data-type') !== selectedType) {
-            select.value = '';
-            updateSummary(null);
-        }
-    }
-    if (roleTypeSelect) {
-        roleTypeSelect.addEventListener('change', function () { filterByType(roleTypeSelect.value); });
-    }
-
-    // apply type filter from query param first (so only matching roles show)
-    if (type) {
-        if (roleTypeSelect) { roleTypeSelect.value = type; }
-        filterByType(type);
-    }
-
-    // pre-select role based on query params
+    // pre-select based on query params
     if (role) {
         var options = Array.prototype.slice.call(select.options);
         var match = options.find(function (o) {
@@ -567,13 +493,11 @@
     // CV file name preview
     var cvInput = document.getElementById('cvUpload');
     var cvFileName = document.getElementById('cvFileName');
-    if (cvInput) {
-        cvInput.addEventListener('change', function () {
-            cvFileName.textContent = cvInput.files.length ? cvInput.files[0].name : '';
-        });
-    }
+    cvInput.addEventListener('change', function () {
+        cvFileName.textContent = cvInput.files.length ? cvInput.files[0].name : '';
+    });
 
-    // form submit -> FormSubmit (delivers to info@unitedinone.org)
+    // form submit
     var form = document.getElementById('applyForm');
     var formError = document.getElementById('formError');
     var submitBtn = document.getElementById('submitBtn');
@@ -581,26 +505,30 @@
 
     form.addEventListener('submit', function (e) {
         e.preventDefault();
+
         if (!form.checkValidity()) {
             formError.textContent = 'Please fill in all required fields before submitting.';
             formError.classList.add('is-visible');
             form.reportValidity();
             return;
         }
+
         formError.classList.remove('is-visible');
         submitBtn.disabled = true;
-        submitBtn.textContent = 'Submitting\u2026';
+        submitBtn.textContent = 'Submitting…';
+
+        // NOTE: submits to the UIOGF admin-portal backend (see the admin-portal
+        // project). Update the form's action="" above once it's deployed.
         fetch(form.action, {
             method: 'POST',
             body: new FormData(form),
             headers: { 'Accept': 'application/json' }
         }).then(function () {
             form.style.display = 'none';
-            var summ = document.getElementById('opportunitySummary');
-            if (summ) summ.style.display = 'none';
+            document.getElementById('opportunitySummary').style.display = 'none';
             successPanel.classList.add('is-visible');
         }).catch(function () {
-            formError.textContent = 'Something went wrong sending your application. Please try again, or email info@unitedinone.org directly.';
+            formError.textContent = 'Something went wrong sending your application. Please try again, or email kwekuappiahjnr8@gmail.com directly.';
             formError.classList.add('is-visible');
             submitBtn.disabled = false;
             submitBtn.innerHTML = 'Submit Application <span></span>';
@@ -609,6 +537,5 @@
 })();
 </script>
 
-<a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="floating-donate">&#10084; Donate</a>
 </body>
 </html>

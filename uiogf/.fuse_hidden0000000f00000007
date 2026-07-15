@@ -5,33 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>United In One Global Foundation | 501(c)(3) Nonprofit</title>
-    <meta data-seo="uiogf" name="description" content="United in One Global Foundation is a 501(c)(3) nonprofit empowering underserved communities in Africa through education, healthcare, and water initiatives.">
-    <link rel="canonical" href="https://unitedinone.org/error.html">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="United in One Global Foundation">
-    <meta property="og:title" content="United In One Global Foundation | 501(c)(3) Nonprofit">
-    <meta property="og:description" content="United in One Global Foundation is a 501(c)(3) nonprofit empowering underserved communities in Africa through education, healthcare, and water initiatives.">
-    <meta property="og:url" content="https://unitedinone.org/error.html">
-    <meta property="og:image" content="https://unitedinone.org/assets/images/sitepics/image1.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="United In One Global Foundation | 501(c)(3) Nonprofit">
-    <meta name="twitter:description" content="United in One Global Foundation is a 501(c)(3) nonprofit empowering underserved communities in Africa through education, healthcare, and water initiatives.">
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "NGO",
-  "name": "United in One Global Foundation",
-  "alternateName": "UIOGF",
-  "url": "https://unitedinone.org",
-  "logo": "https://unitedinone.org/assets/images/logo-svg.svg",
-  "description": "A 501(c)(3) nonprofit providing education supplies, clean water, and wellness resources to underserved communities in Africa.",
-  "areaServed": ["Kenya", "Nigeria", "Burundi", "Ghana", "Madagascar"],
-  "foundingDate": "2023",
-  "sameAs": ["https://www.facebook.com/Unitedinoneglobal", "https://www.instagram.com/Unitedinoneglobal"],
-  "contactPoint": { "@type": "ContactPoint", "telephone": "+1-305-549-0857", "email": "info@unitedinone.org", "contactType": "customer service" }
-}
-</script>
+    <title>Save Us - Responsive HTML 5 Template</title>
 
     <!-- Fav Icon -->
       <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
@@ -63,8 +37,6 @@
     <link href="assets/css/swiper.min.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
 
-  <link rel="stylesheet" href="assets/css/mobile-fixes.css">
-  <link rel="stylesheet" href="assets/css/site-updates.css">
 </head>
 
 <!-- page wrapper -->
@@ -95,18 +67,18 @@
                     <div class="auto_container">
                         <div class="header_top_left">
                             <ul class="top_left">
-                                <li><a href="tel:+13055490857"><i class="flaticon-phone-call
+                                <li><a href="tel:081243256"><i class="flaticon-phone-call
                                     "></i>(208) 555-0112</a></li>
-                                <li><a href="mailto:info@unitedinone.org"><i class="flaticon-email"></i> info@unitedinone.org</a></li>
+                                <li><a href="mailto:jennings@example.com"><i class="flaticon-email"></i> jennings@example.com</a></li>
                                 <li><i class="icon-location-dot"></i> 6391 Elgin St. Celina, Delaware 10299</li>
                             </ul>
                         </div>
                         <div class="header_top_right">
                             <div class="header_right_info">
                                 <ul class="top_right">
-                                    <li><a href="https://www.facebook.com/Unitedinoneglobal" target="_blank" rel="noopener"> <i class="flaticon-facebook-app-symbol"></i></a></li>
+                                    <li><a href="#"> <i class="flaticon-facebook-app-symbol"></i></a></li>
                                     <li><a href="#"><i class="flaticon-twitter"></i></a></li>
-                                    <li><a href="https://www.instagram.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="flaticon-linkedin"></i></a></li>
                                     <li><a href="#"><i class="flaticon-pinterest"></i></a></li>
                                 </ul>
                             </div>
@@ -118,7 +90,7 @@
                     <div class="auto_container">
                         <div class="outer-box">
                             <div class="logo-box">
-                                <figure class="logo"><a href="index.html"><img src="assets/images/logo-removebg.png" alt="United In One Global Foundation logo"></a></figure>
+                                <figure class="logo"><a href="index.html"><img src="assets/images/logo-removebg.png" alt=""></a></figure>
                             </div>
                             <div class="menu-area">
                                 <!--Mobile Navigation Toggler-->
@@ -155,7 +127,7 @@
                                                     </li>
                                                     <li class="dropdown"><a href="#">Team</a>
                                                         <ul>
-                                                            <li><a href="about-us.html#team">Team</a></li>
+                                                            <li><a href="team.html">Team</a></li>
                                                             <li><a href="team-2.html">Become A Volunteer</a></li>
                                                             <li><a href="team-3.html">Volunteer Details </a></li>
                                                         </ul>
@@ -163,7 +135,8 @@
                                                     <li><a href="testimonials.html">Testimonials</a></li>
                                                     <li><a href="faq.html">FAQs</a></li>
                                                     <li><a href="error.html" class="active">404 Error</a></li>
-                                                    <li><a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener">Donate</a></li>
+                                                    <li><a href="gallery.html">Our Gallery</a></li>
+                                                    <li><a href="donate.html">Donate</a></li>
                                                 </ul>
                                             </li>
                                             <li class="dropdown"><a href="opportunities.html">Blog</a>
@@ -180,7 +153,7 @@
                             </div>
                             <div class="header__right">
                                 <div class="header__right__button">
-                                    <div class="header-link-btn"><a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" target="_blank" class="btn-1 btn-alt">Donate Now <span></span></a></div>
+                                    <div class="header-link-btn"><a href="donate.html" target="_blank" class="btn-1 btn-alt">Donate Now <span></span></a></div>
                                 </div>
                             </div>
                         </div>
@@ -193,7 +166,7 @@
                 <div class="auto_container">
                     <div class="outer-box">
                         <div class="logo-box">
-                            <figure class="logo"><a href="index.html"><img src="assets/images/logo-removebg.png" alt="United In One Global Foundation logo"></a></figure>
+                            <figure class="logo"><a href="index.html"><img src="assets/images/logo-removebg.png" alt=""></a></figure>
                         </div>
                         <div class="menu-area">
                             <nav class="main-menu clearfix">
@@ -217,16 +190,16 @@
                     <h4>Contact Info</h4>
                     <ul>
                        <li>7901 4th N St. Petersburg, FL 33702</li>
-<li><a href="tel:+13055490857">+1 (305) 549-0857</a></li>
-<li><a href="mailto:info@unitedinone.org">info@unitedinone.org</a></li>
+<li><a href="tel:1 305549-085">+1 (305) 549-0857</a></li>
+<li><a href="mailto:kwekuappiahjnr8@gmail.com">kwekuappiahjnr8@gmail.com</a></li>
                     </ul>
                 </div>
                 <div class="social-links">
                     <ul class="clearfix">
                         <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
-                        <li><a href="https://www.facebook.com/Unitedinoneglobal" target="_blank" rel="noopener"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
                         <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
-                        <li><a href="https://www.instagram.com/Unitedinoneglobal" target="_blank" rel="noopener"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
                         <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
                     </ul>
                 </div>
@@ -303,107 +276,93 @@
         
         <!-- main-footer -->
         <footer class="main__footer p_relative">
-        <div class="main__footer__top"
-     style="background:
-     linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-     url('assets/images/sitepics/image10.webp');
-     background-size: cover;
-     background-position: center;
-     background-repeat: no-repeat;">
-            <div class="footer__middle p_relative d_block">
-                <div class="auto_container">
-                    <div class="footer__middle__content">
-                        <div class="row clearfix">
-                            <div class="col-lg-4 col-md-6 col-sm-12 footer_column">
-                                <div class="footer_widget left">
-                                    <div class="footer__logo">
-                                        <figure>
-                                            <img src="assets/images/logo-svg.svg" alt="United In One">
-                                        </figure>
+            <div class="main__footer__top" style="background-image: url(assets/images/shape/shape-01.png);">
+                <div class="footer__middle  p_relative d_block">
+                    <div class="auto_container">
+                        <div class="footer__middle__content">
+                            <div class="row clearfix">
+                                <div class="col-lg-4 col-md-6 col-sm-12 footer_column">
+                                    <div class="footer_widget left">
+                                        <div class="footer__logo">
+                                            <figure>
+                                                <img src="assets/images/footer-logo-removebg.png" alt="">
+                                            </figure>
+                                        </div>
+                                        <div class="widget_content">
+                                            <p>
+                                                Lorem ipsum dolor rtame consect
+                                                pisicing sed do eiusmod tempor
+                                                incididunt ut labore.
+                                            </p>
+                                        </div>  
+                                        <div class="widget_media">
+                                            <ul>
+                                                <li><a href="#0"> <i class="flaticon-facebook-app-symbol"></i></a></li>
+                                                <li><a href="#0"><i class="flaticon-twitter"></i></a></li>
+                                                <li><a href="#0"><i class="flaticon-linkedin"></i></a></li>
+                                                <li><a href="#0"><i class="flaticon-pinterest"></i></a></li>
+                                            </ul>
+                                        </div>    
                                     </div>
-                                    <div class="widget_content">
-                                        <p>
-                                            United in One Global Foundation is a 501(c)(3) nonprofit organization that empowers underserved communities in Africa through education, healthcare, and water initiatives.
-                                        </p>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-sm-12 footer_column">
+                                    <div class="footer_widget links_widget ml_100">
+                                        <div class="widget_title">
+                                            <h4>Services</h4>
+                                        </div>
+                                        <div class="widget_content">
+                                            <ul class="links_list clearfix">
+                                                <li><a href="about-us.html">About Us</a></li>
+                                                <li><a href="projects.html">Causes</a></li>
+                                                <li><a href="team.html">Our Team</a></li>
+                                                <li><a href="events-details.html">opportunities</a></li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <div class="widget_media">
-                                        <ul>
-                                            <li><a href="https://www.facebook.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="flaticon-facebook-app-symbol"></i></a></li>
-                                            <li><a href="#"><i class="flaticon-twitter"></i></a></li>
-                                            <li><a href="https://www.instagram.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
-                                        </ul>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 footer_column">
+                                    <div class="footer_widget links_widget">
+                                        <div class="widget_title">
+                                            <h4>Fundraising</h4>
+                                        </div>
+                                        <div class="widget_content">
+                                            <ul class="links_list clearfix">
+                                                <li><a href="events.html">Education</a></li>
+                                                <li><a href="projects.html">Food Donation</a></li>
+                                                <li><a href="team.html">Medical Help</a></li>
+                                                <li><a href="events-carousel.html">Technology</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 footer_column">
+                                    <div class="footer_widget links_widget">
+                                        <div class="widget_title">
+                                            <h4>Contact</h4>
+                                        </div>
+                                        <div class="widget_content">
+                                            <ul class="links_list right">
+                                                <li>4140 Parker Rd. Allentown, New Mexico</li>
+                                                <li><a href="mailto:jennings@example.com"><i class="flaticon-email"></i> jennings@example.com</a></li>
+                                                <li><a href="tel:081243256"><i class="flaticon-phone-call"></i>(208) 555-0112</a></li>
+                                                <li><div class="header-link-btn footer-donate"><a href="donate.html" target="_blank" class="btn-1 btn-alt">Donate Now <span></span></a></div></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="col-lg-2 col-md-6 col-sm-12 footer_column">
-                                <div class="footer_widget links_widget ml_100">
-                                    <div class="widget_title">
-                                        <h4>Explore</h4>
-                                    </div>
-                                    <div class="widget_content">
-                                        <ul class="links_list clearfix">
-                                            <li><a href="about-us.html">About Us</a></li>
-                                            <li><a href="projects.html">Projects</a></li>
-                                            <li><a href="opportunities.html">Opportunities</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-sm-12 footer_column">
-                                <div class="footer_widget links_widget">
-                                    <div class="widget_title">
-                                        <h4>Programs</h4>
-                                    </div>
-                                    <div class="widget_content">
-                                        <ul class="links_list clearfix">
-                                            <li><a href="global-classroom-project.html">Global Classroom</a></li>
-                                            <li><a href="healthy-futures-project.html">Healthy Futures</a></li>
-                                            <li><a href="clean-water-project.html">Clean Water</a></li>
-                                            <li><a href="grants-for-good-program.html">Grants for Good</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-sm-12 footer_column">
-                                <div class="footer_widget links_widget">
-                                    <div class="widget_title">
-                                        <h4>Contact</h4>
-                                    </div>
-                                    <div class="widget_content">
-                                        <ul class="links_list right">
-                                            <li>Serving communities globally</li>
-                                            <li><a href="mailto:info@unitedinone.org"><i class="flaticon-email"></i> info@unitedinone.org</a></li>
-                                            <li><a href="tel:+13055490857"><i class="flaticon-phone-call"></i> +1 (305) 549-0857 (WhatsApp)</a></li>
-                                            <li>
-                                                <div class="header-link-btn footer-donate">
-                                                    <a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate Now <span></span></a>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="footer_bottom p_relative">
-            <div class="auto_container">
-                <div class="bottom_inner p_relative">
-                    <div class="copyright">
-                        <p>United In One Global Foundation © 2026. All Rights Reserved.</p>
+            <div class="footer_bottom p_relative">
+                <div class="auto_container">
+                    <div class="bottom_inner  p_relative">
+                        <div class="copyright"><p> SaveUs © 2023. All Rights Reserved.</p></div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
         <!-- main-footer end -->
 
 
@@ -437,6 +396,5 @@
     <!-- main-js -->
     <script src="assets/js/script.js"></script>
 
-<a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="floating-donate">&#10084; Donate</a>
 </body><!-- End of .page_wrapper -->
 </html>

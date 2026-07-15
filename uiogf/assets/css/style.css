@@ -82,8 +82,8 @@
   background-repeat: no-repeat;
 }
 .main-header .logo-box .logo img{
-  width: 168px;
-  height: 67px;
+  width: 200px;
+  height: auto;
 }
 header.main-header.style-three .logo-box .logo img{
   width: 168px;

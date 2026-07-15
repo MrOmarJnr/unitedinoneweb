@@ -5,33 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Clean Water Wells &amp; Filters for Communities in Nigeria | Clean Water Project | United In One</title>
-    <meta data-seo="uiogf" name="description" content="The Clean Water Project brings safe drinking water, wells, and filters to communities in Nigeria. Help us build a sustainable water system, donate today.">
-    <link rel="canonical" href="https://unitedinone.org/clean-water-project.html">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="United in One Global Foundation">
-    <meta property="og:title" content="Clean Water Wells &amp; Filters for Communities in Nigeria | Clean Water Project | United In One">
-    <meta property="og:description" content="The Clean Water Project brings safe drinking water, wells, and filters to communities in Nigeria. Help us build a sustainable water system, donate today.">
-    <meta property="og:url" content="https://unitedinone.org/clean-water-project.html">
-    <meta property="og:image" content="https://unitedinone.org/assets/images/sitepics/image1.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Clean Water Wells &amp; Filters for Communities in Nigeria | Clean Water Project | United In One">
-    <meta name="twitter:description" content="The Clean Water Project brings safe drinking water, wells, and filters to communities in Nigeria. Help us build a sustainable water system, donate today.">
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "NGO",
-  "name": "United in One Global Foundation",
-  "alternateName": "UIOGF",
-  "url": "https://unitedinone.org",
-  "logo": "https://unitedinone.org/assets/images/logo-svg.svg",
-  "description": "A 501(c)(3) nonprofit providing education supplies, clean water, and wellness resources to underserved communities in Africa.",
-  "areaServed": ["Kenya", "Nigeria", "Burundi", "Ghana", "Madagascar"],
-  "foundingDate": "2023",
-  "sameAs": ["https://www.facebook.com/Unitedinoneglobal", "https://www.instagram.com/Unitedinoneglobal"],
-  "contactPoint": { "@type": "ContactPoint", "telephone": "+1-305-549-0857", "email": "info@unitedinone.org", "contactType": "customer service" }
-}
-</script>
+    <title>Clean Water Project | United In One Global Foundation</title>
 
       <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
@@ -59,9 +33,6 @@
     <link href="assets/css/responsive.css" rel="stylesheet">
 
   
-  <link rel="stylesheet" href="assets/css/mobile-fixes.css">
-  <link rel="stylesheet" href="assets/css/donations.css">
-  <link rel="stylesheet" href="assets/css/site-updates.css">
 </head>
 
 <body>
@@ -73,7 +44,7 @@
             <div id="handle-preloader" class="handle-preloader home-1">
                 <div class="loading">
                     <span></span><span></span><span></span>
-                    <img src="assets/images/logo-removebg.png" alt="United In One Global Foundation" class="preloader-logo">
+                    <h2>UIOGF</h2>
                 </div>
             </div>
         </div>
@@ -115,9 +86,9 @@
                                                 <li><a href="grants-for-good-program.html">Grants for Good Program</a></li>
                                             </ul>
                                         </li>
-                                         <li><a href="about-us.html#team">Team</a></li>
+                                         <li><a href="team.html">Team</a></li>
 
-                                    
+                                        <li><a href="gallery.html">Gallery</a></li>
                                    <li><a href="partner-with-us.html">Partnership</a></li>
                                         <li><a href="contact-us.html">Contact</a></li>
                                     </ul>
@@ -127,7 +98,7 @@
 
                         <div class="header__right">
                             <div class="header-link-btn">
-                                <a href="https://collect.crowded.me/collection/cfe02bb2-ad72-4777-b147-7d1e106fc707" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate Now <span></span></a>
+                                <a href="donate.html" class="btn-1 btn-alt">Donate Now <span></span></a>
                             </div>
                         </div>
 
@@ -140,19 +111,11 @@
             <div class="auto_container">
                 <div class="outer-box">
                     <div class="logo-box">
-                        <figure class="logo"><a href="index.html"><img src="assets/images/logo-removebg.png" alt="United In One Global Foundation logo"></a></figure>
+                        <figure class="logo"><a href="index.html"><img src="assets/images/logo-removebg.png" alt=""></a></figure>
                     </div>
                     <div class="menu-area">
                         <nav class="main-menu clearfix"></nav>
                     </div>
-
-                     <div class="header__right">
-                            <div class="header__right__button">
-                                <div class="header-link-btn">
-                                    <a href="https://collect.crowded.me/collection/cfe02bb2-ad72-4777-b147-7d1e106fc707" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate Now <span></span></a>
-                                </div>
-                            </div>
-                        </div>
                 </div>
             </div>
         </div>
@@ -168,8 +131,8 @@
                 <h4>Contact Info</h4>
                 <ul>
                     <li>Serving communities globally</li>
-                    <li><a href="tel:+13055490857">+1 (‪305) 549-0857‬</a></li>
-                    <li><a href="mailto:info@unitedinone.org">info@unitedinone.org</a></li>
+                    <li><a href="tel:+12085550112">+1 (‪305) 549-0857‬</a></li>
+                    <li><a href="mailto:kwekuappiahjnr8@gmail.com">kwekuappiahjnr8@gmail.com</a></li>
                 </ul>
             </div>
         </nav>
@@ -186,46 +149,11 @@
                     The Clean Water Project helps underserved communities access safer water,
                     improve health, and reduce the daily burden of searching for water.
                 </p>
-                <a href="https://collect.crowded.me/collection/cfe02bb2-ad72-4777-b147-7d1e106fc707" target="_blank" rel="noopener" class="btn-1 btn-alt">Support Clean Water <span></span></a>
+                <a href="donate.html" class="btn-1 btn-alt">Support Clean Water <span></span></a>
                 <a href="contact-us.html" class="hero-outline">Partner With Us</a>
             </div>
         </div>
     </section>
-
-    <!-- ===== Donation section (added per client feedback) ===== -->
-    <section class="donate-block">
-      <div class="container">
-        <div class="donate-grid">
-          <div class="donate-copy">
-            <span class="donate-eyebrow">Support This Project</span>
-            <h2>Bring Clean Water to a Community</h2>
-        <p>In Nigeria, 1 in 5 people don&rsquo;t have clean water. Families spend hours every day walking to collect it &mdash; hours stolen from school, work, and life. One well changes all of that for an entire community.</p>
-            <p><strong>Here&rsquo;s what your gift provides:</strong></p>
-            <ul class="give-list">
-          <li><b>$25</b><span>provides 1 person with safe water purification supplies for a month</span></li>
-          <li><b>$50</b><span>a family stops guessing if their water is safe and starts knowing</span></li>
-          <li><b>$100</b><span>funds a household water filter for up to 10 community members</span></li>
-          <li><b>$1,000</b><span>major contribution toward a community borehole serving 300+ people</span></li>
-            </ul>
-            <div class="donate-note">We&rsquo;re raising $10,000 to build our first sustainable water system in Niger State, Nigeria &mdash; complete with water testing and hygiene education for the community.</div>
-            <p>Give with confidence. Every dollar donated to the Clean Water Project goes directly to this program. No detours. No exceptions.</p>
-            <p>&#128257; A recurring gift moves us closer every single month. Just 10 people giving $100/month fully funds a community borehole in one year. Could you be one of them?</p>
-            <p class="donate-zelle">&#128184; Prefer to Zelle? Send to <a href="mailto:info@unitedinone.org">info@unitedinone.org</a>. Note &ldquo;Clean Water Project&rdquo; in the memo.</p>
-          </div>
-          <div class="donate-action">
-            <h3>Donate Now</h3>
-            <p class="sub">Give securely in seconds</p>
-            <script async src="https://pub-31ca444963614d778b3c2a95e3d4b757.r2.dev/crowded-collect.min.js"></script>
-            <div id="collect-form" collect-id="cfe02bb2-ad72-4777-b147-7d1e106fc707" button-text="Donate" button-color="#C4D01B" button-text-color="#ffffff"></div>
-            <div class="qr-wrap">
-              <img loading="lazy" src="assets/images/qr/qr-clean-water.png" alt="QR code to donate to the Clean Water Project">
-              <p>Scan to donate from your phone</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
 
     <section class="section-padding">
         <div class="container">
@@ -240,33 +168,20 @@
                         <p>
                         At United in One Global Foundation, we’re committed to turning this around by bringing clean, safe drinking water to rural communities. Together, we can create a future where no one has to make the impossible choice between thirst and health.
                         </p>
-                        <a href="https://collect.crowded.me/collection/cfe02bb2-ad72-4777-b147-7d1e106fc707" target="_blank" rel="noopener" class="btn-1">Donate Now <span></span></a>
+                        <a href="donate.html" class="btn-1">Donate Now <span></span></a>
                     </div>
                 </div>
 
                 <div class="col-xl-6 col-lg-6">
                     <div class="water-img wow fadeInRight">
-                        <img loading="lazy" src="assets/images/sitepics/image14.webp" alt="Clean water access">
+                        <img src="assets/images/sitepics/image14.webp" alt="Clean water access">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    
-    <!-- Metric row (project consistency) -->
-    <section class="section-padding metric-band" style="padding-top:0;">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-6"><div class="metric-item"><h3>1 in 5</h3><p>people in Nigeria lack clean water</p></div></div>
-          <div class="col-md-3 col-6"><div class="metric-item"><h3>$10,000</h3><p>goal for our first water system in Niger State</p></div></div>
-          <div class="col-md-3 col-6"><div class="metric-item"><h3>300+</h3><p>people served by one community borehole</p></div></div>
-          <div class="col-md-3 col-6"><div class="metric-item"><h3>10</h3><p>people supported by one household filter</p></div></div>
-        </div>
-      </div>
-    </section>
-
-<section class="soft-water section-padding">
+    <section class="soft-water section-padding">
         <div class="container">
             <div class="section-title-center">
                 <span>How We Help</span>
@@ -315,39 +230,19 @@
             </div>
 
             <div class="gallery-water">
-                <img loading="lazy" src="assets/images/sitepics/image29.webp" alt="Water project">
-                <img loading="lazy" src="assets/images/sitepics/image30.webp" alt="Community water">
-                <img loading="lazy" src="assets/images/sitepics/image31.webp" alt="Community support">
+                <img src="assets/images/sitepics/image29.webp" alt="Water project">
+                <img src="assets/images/sitepics/image30.webp" alt="Community water">
+                <img src="assets/images/sitepics/image31.webp" alt="Community support">
             </div>
         </div>
     </section>
 
-    
-    <!-- How We Work (project consistency) -->
-    <section class="section-padding">
-      <div class="container">
-        <div class="section-title-center">
-          <span>How We Work</span>
-          <h2>From need to lasting clean water.</h2>
-        </div>
-        <div class="row">
-          <div class="col-xl-3 col-lg-6 mb-4"><div class="hww-step"><div class="hww-num">01</div><h3>Listen First</h3><p>We work with local leaders to understand each community&rsquo;s water needs before anything is built.</p></div></div>
-          <div class="col-xl-3 col-lg-6 mb-4"><div class="hww-step"><div class="hww-num">02</div><h3>Build &amp; Test</h3><p>We fund and construct wells, boreholes, and filters, then test the water to make sure it is safe to drink.</p></div></div>
-          <div class="col-xl-3 col-lg-6 mb-4"><div class="hww-step"><div class="hww-num">03</div><h3>Educate</h3><p>We deliver hygiene and water-safety education so the benefits reach every household and last.</p></div></div>
-          <div class="col-xl-3 col-lg-6 mb-4"><div class="hww-step"><div class="hww-num">04</div><h3>Hand Over</h3><p>Every project is community-owned and maintained, so clean water keeps flowing for years to come.</p></div></div>
-        </div>
-        <div style="text-align:center; margin-top:20px;">
-          <a href="https://collect.crowded.me/collection/cfe02bb2-ad72-4777-b147-7d1e106fc707" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate to Clean Water <span></span></a>
-        </div>
-      </div>
-    </section>
-
-<section class="dark-water section-padding">
+    <section class="dark-water section-padding">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6">
                     <div class="water-img wow fadeInLeft">
-                        <img loading="lazy" src="assets/images/sitepics/image19.webp" alt="Children near water project">
+                        <img src="assets/images/sitepics/image19.webp" alt="Children near water project">
                     </div>
                 </div>
 
@@ -371,7 +266,7 @@ If you’re part of an organization or business looking to make a big impact, jo
 Spread the Word
 Share this cause with your friends, family, and network. Awareness is the first step toward actio
                         </p>
-                        <a href="https://collect.crowded.me/collection/cfe02bb2-ad72-4777-b147-7d1e106fc707" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate to Clean Water <span></span></a>
+                        <a href="donate.html" class="btn-1 btn-alt">Donate to Clean Water <span></span></a>
                     </div>
                 </div>
             </div>
@@ -401,14 +296,15 @@ Share this cause with your friends, family, and network. Awareness is the first 
                                     </div>
                                     <div class="widget_content">
                                         <p>
-                                            United in One Global Foundation is a 501(c)(3) nonprofit organization that empowers underserved communities in Africa through education, healthcare, and water initiatives.
+                                            A global foundation dedicated to education, health, and
+                                             water access — building unity and lasting change, one community at a time.
                                         </p>
                                     </div>
                                     <div class="widget_media">
                                         <ul>
-                                            <li><a href="https://www.facebook.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="flaticon-facebook-app-symbol"></i></a></li>
+                                            <li><a href="#"><i class="flaticon-facebook-app-symbol"></i></a></li>
                                             <li><a href="#"><i class="flaticon-twitter"></i></a></li>
-                                            <li><a href="https://www.instagram.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="#"><i class="flaticon-linkedin"></i></a></li>
                                             <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
                                         </ul>
                                     </div>
@@ -424,7 +320,8 @@ Share this cause with your friends, family, and network. Awareness is the first 
                                         <ul class="links_list clearfix">
                                             <li><a href="about-us.html">About Us</a></li>
                                             <li><a href="projects.html">Projects</a></li>
-                                            <li><a href="opportunities.html">Opportunities</a></li>
+                                            <li><a href="team.html">Our Team</a></li>
+                                            <li><a href="opportunities.html">opportunities</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -437,10 +334,10 @@ Share this cause with your friends, family, and network. Awareness is the first 
                                     </div>
                                     <div class="widget_content">
                                         <ul class="links_list clearfix">
-                                            <li><a href="global-classroom-project.html">Global Classroom</a></li>
-                                            <li><a href="healthy-futures-project.html">Healthy Futures</a></li>
-                                            <li><a href="clean-water-project.html">Clean Water</a></li>
-                                            <li><a href="grants-for-good-program.html">Grants for Good</a></li>
+                                            <li><a href="projects.html">Global Classroom</a></li>
+                                            <li><a href="projects.html">Healthy Futures</a></li>
+                                            <li><a href="projects.html">Clean Water</a></li>
+                                            <li><a href="projects.html">Community Support</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -454,11 +351,11 @@ Share this cause with your friends, family, and network. Awareness is the first 
                                     <div class="widget_content">
                                         <ul class="links_list right">
                                             <li>Serving communities globally</li>
-                                            <li><a href="mailto:info@unitedinone.org"><i class="flaticon-email"></i> info@unitedinone.org</a></li>
-                                            <li><a href="tel:+13055490857"><i class="flaticon-phone-call"></i> +1 (305) 549-0857 (WhatsApp)</a></li>
+                                            <li><a href="mailto:kwekuappiahjnr8@gmail.com"><i class="flaticon-email"></i> kwekuappiahjnr8@gmail.com</a></li>
+                                            <li><a href="tel:+12085550112"><i class="flaticon-phone-call"></i> +1 (305) 549-0857</a></li>
                                             <li>
                                                 <div class="header-link-btn footer-donate">
-                                                    <a href="https://collect.crowded.me/collection/cfe02bb2-ad72-4777-b147-7d1e106fc707" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate Now <span></span></a>
+                                                    <a href="donate.html" class="btn-1 btn-alt">Donate Now <span></span></a>
                                                 </div>
                                             </li>
                                         </ul>
@@ -507,6 +404,5 @@ Share this cause with your friends, family, and network. Awareness is the first 
 <script src="assets/js/jquery.paroller.min.js"></script>
 <script src="assets/js/script.js"></script>
 
-<a href="https://collect.crowded.me/collection/cfe02bb2-ad72-4777-b147-7d1e106fc707" target="_blank" rel="noopener" class="floating-donate">&#10084; Donate</a>
 </body>
 </html>

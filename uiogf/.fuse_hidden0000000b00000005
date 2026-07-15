@@ -6,32 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Contact Us | United In One Global Foundation</title>
-    <meta data-seo="uiogf" name="description" content="Contact United in One Global Foundation about partnerships, donations, volunteering, or our programs. We respond within two business days.">
-    <link rel="canonical" href="https://unitedinone.org/contact-us.html">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="United in One Global Foundation">
-    <meta property="og:title" content="Contact Us | United In One Global Foundation">
-    <meta property="og:description" content="Contact United in One Global Foundation about partnerships, donations, volunteering, or our programs. We respond within two business days.">
-    <meta property="og:url" content="https://unitedinone.org/contact-us.html">
-    <meta property="og:image" content="https://unitedinone.org/assets/images/sitepics/image1.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Contact Us | United In One Global Foundation">
-    <meta name="twitter:description" content="Contact United in One Global Foundation about partnerships, donations, volunteering, or our programs. We respond within two business days.">
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "NGO",
-  "name": "United in One Global Foundation",
-  "alternateName": "UIOGF",
-  "url": "https://unitedinone.org",
-  "logo": "https://unitedinone.org/assets/images/logo-svg.svg",
-  "description": "A 501(c)(3) nonprofit providing education supplies, clean water, and wellness resources to underserved communities in Africa.",
-  "areaServed": ["Kenya", "Nigeria", "Burundi", "Ghana", "Madagascar"],
-  "foundingDate": "2023",
-  "sameAs": ["https://www.facebook.com/Unitedinoneglobal", "https://www.instagram.com/Unitedinoneglobal"],
-  "contactPoint": { "@type": "ContactPoint", "telephone": "+1-305-549-0857", "email": "info@unitedinone.org", "contactType": "customer service" }
-}
-</script>
 
       <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
@@ -59,8 +33,6 @@
     <link href="assets/css/responsive.css" rel="stylesheet">
 
    
-  <link rel="stylesheet" href="assets/css/mobile-fixes.css">
-  <link rel="stylesheet" href="assets/css/site-updates.css">
 </head>
 
 <body>
@@ -72,7 +44,7 @@
             <div id="handle-preloader" class="handle-preloader home-1">
                 <div class="loading">
                     <span></span><span></span><span></span>
-                    <img src="assets/images/logo-removebg.png" alt="United In One Global Foundation" class="preloader-logo">
+                    <h2>UIOGF</h2>
                 </div>
             </div>
         </div>
@@ -111,8 +83,8 @@
                                                 <li><a href="grants-for-good-program.html">Grants for Good Program</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="about-us.html#team">Team</a></li>
-                                    
+                                        <li><a href="team.html">Team</a></li>
+                                        <li><a href="gallery.html">Gallery</a></li>
                                    <li><a href="partner-with-us.html">Partnership</a></li>
                                         <li><a href="contact-us.html" class="active">Contact</a></li>
                                     </ul>
@@ -122,7 +94,7 @@
 
                         <div class="header__right">
                             <div class="header-link-btn">
-                                <a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate Now <span></span></a>
+                                <a href="donate.html" class="btn-1 btn-alt">Donate Now <span></span></a>
                             </div>
                         </div>
 
@@ -135,18 +107,11 @@
             <div class="auto_container">
                 <div class="outer-box">
                     <div class="logo-box">
-                        <figure class="logo"><a href="index.html"><img src="assets/images/logo-removebg.png" alt="United In One Global Foundation logo"></a></figure>
+                        <figure class="logo"><a href="index.html"><img src="assets/images/logo-removebg.png" alt=""></a></figure>
                     </div>
                     <div class="menu-area">
                         <nav class="main-menu clearfix"></nav>
                     </div>
-                     <div class="header__right">
-                            <div class="header__right__button">
-                                <div class="header-link-btn">
-                                    <a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate Now <span></span></a>
-                                </div>
-                            </div>
-                        </div>
                 </div>
             </div>
         </div>
@@ -163,7 +128,7 @@
                 <ul>
                     <li>7901 4th N, St. Petersburg, FL 33702</li>
                     <li><a href="tel:+13055490857">+1 (305) 549-0857</a></li>
-                    <li><a href="mailto:info@unitedinone.org">info@unitedinone.org</a></li>
+                    <li><a href="mailto:kwekuappiahjnr8@gmail.com">kwekuappiahjnr8@gmail.com</a></li>
                 </ul>
             </div>
         </nav>
@@ -175,7 +140,7 @@
         <div class="container">
             <div class="hero-content wow fadeInUp">
                 <div class="hero-eyebrow">Contact Us</div>
-                <h1 style="color:#ffffff;">Let’s start a <em style="color:#D4933A;">conversation.</em></h1>
+                <h1>Let’s start a <em>conversation.</em></h1>
                 <p>
                     Whether you want to partner with us, support a project, volunteer, donate,
                     or simply learn more, our team would love to hear from you.
@@ -193,7 +158,7 @@
                 <h2>We are here to help.</h2>
                 <p style="margin-left:auto; margin-right:auto; max-width:760px;">
                     Use the contact details below or send us a message through the form.
-                    We will get back to you within two business days.
+                    We will get back to you as soon as possible.
                 </p>
             </div>
 
@@ -202,7 +167,7 @@
                     <div class="contact-card wow fadeInUp">
                         <i class="fas fa-envelope"></i>
                         <h3>Email</h3>
-                        <a href="mailto:info@unitedinone.org">info@unitedinone.org</a>
+                        <a href="mailto:kwekuappiahjnr8@gmail.com">kwekuappiahjnr8@gmail.com</a>
                     </div>
                 </div>
 
@@ -210,7 +175,7 @@
                     <div class="contact-card wow fadeInUp" data-wow-delay="150ms">
                         <i class="fas fa-phone"></i>
                         <h3>Phone</h3>
-                        <a href="tel:+13055490857">+1 (305) 549-0857 (WhatsApp)</a>
+                        <a href="tel:+13055490857">+1 (305) 549-0857</a>
                     </div>
                 </div>
 
@@ -241,7 +206,7 @@
                         <span>Send a Message</span>
                         <h2>Tell us how we can help.</h2>
                         <p>
-                            Fill out the form and our team will respond to your inquiry.
+                            Fill out the form and our team will respond to your enquiry.
                             You can ask about donations, partnerships, volunteering, projects, or media requests.
                         </p>
                     </div>
@@ -249,7 +214,7 @@
                     <div class="faq-mini wow fadeInLeft" data-wow-delay="150ms">
                         <h4>Common reasons people contact us</h4>
                         <ul>
-                            <li>Partnership inquiries</li>
+                            <li>Partnership enquiries</li>
                             <li>Donation and project support</li>
                             <li>Volunteer opportunities</li>
                             <li>Media or community collaboration</li>
@@ -259,10 +224,7 @@
 
                 <div class="col-xl-7 col-lg-7">
                     <div class="contact-form-card wow fadeInRight">
-                        <form action="https://formsubmit.co/info@unitedinone.org" method="POST">
-                            <input type="hidden" name="_subject" value="New contact message from unitedinone.org">
-                            <input type="hidden" name="_captcha" value="false">
-                            <input type="hidden" name="_template" value="table">
+                        <form action="#" method="post">
                             <div class="row">
                                 <div class="col-md-6">
                                     <input type="text" name="first_name" placeholder="First Name" required>
@@ -282,8 +244,8 @@
                                 <div class="col-md-6">
                                     <select name="subject" required>
                                         <option value="">Subject</option>
-                                        <option>Donation Inquiry</option>
-                                        <option>Partnership Inquiry</option>
+                                        <option>Donation Enquiry</option>
+                                        <option>Partnership Enquiry</option>
                                         <option>Volunteer Opportunity</option>
                                         <option>Project Information</option>
                                         <option>General Question</option>
@@ -309,7 +271,7 @@
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6">
                     <div class="image-panel wow fadeInLeft">
-                        <img loading="lazy" src="assets/images/sitepics/image36.webp" alt="United In One community outreach">
+                        <img src="assets/images/sitepics/image36.webp" alt="United In One community outreach">
                     </div>
                 </div>
 
@@ -334,71 +296,33 @@
 
 
 
-
-    <!-- Frequently Asked Questions (from original site, per client feedback) -->
-    <section class="section-padding faq-section-contact">
+    <section class="social-section section-padding">
         <div class="container">
-            <div class="section-title text-center mb-5">
-                <span>Good to Know</span>
-                <h2>Frequently Asked Questions</h2>
-                <p style="margin-left:auto; margin-right:auto; max-width:760px;">
-                    Before contacting us, you might find the answer here — about our mission,
-                    the donation process, or volunteering opportunities.
+            <div class="section-title text-center">
+                <span>Stay Connected</span>
+                <h2>Follow our journey.</h2>
+                <p style="max-width:760px; margin-left:auto; margin-right:auto;">
+                    Follow us for project stories, volunteer updates, partnership opportunities,
+                    and real moments from the communities we serve.
                 </p>
             </div>
-            <div class="faq-accordion">
-                    <details class="faq-item">
-                        <summary>What is your mission?</summary>
-                        <div class="faq-answer"><p>Our mission is to empower underserved communities by addressing their most urgent needs, fostering long-term sustainability, and helping create opportunities for a better future.</p></div>
-                    </details>
-                    <details class="faq-item">
-                        <summary>How do you choose the communities you serve?</summary>
-                        <div class="faq-answer"><p>We carefully assess areas where the need is greatest, often partnering with local leaders and organizations to identify underserved communities that can benefit the most from our efforts.</p></div>
-                    </details>
-                    <details class="faq-item">
-                        <summary>What is included in the hygiene and first aid kits?</summary>
-                        <div class="faq-answer"><p>Our kits include necessities like soap, toothpaste, toothbrushes, sanitary pads, bandages, antiseptics, and other basic but critical supplies that many people in these communities cannot access easily.</p></div>
-                    </details>
-                    <details class="faq-item">
-                        <summary>How do clean water wells improve lives?</summary>
-                        <div class="faq-answer"><p>By providing access to clean water, we help reduce waterborne illnesses, improve sanitation, and free up time for education and employment, especially for women and children who would otherwise spend hours collecting water.</p></div>
-                    </details>
-                    <details class="faq-item">
-                        <summary>How can I donate to United in One Global Foundation?</summary>
-                        <div class="faq-answer"><p>You can donate directly through our website. We accept one-time contributions, recurring donations, and other forms of support. Every dollar helps us extend our impact!</p></div>
-                    </details>
-                    <details class="faq-item">
-                        <summary>Is my donation tax-deductible?</summary>
-                        <div class="faq-answer"><p>Yes. As a 501(c)(3) organization, all donations to United in One Global Foundation are tax-deductible to the fullest extent allowed by law.</p></div>
-                    </details>
-                    <details class="faq-item">
-                        <summary>How is my donation used?</summary>
-                        <div class="faq-answer"><p>Your contribution goes directly toward supporting our programs, including building schools, drilling wells, and providing hygiene and first aid kits.</p></div>
-                    </details>
-                    <details class="faq-item">
-                        <summary>Can I volunteer with United in One Global Foundation?</summary>
-                        <div class="faq-answer"><p>Yes! We’re always looking for passionate individuals to join us in making an impact. Opportunities range from helping with fundraising, organizing supplies, and participating in certain on-the-ground projects.</p></div>
-                    </details>
-                    <details class="faq-item">
-                        <summary>Are you affiliated with any political or religious organizations?</summary>
-                        <div class="faq-answer"><p>No. United in One Global Foundation is independent and nonpartisan. Our work is driven by a commitment to support underserved communities, regardless of their political or religious affiliations, in a manner that aligns with international laws and humanitarian principles.</p></div>
-                    </details>
-                    <details class="faq-item">
-                        <summary>How can I keep track of the progress of your projects?</summary>
-                        <div class="faq-answer"><p>We believe in transparency. You can stay updated through our social media, where we regularly post updates, photos, and impact stories, as well as our email newsletter.</p></div>
-                    </details>
+
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
     </section>
-
 
     <section class="cta-contact" style="background:
     linear-gradient(rgba(0,0,0,0.7), rgba(0 ,0,0,0.7)),
     url('assets/images/sitepics/image14.webp');" >
         <div class="container">
-            <h2 style="color:#fff; font-size:26px; line-height:1.45; max-width:900px; margin:0 auto 22px;">At United in One, we’re building a brighter future, one project at a time. Whether you’re donating, volunteering <em>or spreading our message, you’re making a world of difference.</em></h2>
+            <h2 style="color: #fff; ">At United in One, we’re building a brighter future, one project at a time. Whether you’re donating, volunteering <em>or spreading our message, you’re making a world of difference. .</em></h2>
           
-            <a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate Now <span></span></a>
+            <a href="donate.html" class="btn-1 btn-alt">Donate Now <span></span></a>
             <a href="partner-with-us.html" class="hero-outline">Partner With Us</a>
         </div>
     </section>
@@ -433,24 +357,6 @@
         </div>
    </section>
 
-        <section class="social-section section-padding">
-        <div class="container">
-            <div class="section-title text-center">
-                <span>Stay Connected</span>
-                <h2>Follow our journey.</h2>
-                <p style="max-width:760px; margin-left:auto; margin-right:auto;">
-                    Follow us for project stories, volunteer updates, partnership opportunities,
-                    and real moments from the communities we serve.
-                </p>
-            </div>
-
-            <div class="social-icons">
-                <a href="https://www.facebook.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
-            </div>
-        </div>
-    </section>
-
     <footer class="main__footer p_relative">
         <div class="main__footer__top"
      style="background:
@@ -472,14 +378,15 @@
                                     </div>
                                     <div class="widget_content">
                                         <p>
-                                            United in One Global Foundation is a 501(c)(3) nonprofit organization that empowers underserved communities in Africa through education, healthcare, and water initiatives.
+                                            A global foundation dedicated to education, health, and
+                                             water access — building unity and lasting change, one community at a time.
                                         </p>
                                     </div>
                                     <div class="widget_media">
                                         <ul>
-                                            <li><a href="https://www.facebook.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="flaticon-facebook-app-symbol"></i></a></li>
+                                            <li><a href="#"><i class="flaticon-facebook-app-symbol"></i></a></li>
                                             <li><a href="#"><i class="flaticon-twitter"></i></a></li>
-                                            <li><a href="https://www.instagram.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="#"><i class="flaticon-linkedin"></i></a></li>
                                             <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
                                         </ul>
                                     </div>
@@ -495,7 +402,8 @@
                                         <ul class="links_list clearfix">
                                             <li><a href="about-us.html">About Us</a></li>
                                             <li><a href="projects.html">Projects</a></li>
-                                            <li><a href="opportunities.html">Opportunities</a></li>
+                                            <li><a href="team.html">Our Team</a></li>
+                                            <li><a href="opportunities.html">opportunities</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -508,10 +416,10 @@
                                     </div>
                                     <div class="widget_content">
                                         <ul class="links_list clearfix">
-                                            <li><a href="global-classroom-project.html">Global Classroom</a></li>
-                                            <li><a href="healthy-futures-project.html">Healthy Futures</a></li>
-                                            <li><a href="clean-water-project.html">Clean Water</a></li>
-                                            <li><a href="grants-for-good-program.html">Grants for Good</a></li>
+                                            <li><a href="projects.html">Global Classroom</a></li>
+                                            <li><a href="projects.html">Healthy Futures</a></li>
+                                            <li><a href="projects.html">Clean Water</a></li>
+                                            <li><a href="projects.html">Community Support</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -525,11 +433,11 @@
                                     <div class="widget_content">
                                         <ul class="links_list right">
                                             <li>Serving communities globally</li>
-                                            <li><a href="mailto:info@unitedinone.org"><i class="flaticon-email"></i> info@unitedinone.org</a></li>
-                                            <li><a href="tel:+13055490857"><i class="flaticon-phone-call"></i> +1 (305) 549-0857 (WhatsApp)</a></li>
+                                            <li><a href="mailto:kwekuappiahjnr8@gmail.com"><i class="flaticon-email"></i> kwekuappiahjnr8@gmail.com</a></li>
+                                            <li><a href="tel:+12085550112"><i class="flaticon-phone-call"></i> +1 (305) 549-0857</a></li>
                                             <li>
                                                 <div class="header-link-btn footer-donate">
-                                                    <a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate Now <span></span></a>
+                                                    <a href="donate.html" class="btn-1 btn-alt">Donate Now <span></span></a>
                                                 </div>
                                             </li>
                                         </ul>
@@ -577,6 +485,6 @@
 <script src="assets/js/parallax-scroll.js"></script>
 <script src="assets/js/jquery.paroller.min.js"></script>
 <script src="assets/js/script.js"></script>
-<a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="floating-donate">&#10084; Donate</a>
+
 </body>
 </html>

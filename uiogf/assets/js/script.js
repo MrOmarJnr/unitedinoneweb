@@ -854,3 +854,17 @@
 	
 
 })(window.jQuery);
+/* Reveal the top mobile Donate button once the user scrolls past the header */
+(function(){
+  function toggleFloatingDonate(){
+    var btn = document.querySelector('.floating-donate');
+    if(!btn) return;
+    if((window.pageYOffset||document.documentElement.scrollTop) >= 110){
+      btn.classList.add('show');
+    } else {
+      btn.classList.remove('show');
+    }
+  }
+  window.addEventListener('scroll', toggleFloatingDonate, {passive:true});
+  document.addEventListener('DOMContentLoaded', toggleFloatingDonate);
+})();

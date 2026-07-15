@@ -5,33 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>United In One | School Supplies &amp; Clean Water for Children in Africa | 501(c)(3)</title>
-    <meta data-seo="uiogf" name="description" content="United in One Global Foundation is a 501(c)(3) nonprofit delivering school supplies, clean water, and wellness resources to underserved children in Kenya, Nigeria, Burundi, Ghana, and Madagascar.">
-    <link rel="canonical" href="https://unitedinone.org/index.html">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="United in One Global Foundation">
-    <meta property="og:title" content="United In One | School Supplies &amp; Clean Water for Children in Africa | 501(c)(3)">
-    <meta property="og:description" content="United in One Global Foundation is a 501(c)(3) nonprofit delivering school supplies, clean water, and wellness resources to underserved children in Kenya, Nigeria, Burundi, Ghana, and Madagascar.">
-    <meta property="og:url" content="https://unitedinone.org/index.html">
-    <meta property="og:image" content="https://unitedinone.org/assets/images/sitepics/image1.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="United In One | School Supplies &amp; Clean Water for Children in Africa | 501(c)(3)">
-    <meta name="twitter:description" content="United in One Global Foundation is a 501(c)(3) nonprofit delivering school supplies, clean water, and wellness resources to underserved children in Kenya, Nigeria, Burundi, Ghana, and Madagascar.">
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "NGO",
-  "name": "United in One Global Foundation",
-  "alternateName": "UIOGF",
-  "url": "https://unitedinone.org",
-  "logo": "https://unitedinone.org/assets/images/logo-svg.svg",
-  "description": "A 501(c)(3) nonprofit providing education supplies, clean water, and wellness resources to underserved communities in Africa.",
-  "areaServed": ["Kenya", "Nigeria", "Burundi", "Ghana", "Madagascar"],
-  "foundingDate": "2023",
-  "sameAs": ["https://www.facebook.com/Unitedinoneglobal", "https://www.instagram.com/Unitedinoneglobal"],
-  "contactPoint": { "@type": "ContactPoint", "telephone": "+1-305-549-0857", "email": "info@unitedinone.org", "contactType": "customer service" }
-}
-</script>
+    <title>United In One Global Foundation</title>
 
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
@@ -61,8 +35,6 @@
     <link href="assets/css/responsive.css" rel="stylesheet">
     <link href="assets/css/home.css" rel="stylesheet">
 
-  <link rel="stylesheet" href="assets/css/mobile-fixes.css">
-  <link rel="stylesheet" href="assets/css/site-updates.css">
 </head>
 
 <body>
@@ -76,7 +48,7 @@
                     <span></span>
                     <span></span>
                     <span></span>
-                    <img src="assets/images/logo-removebg.png" alt="United In One Global Foundation" class="preloader-logo">
+                    <h2>UIOGF</h2>
                 </div>
             </div>
         </div>
@@ -120,8 +92,8 @@
                                             </ul>
                                         </li>
                                     
-                                        <li><a href="about-us.html#team">Team</a></li>
-                                    
+                                        <li><a href="team.html">Team</a></li>
+                                        <li><a href="gallery.html">Gallery</a></li>
                                    <li><a href="partner-with-us.html">Partnership</a></li>
                                         <li><a href="contact-us.html">Contact</a></li>
                                     </ul>
@@ -132,7 +104,7 @@
                         <div class="header__right">
                             <div class="header__right__button">
                                 <div class="header-link-btn">
-                                    <a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate Now <span></span></a>
+                                    <a href="donate.html" class="btn-1 btn-alt">Donate Now <span></span></a>
                                 </div>
                             </div>
                         </div>
@@ -145,18 +117,11 @@
             <div class="auto_container">
                 <div class="outer-box">
                     <div class="logo-box">
-                        <figure class="logo"><a href="index.html"><img src="assets/images/logo-removebg.png" alt="United In One Global Foundation logo"></a></figure>
+                        <figure class="logo"><a href="index.html"><img src="assets/images/logo-removebg.png" alt=""></a></figure>
                     </div>
                     <div class="menu-area">
                         <nav class="main-menu clearfix"></nav>
                     </div>
-                     <div class="header__right">
-                            <div class="header__right__button">
-                                <div class="header-link-btn">
-                                    <a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate Now <span></span></a>
-                                </div>
-                            </div>
-                        </div>
                 </div>
             </div>
         </div>
@@ -174,15 +139,15 @@
                 <h4>Contact Info</h4>
                 <ul>
                     <li>Serving communities globally</li>
-                    <li><a href="tel:+13055490857">+1 (305) 549-0857</a></li>
-                    <li><a href="mailto:info@unitedinone.org">info@unitedinone.org</a></li>
+                    <li><a href="tel:+12085550112">+1 (305) 549-0857</a></li>
+                    <li><a href="mailto:kwekuappiahjnr8@gmail.com">kwekuappiahjnr8@gmail.com</a></li>
                 </ul>
             </div>
             <div class="social-links">
                 <ul class="clearfix">
                     <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                    <li><a href="https://www.facebook.com/Unitedinoneglobal" target="_blank" rel="noopener"><span class="fab fa-facebook-square"></span></a></li>
-                    <li><a href="https://www.instagram.com/Unitedinoneglobal" target="_blank" rel="noopener"><span class="fab fa-instagram"></span></a></li>
+                    <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+                    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
                     <li><a href="#"><span class="fab fa-youtube"></span></a></li>
                 </ul>
             </div>
@@ -199,7 +164,7 @@
                 <h1>Building Hope.<br><em>Changing Lives.</em></h1>
                 <p>We work hand in hand with communities to provide education, health support, clean water, and opportunities for a better tomorrow.</p>
                 <div class="hero-buttons">
-                    <a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="btn-main">Donate Today</a>
+                    <a href="donate.html" class="btn-main">Donate Today</a>
                     <a href="projects.html" class="btn-outline">Explore Projects</a>
                 </div>
             </div>
@@ -215,7 +180,7 @@
                 <p>School supplies restore dignity, confidence, and opportunity for children who deserve the chance to learn.</p>
                 <div class="hero-buttons">
                     <a href="global-classroom-project.html" class="btn-main">Support Education</a>
-                    <a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="btn-outline">Donate</a>
+                    <a href="donate.html" class="btn-outline">Donate</a>
                 </div>
             </div>
         </div>
@@ -230,7 +195,7 @@
                 <p>Every clean water effort creates healthier families, safer communities, and brighter futures.</p>
                 <div class="hero-buttons">
                     <a href="clean-water-project.html" class="btn-main">Learn More</a>
-                    <a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="btn-outline">Help Build Wells</a>
+                    <a href="donate.html" class="btn-outline">Help Build Wells</a>
                 </div>
             </div>
         </div>
@@ -260,39 +225,36 @@
 
 </section>
 
-    <!-- Impact metrics (client feedback) -->
     <section class="impact-band">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-6">
+                <div class="col-xl-3 col-lg-6 col-md-6">
                     <div class="impact-box">
-                        <h2>250+</h2>
-                        <p>Children supported YTD</p>
+                        <h2>3</h2>
+                        <p>Active community projects</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-6">
+                <div class="col-xl-3 col-lg-6 col-md-6">
                     <div class="impact-box">
                         <h2>500+</h2>
-                        <p>Children we aim to reach by 2027</p>
+                        <p>Children supported with supplies</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-6">
+                <div class="col-xl-3 col-lg-6 col-md-6">
                     <div class="impact-box">
-                        <h2>5</h2>
-                        <p>Countries where we work</p>
+                        <h2>12+</h2>
+                        <p>Wellness kits distributed</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-6">
+                <div class="col-xl-3 col-lg-6 col-md-6">
                     <div class="impact-box">
-                        <h2>100%</h2>
-                        <p>Of donations fund programs</p>
+                        <h2>4</h2>
+                        <p>Mission partners involved</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    
 
     <section class="section-padding">
         <div class="container">
@@ -307,83 +269,6 @@
         </div>
     </section>
 
-    <section class="mission section-padding" style="padding-top:0;">
-        <div class="vector-two">
-            <img loading="lazy" src="assets/images/shape/vector-02.png" alt="United in One Global Foundation program in Africa">
-        </div>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-8">
-                    <div class="common-title">
-                        <h5>Our Goals</h5>
-                        <h3>Building stronger communities through practical care.</h3>
-                    </div>
-
-                    <div class="mission-container">
-                        <div class="mission-shape">
-                            <img loading="lazy" src="assets/images/shape/mission-shape.png" alt="shape">
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6">
-                                <a href="global-classroom-project.html" class="mission-contant wow fadeInUp">
-                                    <div class="mission-icon">
-                                        <img loading="lazy" src="assets/images/icons/mission-icon-03.png" alt="icon">
-                                    </div>
-                                    <div class="mossion-info">
-                                        <h5>Education Access</h5>
-                                        <p>Helping children learn with the basic tools they need.</p>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-6 col-md-6">
-                                <a href="healthy-futures-project.html" class="mission-contant wow fadeInDown">
-                                    <div class="mission-icon">
-                                        <img loading="lazy" src="assets/images/icons/mission-icon-02.png" alt="icon">
-                                    </div>
-                                    <div class="mossion-info">
-                                        <h5>Health &amp; Wellness Support</h5>
-                                        <p>Providing wellness supplies and essential care resources.</p>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-6 col-md-6">
-                                <a href="clean-water-project.html" class="mission-contant wow fadeInDown">
-                                    <div class="mission-icon">
-                                        <img loading="lazy" src="assets/images/icons/mission-icon-04.png" alt="icon">
-                                    </div>
-                                    <div class="mossion-info">
-                                        <h5>Clean Water</h5>
-                                        <p>Supporting access to safer water for healthier communities.</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="header-link-btn">
-                        <a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate Now</a>
-                    </div>
-                </div>
-
-                <div class="col-xl-4">
-                    <div class="mission-video-image">
-                        <img loading="lazy" src="assets/images/sitepics/image8.webp" alt="United in One Global Foundation program in Africa">
-                        <div class="missiom-video-btn">
-                            <a href="https://www.youtube.com/watch?v=YXZ4XrFmaVQ" target="_blank" class="hv-popup-link">
-                                <i class="fas fa-play"></i>
-                            </a>
-                        </div>
-                        <div class="mission-video-text">
-                            <h2>Watch Video</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="section-padding" style="padding-top:0;">
         <div class="container">
             <div class="section-title-center">
@@ -392,58 +277,44 @@
             </div>
 
             <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-6 mb-4">
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-4">
                     <div class="program-card wow fadeInUp" data-wow-delay="100ms">
-                        <img loading="lazy" src="assets/images/sitepics/image4.webp" alt="Education support">
+                        <img src="assets/images/sitepics/image4.webp" alt="Education support">
                         <div class="program-content">
                             <span class="program-tag">Education</span>
                             <h3>Global Classroom</h3>
                             <p>
                                 Notebooks, pencils, and confidence — equipping students with the tools to learn and the dignity to dream.
                             </p>
-                            <a href="global-classroom-project.html" class="project-link">Learn more →</a>
+                            <a href="causes-details.html" class="project-link">Learn more →</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-xl-3 col-lg-3 col-md-6 mb-4">
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-4">
                     <div class="program-card wow fadeInUp" data-wow-delay="250ms">
-                        <img loading="lazy" src="assets/images/sitepics/image5.webp" alt="Health support">
+                        <img src="assets/images/sitepics/image5.webp" alt="Health support">
                         <div class="program-content">
                             <span class="program-tag">Health</span>
                             <h3>Healthy Futures</h3>
                             <p>
                              Women's wellness kits and first-aid supplies that meet families where they are — with care and dignity.
                             </p>
-                            <a href="healthy-futures-project.html" class="project-link">Learn more →</a>
+                            <a href="causes-details.html" class="project-link">Learn more →</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-xl-3 col-lg-3 col-md-6 mb-4">
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-4">
                     <div class="program-card wow fadeInUp" data-wow-delay="400ms">
-                        <img loading="lazy" src="assets/images/sitepics/image6.webp" alt="Clean water project">
+                        <img src="assets/images/sitepics/image6.webp" alt="Clean water project">
                         <div class="program-content">
                             <span class="program-tag">Water</span>
                             <h3>Clean Water</h3>
                             <p>
                              Reliable, safe drinking water for communities that walk miles to find it — because the basics shouldn't be optional.
                             </p>
-                            <a href="clean-water-project.html" class="project-link">Learn more →</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-3 col-lg-3 col-md-6 mb-4">
-                    <div class="program-card wow fadeInUp" data-wow-delay="550ms">
-                        <img loading="lazy" src="assets/images/sitepics/image7.webp" alt="Grants for Good">
-                        <div class="program-content">
-                            <span class="program-tag">Grants</span>
-                            <h3>Grants for Good</h3>
-                            <p>
-                             Pooled giving that funds vetted community nonprofits doing real work in education, health, and clean water.
-                            </p>
-                            <a href="grants-for-good-program.html" class="project-link">Learn more →</a>
+                            <a href="causes-details.html" class="project-link">Learn more →</a>
                         </div>
                     </div>
                 </div>
@@ -456,21 +327,21 @@
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6">
                     <div class="story-img wow fadeInLeft">
-                        <img loading="lazy" src="assets/images/sitepics/image7.webp" alt="Community story">
+                        <img src="assets/images/sitepics/image7.webp" alt="Community story">
                     </div>
                 </div>
 
                 <div class="col-xl-6 col-lg-6">
                     <div class="section-title-left wow fadeInRight">
                         <span>Voices from the Field</span>
-                        <h2>Something that arrives just for them tells a child they’re seen.</h2>
+                        <h2>One girl held up a pencil like a trophy and grinned.</h2>
                         <div class="quote-box">
-                            “Children in hard circumstances learn early not to expect much. So when something arrives just for them, it does something deeper than make them smile, it tells them they’re seen. That feeling stays with a child longer than the gift does.”
+                            “Moments like that remind us why this partnership matters because access, dignity, and opportunity start with simple tools in the right hands.”
                         </div>
                         <p>
-                             — Teacher in Kenya
+                             - - Aponte Law PLLC, Mission Partner
                         </p>
-                        <a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="btn-1">Donate to the Foundation Fund <span></span></a>
+                        <a href="about-us.html" class="btn-1">Read Our Story <span></span></a>
                     </div>
                 </div>
             </div>
@@ -481,10 +352,10 @@
         <div class="container">
             <div class="section-title-center">
                 <span>Partner With Us</span>
-                <h2>Every partnership helps us reach further.</h2>
+                <h2>Every partnership is a chance to create something beautiful.</h2>
                 <p>
-                    Whether you give, volunteer, sponsor a program, or support our mission in other ways,
-                    your contribution brings us closer to more families who need it.
+                    Whether you give, volunteer, sponsor a program, or support a mission, your contribution
+                    helps us reach more families.
                 </p>
             </div>
 
@@ -521,13 +392,97 @@
                     </div>
                 </div>
             </div>
-
-            <div class="text-center" style="margin-top: 20px;">
-                <a href="partner-with-us.html" class="btn-1 btn-alt">Become a Partner <span></span></a>
-            </div>
         </div>
     </section>
 
+    <section class="mission section-padding" style="padding-top:0;">
+        <div class="vector-two">
+            <img src="assets/images/shape/vector-02.png" alt="img">
+        </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-8">
+                    <div class="common-title">
+                        <h5>Our Mission & Goals</h5>
+                        <h3>Building stronger communities through practical care.</h3>
+                    </div>
+
+                    <div class="mission-container">
+                        <div class="mission-shape">
+                            <img src="assets/images/shape/mission-shape.png" alt="shape">
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="mission-contant wow fadeInUp">
+                                    <div class="mission-icon">
+                                        <img src="assets/images/icons/mission-icon-01.png" alt="icon">
+                                    </div>
+                                    <div class="mossion-info">
+                                        <h5>Community Care</h5>
+                                        <p>Walking with families and communities with dignity and consistency.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6">
+                                <div class="mission-contant wow fadeInDown">
+                                    <div class="mission-icon">
+                                        <img src="assets/images/icons/mission-icon-02.png" alt="icon">
+                                    </div>
+                                    <div class="mossion-info">
+                                        <h5>Health Support</h5>
+                                        <p>Providing wellness supplies and essential care resources.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6">
+                                <div class="mission-contant wow fadeInDown">
+                                    <div class="mission-icon">
+                                        <img src="assets/images/icons/mission-icon-03.png" alt="icon">
+                                    </div>
+                                    <div class="mossion-info">
+                                        <h5>Education Access</h5>
+                                        <p>Helping children learn with the basic tools they need.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6">
+                                <div class="mission-contant wow fadeInUp">
+                                    <div class="mission-icon">
+                                        <img src="assets/images/icons/mission-icon-04.png" alt="icon">
+                                    </div>
+                                    <div class="mossion-info">
+                                        <h5>Clean Water</h5>
+                                        <p>Supporting access to safer water for healthier communities.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="header-link-btn">
+                        <a href="donate.html" class="btn-1">Donate Now <span></span></a>
+                    </div>
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="mission-video-image">
+                        <img src="assets/images/sitepics/image8.webp" alt="img">
+                        <div class="missiom-video-btn">
+                            <a href="https://www.youtube.com/watch?v=YXZ4XrFmaVQ" target="_blank" class="hv-popup-link">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                        <div class="mission-video-text">
+                            <h2>Watch Video</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="testimonial">
         <div class="container">
@@ -543,12 +498,12 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6">
                         <div class="testimonial-image-container">
-                            <div class="testimonial-image-one"><img loading="lazy" src="assets/images/Business Partner Logos/Al Cielo Media Logo.webp" alt="United in One Global Foundation program in Africa"></div>
-                            <div class="testimonial-image-two"><img loading="lazy" src="assets/images/Business Partner Logos/Almayara Wellness Logo.png" alt="United in One Global Foundation program in Africa"></div>
-                            <div class="testimonial-image-three"><img loading="lazy" src="assets/images/Business Partner Logos/Aponte Law PLLC Logo.jpg" alt="United in One Global Foundation program in Africa"></div>
-                            <div class="testimonial-image-four"><img loading="lazy" src="assets/images/Business Partner Logos/Empanadas & More Logo.jpg" alt="United in One Global Foundation program in Africa"></div>
-                            <div class="testimonial-image-five"><img loading="lazy" src="assets/images/Business Partner Logos/Spanish Bowl Logo.jpg" alt="United in One Global Foundation program in Africa"></div>
-                            <div class="testimonial-image-six"><img loading="lazy" src="assets/images/Business Partner Logos/Tripsessed Logo.png" alt="United in One Global Foundation program in Africa"></div>
+                            <div class="testimonial-image-one"><img src="assets/images/gallery/testimonial-01.png" alt="photo"></div>
+                            <div class="testimonial-image-two"><img src="assets/images/gallery/testimonial-02.png" alt="photo"></div>
+                            <div class="testimonial-image-three"><img src="assets/images/gallery/testimonial-03.png" alt="photo"></div>
+                            <div class="testimonial-image-four"><img src="assets/images/gallery/testimonial-04.png" alt="photo"></div>
+                            <div class="testimonial-image-five"><img src="assets/images/gallery/testimonial-05.png" alt="photo"></div>
+                            <div class="testimonial-image-six"><img src="assets/images/gallery/testimonial-06.png" alt="photo"></div>
                         </div>
                     </div>
 
@@ -557,21 +512,19 @@
                             <div class="tesstimonial-right-content">
                                 <div class="testimonial-content-text">
                                     <p>
-                                        In our first collaboration with United In One, we supported a school in East Africa
-                                        where students proudly received fresh supplies. One girl held up a pencil like a trophy
-                                        and grinned. Moments like that remind us why this partnership matters, because access,
-                                        dignity, and opportunity start with simple tools in the right hands.
+                                        United In One Global Foundation brings care, transparency, and heart to every
+                                        project. Their work reminds us that real change starts with people.
                                     </p>
                                     <div class="testimonial-right-content-wrapper">
                                         <div class="testimonial-right-wrapper-inner">
-                                            <img loading="lazy" src="assets/images/Business Partner Logos/Al Cielo Media Logo.webp" alt="Al Cielo Media">
+                                            <img src="assets/images/gallery/testimonial-image-07.png" alt="image">
                                             <div class="testimonial-info">
-                                                <h6>Al Cielo Media</h6>
-                                                <span>Mission Partner</span>
+                                                <h6>Mission Partner</h6>
+                                                <span>Supporter</span>
                                             </div>
                                         </div>
                                         <div class="quait">
-                                            <img loading="lazy" src="assets/images/shape/quote-01.png" alt="quote">
+                                            <img src="assets/images/shape/quote-01.png" alt="quote">
                                         </div>
                                     </div>
                                 </div>
@@ -580,42 +533,19 @@
                             <div class="tesstimonial-right-content">
                                 <div class="testimonial-content-text">
                                     <p>
-                                        Partnering with United In One to give toys and feed children was an incredible experience;
-                                        seeing the pure joy on their faces and knowing we helped restore a small piece of childhood
-                                        reminds us why this work is so important.
+                                        Their projects are practical and meaningful. You can see the impact in the
+                                        smiles of the children and families they serve.
                                     </p>
                                     <div class="testimonial-right-content-wrapper">
                                         <div class="testimonial-right-wrapper-inner">
-                                            <img loading="lazy" src="assets/images/Business Partner Logos/Aponte Law PLLC Logo.jpg" alt="Aponte Law PLLC">
+                                            <img src="assets/images/gallery/testimonial-06.png" alt="image">
                                             <div class="testimonial-info">
-                                                <h6>Aponte Law PLLC</h6>
-                                                <span>Mission Partner</span>
+                                                <h6>Community Volunteer</h6>
+                                                <span>Volunteer</span>
                                             </div>
                                         </div>
                                         <div class="quait">
-                                            <img loading="lazy" src="assets/images/shape/quote-01.png" alt="quote">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tesstimonial-right-content">
-                                <div class="testimonial-content-text">
-                                    <p>
-                                        I give because I’ve seen how far a small amount can go when it’s in the right hands.
-                                        This organization treats every dollar like it matters, because to a child on the other
-                                        end, it does.
-                                    </p>
-                                    <div class="testimonial-right-content-wrapper">
-                                        <div class="testimonial-right-wrapper-inner">
-                                            <img loading="lazy" src="assets/images/Business Partner Logos/Spanish Bowl Logo.jpg" alt="Spanish Bowl">
-                                            <div class="testimonial-info">
-                                                <h6>Spanish Bowl</h6>
-                                                <span>Mission Partner</span>
-                                            </div>
-                                        </div>
-                                        <div class="quait">
-                                            <img loading="lazy" src="assets/images/shape/quote-01.png" alt="quote">
+                                            <img src="assets/images/shape/quote-01.png" alt="quote">
                                         </div>
                                     </div>
                                 </div>
@@ -636,7 +566,68 @@
                 One-time or monthly, every donation helps provide clean water, classroom supplies,
                 wellness support, and hope for families who need it most.
             </p>
-            <a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate Now <span></span></a>
+            <a href="donate.html" class="btn-1 btn-alt">Donate Now <span></span></a>
+        </div>
+    </section>
+
+    <section class="blog">
+        <div class="blank"></div>
+        <div class="container">
+            <div class="section-title-center">
+                <span>opportunities</span>
+                <h2>Stories, updates, and impact from the field.</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-4 col-lg-4">
+                    <div class="causes-card wow fadeInUp">
+                        <a href="projects.html" class="causes-image blog-image">
+                            <img src="assets/images/sitepics/image11.webp" alt="img">
+                        </a>
+                        <div class="blog-contant">
+                            <div class="header-link-btn"><a href="#" class="btn-1">Update <span></span></a></div>
+                            <a href="projects.html" class="hover-content">How simple school supplies create confidence</a>
+                            <p>Education support can begin with small tools that help children show up ready to learn.</p>
+                        </div>
+                        <div class="blog-btn">
+                            <a href="projects.html">Read More <i class="flaticon-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4">
+                    <div class="causes-card wow fadeInUp" data-wow-delay="200ms">
+                        <a href="projects.html" class="causes-image blog-image">
+                            <img src="assets/images/sitepics/image14.webp" alt="img">
+                        </a>
+                        <div class="blog-contant">
+                            <div class="header-link-btn"><a href="#" class="btn-1">Story <span></span></a></div>
+                            <a href="projects.html" class="hover-content">Why clean water changes everything</a>
+                            <p>Access to safer water supports health, dignity, and everyday opportunity.</p>
+                        </div>
+                        <div class="blog-btn">
+                            <a href="projects.html">Read More <i class="flaticon-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4">
+                    <div class="causes-card wow fadeInUp" data-wow-delay="400ms">
+                        <a href="projects.html" class="causes-image blog-image">
+                            <img src="assets/images/sitepics/image13.webp" alt="img">
+                        </a>
+                        <div class="blog-contant">
+                            <div class="header-link-btn"><a href="#" class="btn-1">Partner <span></span></a></div>
+                            <a href="projects.html" class="hover-content">The power of mission partnerships</a>
+                            <p>When supporters work together, practical help reaches further and lasts longer.</p>
+                        </div>
+                        <div class="blog-btn">
+                            <a href="projects.html">Read More <i class="flaticon-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -691,14 +682,15 @@
                                     </div>
                                     <div class="widget_content">
                                         <p>
-                                            United in One Global Foundation is a 501(c)(3) nonprofit organization that empowers underserved communities in Africa through education, healthcare, and water initiatives.
+                                            A global foundation dedicated to education, health, and
+                                             water access — building unity and lasting change, one community at a time.
                                         </p>
                                     </div>
                                     <div class="widget_media">
                                         <ul>
-                                            <li><a href="https://www.facebook.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="flaticon-facebook-app-symbol"></i></a></li>
+                                            <li><a href="#"><i class="flaticon-facebook-app-symbol"></i></a></li>
                                             <li><a href="#"><i class="flaticon-twitter"></i></a></li>
-                                            <li><a href="https://www.instagram.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="#"><i class="flaticon-linkedin"></i></a></li>
                                             <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
                                         </ul>
                                     </div>
@@ -714,7 +706,8 @@
                                         <ul class="links_list clearfix">
                                             <li><a href="about-us.html">About Us</a></li>
                                             <li><a href="projects.html">Projects</a></li>
-                                            <li><a href="opportunities.html">Opportunities</a></li>
+                                            <li><a href="team.html">Our Team</a></li>
+                                            <li><a href="opportunities.html">opportunities</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -727,10 +720,10 @@
                                     </div>
                                     <div class="widget_content">
                                         <ul class="links_list clearfix">
-                                            <li><a href="global-classroom-project.html">Global Classroom</a></li>
-                                            <li><a href="healthy-futures-project.html">Healthy Futures</a></li>
-                                            <li><a href="clean-water-project.html">Clean Water</a></li>
-                                            <li><a href="grants-for-good-program.html">Grants for Good</a></li>
+                                            <li><a href="projects.html">Global Classroom</a></li>
+                                            <li><a href="projects.html">Healthy Futures</a></li>
+                                            <li><a href="projects.html">Clean Water</a></li>
+                                            <li><a href="projects.html">Community Support</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -744,11 +737,11 @@
                                     <div class="widget_content">
                                         <ul class="links_list right">
                                             <li>Serving communities globally</li>
-                                            <li><a href="mailto:info@unitedinone.org"><i class="flaticon-email"></i> info@unitedinone.org</a></li>
-                                            <li><a href="tel:+13055490857"><i class="flaticon-phone-call"></i> +1 (305) 549-0857 (WhatsApp)</a></li>
+                                            <li><a href="mailto:kwekuappiahjnr8@gmail.com"><i class="flaticon-email"></i> kwekuappiahjnr8@gmail.com</a></li>
+                                            <li><a href="tel:+12085550112"><i class="flaticon-phone-call"></i> +1 (305) 549-0857</a></li>
                                             <li>
                                                 <div class="header-link-btn footer-donate">
-                                                    <a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="btn-1 btn-alt">Donate Now <span></span></a>
+                                                    <a href="donate.html" class="btn-1 btn-alt">Donate Now <span></span></a>
                                                 </div>
                                             </li>
                                         </ul>
@@ -762,7 +755,7 @@
             </div>
         </div>
 
-        <div class="footer_bottom p_relative" style="  background: #102018;">
+        <div class="footer_bottom p_relative">
             <div class="auto_container">
                 <div class="bottom_inner p_relative">
                     <div class="copyright">
@@ -779,6 +772,44 @@
 
 </div>
 
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const slides = document.querySelectorAll(".premium-home-hero .hero-slide");
+    const dots = document.querySelectorAll(".premium-home-hero .dot");
+    let current = 0;
+    let timer;
+
+    function showSlide(index) {
+        slides.forEach(slide => slide.classList.remove("active"));
+        dots.forEach(dot => dot.classList.remove("active"));
+
+        slides[index].classList.add("active");
+        dots[index].classList.add("active");
+
+        current = index;
+    }
+
+    function nextSlide() {
+        let next = (current + 1) % slides.length;
+        showSlide(next);
+    }
+
+    function startSlider() {
+        timer = setInterval(nextSlide, 6500);
+    }
+
+    dots.forEach(dot => {
+        dot.addEventListener("click", function () {
+            clearInterval(timer);
+            showSlide(Number(this.dataset.slide));
+            startSlider();
+        });
+    });
+
+    startSlider();
+});
+</script>
 <script src="assets/js/jquery.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
@@ -797,31 +828,5 @@
 <script src="assets/js/jquery.paroller.min.js"></script>
 <script src="assets/js/script.js"></script>
 
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    const slides = document.querySelectorAll(".premium-home-hero .hero-slide");
-    const dots = document.querySelectorAll(".premium-home-hero .hero-dots .dot");
-    if (!slides.length) return;
-    let current = 0, timer = null;
-    function showSlide(i){
-        slides.forEach(s => s.classList.remove("active"));
-        dots.forEach(d => d.classList.remove("active"));
-        slides[i].classList.add("active");
-        if (dots[i]) dots[i].classList.add("active");
-        current = i;
-    }
-    function nextSlide(){ showSlide((current + 1) % slides.length); }
-    function startSlider(){ timer = setInterval(nextSlide, 6500); }
-    function stopSlider(){ clearInterval(timer); }
-    dots.forEach(function(dot, i){
-        dot.addEventListener("click", function(){ stopSlider(); showSlide(i); startSlider(); });
-    });
-    const hero = document.querySelector(".premium-home-hero");
-    if (hero){ hero.addEventListener("mouseenter", stopSlider); hero.addEventListener("mouseleave", startSlider); }
-    startSlider();
-});
-</script>
-
-<a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="floating-donate">&#10084; Donate</a>
 </body>
 </html>

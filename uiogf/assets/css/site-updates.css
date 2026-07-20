@@ -175,3 +175,6 @@ blockquote cite { display:block; margin-top:18px; font-style:normal; font-weight
   .main-team-container .volunteers-info p { font-size: 15px !important; }
   .main-team-container .volunteers-media p { font-size: 14px !important; line-height: 1.6 !important; }
 }
+
+/* Givebutter donate button inside the project donation card */
+.donate-action .gb-donate-btn { display:inline-block; margin:0 auto 26px; }

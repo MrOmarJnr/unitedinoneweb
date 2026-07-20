@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5 {
     padding: 170px 0 120px;
     background:
         linear-gradient(rgba(0,0,0,.70), rgba(0,0,0,.70)),
-        url('../images/sitepics/image14.webp') center/cover no-repeat;
+        url('../images/sitepics/career.png') center/cover no-repeat;
     overflow: hidden;
     color: #fff;
 }
@@ -382,7 +382,7 @@ h1, h2, h3, h4, h5 {
 .values-section {
     background:
         linear-gradient(rgba(24,46,37,.84), rgba(24,46,37,.84)),
-        url('../images/sitepics/image10.webp') center/cover no-repeat;
+        url('../images/sitepics/image71.png) center/cover no-repeat;
     color: #fff;
 }
 

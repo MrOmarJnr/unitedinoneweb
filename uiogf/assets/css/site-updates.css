@@ -2,8 +2,24 @@
    Site updates  (client feedback)  -  loaded last.
    ========================================================================== */
 
-/* Page-transition loader logo */
-.handle-preloader .preloader-logo { max-width: 180px; height: auto; display: block; margin: 0 auto; }
+/* Page-transition loader logo — bigger & more visible (client request) */
+.handle-preloader .preloader-logo { max-width: 270px; height: auto; display: block; margin: 0 auto; }
+
+/* Bigger, more visible header logo across the whole site (client request) */
+.main-header .logo-box .logo img { width: 250px !important; height: auto !important; display: block; }
+.main-header .sticky-header .logo-box .logo img { width: 210px !important; height: auto !important; }
+
+/* Fix the green accent panel behind the logo: it was a fixed 100px, so the
+   enlarged logo left an empty strip under it. Make it match the header height
+   and tighten the logo padding so the logo sits cleanly with no gap. */
+.main-header .logo-box .logo { padding: 6px 0 !important; }
+.main-header.style-one .logo__shape { height: 100% !important; }
+
+@media only screen and (max-width: 600px) {
+  .main-header .logo-box .logo img { width: 165px !important; }
+  .main-header .logo-box .logo { padding: 4px 0 !important; }
+  .handle-preloader .preloader-logo { max-width: 210px !important; }
+}
 
 /* Top Donate button for mobile/tablet (sticky header is disabled on mobile) */
 .floating-donate {
@@ -103,3 +119,59 @@ blockquote cite { display:block; margin-top:18px; font-style:normal; font-weight
 
 /* Opportunities heading: one line on desktop, wraps on phones (no overflow) */
 @media only screen and (min-width: 768px){ .opp-oneline { white-space: nowrap; } }
+
+/* ==========================================================================
+   Change request: flat heroes + two-column layouts
+   ========================================================================== */
+
+/* Flatten hero arches on all redesigned pages (arch removed -> clean flat edge) */
+.about-hero:after, .apply-hero:after, .project-hero:after, .water-hero:after,
+.contact-hero:after, .donate-hero:after, .grant-hero:after, .opportunities-hero:after,
+.partner-hero:after, .projects-hero:after { display: none !important; }
+
+/* Donation giving tiers -> two columns on tablet/desktop */
+@media only screen and (min-width: 768px) {
+  .give-list { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 30px; }
+  .give-list li { break-inside: avoid; }
+}
+
+/* How We Work / process steps -> two per row on tablet (instead of one) */
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  .journey-section [class*="col-xl-"], .dark-health [class*="col-xl-"],
+  .funding-section [class*="col-xl-"], .soft-water [class*="col-xl-"],
+  .provide-section [class*="col-xl-"], .wellness-section [class*="col-xl-"] {
+    flex: 0 0 50%; max-width: 50%;
+  }
+}
+
+/* Form submission confirmation + error panels (contact / partnership) */
+.form-success-panel { display:none; background:#eaf6ef; border:1px solid #b6ddc6; border-radius:16px; padding:32px 28px; text-align:center; }
+.form-success-panel.is-visible { display:block; }
+.form-success-panel h3 { color:#2D4A3E; margin-bottom:10px; }
+.form-success-panel p { color:#4a5a52; margin:0; line-height:1.6; }
+.form-error-banner { display:none; background:#fdecec; border:1px solid #f4c2c2; color:#a12626; border-radius:12px; padding:12px 16px; margin-bottom:14px; font-weight:600; }
+.form-error-banner.is-visible { display:block; }
+
+/* ==========================================================================
+   Team cards on About Us (merged Team) — mobile/tablet fix.
+   The theme forces .team-container .volunteers-info to height:150px with
+   overflow:hidden and the photo to 725px, which clips the bios. Release all
+   of that so each card is a clean single column with the full bio visible
+   (no hover needed on touch devices).
+   ========================================================================== */
+@media only screen and (max-width: 991px) {
+  .main-team-container .volunteers-content { margin-bottom: 40px !important; width: 100% !important; }
+  .main-team-container .volunteers-image { height: auto !important; }
+  .main-team-container .volunteers-image img { height: 360px !important; object-fit: cover !important; }
+  .main-team-container .volunteers-info,
+  .main-team-container .volunteers-content:hover .volunteers-info {
+    position: static !important; left: auto !important; bottom: auto !important;
+    transform: none !important; width: 100% !important;
+    height: auto !important; max-height: none !important; overflow: visible !important;
+    margin-top: 14px !important; padding: 22px 20px !important;
+  }
+  .main-team-container .volunteers-media { opacity: 1 !important; visibility: visible !important; transform: none !important; }
+  .main-team-container .volunteers-info-link { font-size: 24px !important; cursor: default; }
+  .main-team-container .volunteers-info p { font-size: 15px !important; }
+  .main-team-container .volunteers-media p { font-size: 14px !important; line-height: 1.6 !important; }
+}

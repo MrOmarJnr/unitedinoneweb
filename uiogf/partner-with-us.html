@@ -27,7 +27,7 @@
   "areaServed": ["Kenya", "Nigeria", "Burundi", "Ghana", "Madagascar"],
   "foundingDate": "2023",
   "sameAs": ["https://www.facebook.com/Unitedinoneglobal", "https://www.instagram.com/Unitedinoneglobal"],
-  "contactPoint": { "@type": "ContactPoint", "telephone": "+1-305-549-0857", "email": "info@unitedinone.org", "contactType": "customer service" }
+  "contactPoint": { "@type": "ContactPoint", "telephone": "+1-305-549-0857", "email": "emmanuel.appiah.dev@gmail.com", "contactType": "customer service" }
 }
 </script>
 
@@ -210,6 +210,12 @@
                     </div>
                 </div>
             </div>
+
+               <div class="text-center" style="margin-top:20px;">
+                <a href="assets/docs/UIOGF-Sponsorship-Partnership-Guide.pdf" class="btn-1 btn-alt" target="_blank" rel="noopener" download>
+                    <i class="fas fa-file-pdf" style="margin-right:8px;"></i>Download Partnership Tier Levels
+                </a>
+            </div>
         </div>
     </section>
 
@@ -317,6 +323,8 @@
                     </div>
                 </div>
             </div>
+
+         
         </div>
     </section>
 
@@ -370,10 +378,12 @@
 
                 <div class="col-xl-7 col-lg-7">
                     <div class="form-card">
-                        <form action="https://formsubmit.co/info@unitedinone.org" method="POST">
-                            <input type="hidden" name="_subject" value="New partnership inquiry from unitedinone.org">
-                            <input type="hidden" name="_captcha" value="false">
-                            <input type="hidden" name="_template" value="table">
+                        <div id="partnerSuccess" class="form-success-panel">
+                            <h3>Thank you — your inquiry has been submitted!</h3>
+                            <p>We’ve received your partnership inquiry and our team will be in touch soon. A confirmation has been sent to your email.</p>
+                        </div>
+                        <form id="partnerForm" action="http://54.211.205.141:3000/api/submit/partnership" method="POST">
+                            <div id="partnerError" class="form-error-banner"></div>
                             <div class="row">
                                 <div class="col-md-6">
                                     <input type="text" name="Full Name" placeholder="Full Name" required>
@@ -492,9 +502,9 @@
                                     </div>
                                     <div class="widget_media">
                                         <ul>
-                                            <li><a href="https://www.facebook.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="flaticon-facebook-app-symbol"></i></a></li>
+                                            <li><a href="https://www.facebook.com/share/18sZtzetX7/?mibextid=wwXIfr"target="_blank" rel="noopener"><i class="flaticon-facebook-app-symbol"></i></a></li>
                                             <li><a href="#"><i class="flaticon-twitter"></i></a></li>
-                                            <li><a href="https://www.instagram.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="https://www.instagram.com/unitedinoneglobal?igsh=ZmNjNzYxZW1mazY2" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
                                             <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
                                         </ul>
                                     </div>
@@ -540,7 +550,7 @@
                                     <div class="widget_content">
                                         <ul class="links_list right">
                                             <li>Serving communities globally</li>
-                                            <li><a href="mailto:info@unitedinone.org"><i class="flaticon-email"></i> info@unitedinone.org</a></li>
+                                            <li><a href="mailto:emmanuel.appiah.dev@gmail.com"><i class="flaticon-email"></i> emmanuel.appiah.dev@gmail.com</a></li>
                                             <li><a href="tel:+13055490857"><i class="flaticon-phone-call"></i> +1 (305) 549-0857 (WhatsApp)</a></li>
                                             <li>
                                                 <div class="header-link-btn footer-donate">
@@ -592,6 +602,32 @@
 <script src="assets/js/parallax-scroll.js"></script>
 <script src="assets/js/jquery.paroller.min.js"></script>
 <script src="assets/js/script.js"></script>
+
+<script>
+(function () {
+    var form = document.getElementById('partnerForm');
+    if (!form) return;
+    var ok = document.getElementById('partnerSuccess');
+    var err = document.getElementById('partnerError');
+    var btn = form.querySelector('button[type="submit"]');
+    form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        if (!form.checkValidity()) { form.reportValidity(); return; }
+        if (err) err.classList.remove('is-visible');
+        if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
+        fetch(form.action, { method: 'POST', body: new FormData(form), headers: { 'Accept': 'application/json' } })
+            .then(function () {
+                form.style.display = 'none';
+                if (ok) ok.classList.add('is-visible');
+                window.scrollTo({ top: form.getBoundingClientRect().top + window.pageYOffset - 140, behavior: 'smooth' });
+            })
+            .catch(function () {
+                if (err) { err.textContent = 'Something went wrong sending your inquiry. Please try again, or email emmanuel.appiah.dev@gmail.com directly.'; err.classList.add('is-visible'); }
+                if (btn) { btn.disabled = false; btn.innerHTML = 'Send Inquiry <span></span>'; }
+            });
+    });
+})();
+</script>
 
 <a href="https://collect.crowded.me/collection/7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c" target="_blank" rel="noopener" class="floating-donate">&#10084; Donate</a>
 </body>

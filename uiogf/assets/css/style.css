@@ -13,6 +13,7 @@
   -webkit-transition:all 500ms ease;
   -ms-transition:all 500ms ease;
   -o-transition:all 500ms ease;
+
 }
 .sticky-header{
   position:fixed;
@@ -53,6 +54,7 @@
   -op-animation-iteration-count: 1;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
+  
 }
 .anim-icon .icon {
   position: absolute;
@@ -62,6 +64,7 @@
 
 .fixed-header .sticky-header .outer-box {
   margin: 0px 12px !important;
+  
 }
 .main-header .outer-box{
   position: relative;
@@ -69,6 +72,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+   
+
   
 }
 .main-header .logo-box {
@@ -76,14 +81,17 @@
   display: block;
   padding: 0px 130px 0px 0px;
   background-repeat: no-repeat;
+
 }
 .main-header .logo-box .logo {
-  padding: 15px 0px;
+  padding: 10px 0px;
   background-repeat: no-repeat;
+
 }
 .main-header .logo-box .logo img{
-  width: 200px;
+  width: 250px;
   height: auto;
+
 }
 header.main-header.style-three .logo-box .logo img{
   width: 168px;

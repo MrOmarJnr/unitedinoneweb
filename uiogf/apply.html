@@ -29,7 +29,7 @@
   "areaServed": ["Kenya", "Nigeria", "Burundi", "Ghana", "Madagascar"],
   "foundingDate": "2023",
   "sameAs": ["https://www.facebook.com/Unitedinoneglobal", "https://www.instagram.com/Unitedinoneglobal"],
-  "contactPoint": { "@type": "ContactPoint", "telephone": "+1-305-549-0857", "email": "info@unitedinone.org", "contactType": "customer service" }
+  "contactPoint": { "@type": "ContactPoint", "telephone": "+1-305-549-0857", "email": "emmanuel.appiah.dev@gmail.com", "contactType": "customer service" }
 }
 </script>
 
@@ -165,14 +165,14 @@
                 <ul>
                     <li>Serving communities globally</li>
                     <li><a href="tel:+13055490857">+1 (305) 549-0857</a></li>
-                    <li><a href="mailto:info@unitedinone.org">info@unitedinone.org</a></li>
+                    <li><a href="mailto:emmanuel.appiah.dev@gmail.com">emmanuel.appiah.dev@gmail.com</a></li>
                 </ul>
             </div>
             <div class="social-links">
                 <ul class="clearfix">
                     <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                    <li><a href="https://www.facebook.com/Unitedinoneglobal" target="_blank" rel="noopener"><span class="fab fa-facebook-square"></span></a></li>
-                    <li><a href="https://www.instagram.com/Unitedinoneglobal" target="_blank" rel="noopener"><span class="fab fa-instagram"></span></a></li>
+                    <li><a href="https://www.facebook.com/share/18sZtzetX7/?mibextid=wwXIfr"target="_blank" rel="noopener"><span class="fab fa-facebook-square"></span></a></li>
+                    <li><a href="https://www.instagram.com/unitedinoneglobal?igsh=ZmNjNzYxZW1mazY2" target="_blank" rel="noopener"><span class="fab fa-instagram"></span></a></li>
                     <li><a href="#"><span class="fab fa-youtube"></span></a></li>
                 </ul>
             </div>
@@ -210,10 +210,7 @@
                         <!-- LOCAL TESTING: pointing at the portal running on localhost:3000.
                              When you deploy the portal (see admin-portal/README.md), change
                              this back to that live URL, e.g. https://portal.unitedinone.org/api/submit/opportunity -->
-                        <form id="applyForm" action="https://formsubmit.co/ajax/info@unitedinone.org" method="POST" enctype="multipart/form-data">
-
-                            <input type="hidden" name="_subject" value="New Volunteer Application">
-                            <input type="hidden" name="_template" value="table">
+                        <form id="applyForm" action="http://54.211.205.141:3000/api/submit/opportunity" method="POST" enctype="multipart/form-data">
 
                             <div class="field-group">
                                 <label class="field-label">Which type of role are you applying for? <span class="req">*</span></label>
@@ -379,9 +376,9 @@
                                     </div>
                                     <div class="widget_media">
                                         <ul>
-                                            <li><a href="https://www.facebook.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="flaticon-facebook-app-symbol"></i></a></li>
+                                            <li><a href="https://www.facebook.com/share/18sZtzetX7/?mibextid=wwXIfr"target="_blank" rel="noopener"><i class="flaticon-facebook-app-symbol"></i></a></li>
                                             <li><a href="#"><i class="flaticon-twitter"></i></a></li>
-                                            <li><a href="https://www.instagram.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="https://www.instagram.com/unitedinoneglobal?igsh=ZmNjNzYxZW1mazY2" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
                                             <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
                                         </ul>
                                     </div>
@@ -427,7 +424,7 @@
                                     <div class="widget_content">
                                         <ul class="links_list right">
                                             <li>Serving communities globally</li>
-                                            <li><a href="mailto:info@unitedinone.org"><i class="flaticon-email"></i> info@unitedinone.org</a></li>
+                                            <li><a href="mailto:emmanuel.appiah.dev@gmail.com"><i class="flaticon-email"></i> emmanuel.appiah.dev@gmail.com</a></li>
                                             <li><a href="tel:+13055490857"><i class="flaticon-phone-call"></i> +1 (305) 549-0857 (WhatsApp)</a></li>
                                             <li>
                                                 <div class="header-link-btn footer-donate">
@@ -573,7 +570,7 @@
         });
     }
 
-    // form submit -> FormSubmit (delivers to info@unitedinone.org)
+    // form submit -> FormSubmit (delivers to emmanuel.appiah.dev@gmail.com)
     var form = document.getElementById('applyForm');
     var formError = document.getElementById('formError');
     var submitBtn = document.getElementById('submitBtn');
@@ -600,7 +597,7 @@
             if (summ) summ.style.display = 'none';
             successPanel.classList.add('is-visible');
         }).catch(function () {
-            formError.textContent = 'Something went wrong sending your application. Please try again, or email info@unitedinone.org directly.';
+            formError.textContent = 'Something went wrong sending your application. Please try again, or email emmanuel.appiah.dev@gmail.com directly.';
             formError.classList.add('is-visible');
             submitBtn.disabled = false;
             submitBtn.innerHTML = 'Submit Application <span></span>';

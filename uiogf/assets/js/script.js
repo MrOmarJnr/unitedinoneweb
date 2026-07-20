@@ -868,3 +868,62 @@
   window.addEventListener('scroll', toggleFloatingDonate, {passive:true});
   document.addEventListener('DOMContentLoaded', toggleFloatingDonate);
 })();
+
+/* ==========================================================================
+   Givebutter integration (client switched donation platform from Crowded).
+   Rewrites the old Crowded links/embeds to the matching Givebutter campaign
+   and loads the Givebutter widget library (turns the links into popups).
+   Per-fund campaigns decoded from the client's Givebutter QR codes.
+   ========================================================================== */
+(function () {
+  var GB = {
+    '055ad8e8-7689-4d8e-959d-3669c293a29b': 'https://givebutter.com/c/JPIMKR', // Global Classroom
+    'db193722-a34c-4563-897a-ab2b7307f05a': 'https://givebutter.com/c/PRF2IV', // Healthy Futures
+    'cfe02bb2-ad72-4777-b147-7d1e106fc707': 'https://givebutter.com/c/F4OMSL', // Clean Water
+    '475efdc1-49fc-4b0d-a322-ba953d041a57': 'https://givebutter.com/c/7EEZLP', // Grants for Good
+    '7e554858-6b55-43eb-8c9c-2a4ca7ba6b4c': 'https://givebutter.com/c/OI60EM'  // Foundation Fund
+  };
+
+  function switchToGivebutter() {
+    // 1) Rewrite any Crowded hosted links -> matching Givebutter campaign
+    var links = document.querySelectorAll('a[href*="collect.crowded.me/collection/"]');
+    Array.prototype.forEach.call(links, function (a) {
+      var m = a.getAttribute('href').match(/collection\/([a-f0-9-]+)/i);
+      if (m && GB[m[1]]) {
+        a.setAttribute('href', GB[m[1]]);
+        a.setAttribute('target', '_blank');
+        a.setAttribute('rel', 'noopener');
+      }
+    });
+
+    // 2) Replace old Crowded embed widgets ([collect-id]) with a Givebutter donate button
+    var embeds = document.querySelectorAll('[collect-id]');
+    Array.prototype.forEach.call(embeds, function (el) {
+      var link = GB[el.getAttribute('collect-id')];
+      if (!link) return;
+      var a = document.createElement('a');
+      a.setAttribute('href', link);
+      a.setAttribute('target', '_blank');
+      a.setAttribute('rel', 'noopener');
+      a.className = 'btn-1 btn-alt gb-donate-btn';
+      a.textContent = el.getAttribute('button-text') || 'Donate';
+      if (el.parentNode) el.parentNode.replaceChild(a, el);
+    });
+
+    // Remove leftover Crowded loader scripts (platform no longer used)
+    var cs = document.querySelectorAll('script[src*="crowded-collect"]');
+    Array.prototype.forEach.call(cs, function (s) { if (s.parentNode) s.parentNode.removeChild(s); });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', switchToGivebutter);
+  } else {
+    switchToGivebutter();
+  }
+
+  // 3) Load the Givebutter widget library (enhances the links into popups)
+  var gb = document.createElement('script');
+  gb.async = true;
+  gb.src = 'https://widgets.givebutter.com/latest.umd.cjs?acct=q9RwZxODTcRSmeGM&p=other';
+  document.head.appendChild(gb);
+})();

@@ -29,7 +29,7 @@
   "areaServed": ["Kenya", "Nigeria", "Burundi", "Ghana", "Madagascar"],
   "foundingDate": "2023",
   "sameAs": ["https://www.facebook.com/Unitedinoneglobal", "https://www.instagram.com/Unitedinoneglobal"],
-  "contactPoint": { "@type": "ContactPoint", "telephone": "+1-305-549-0857", "email": "info@unitedinone.org", "contactType": "customer service" }
+  "contactPoint": { "@type": "ContactPoint", "telephone": "+1-305-549-0857", "email": "emmanuel.appiah.dev@gmail.com", "contactType": "customer service" }
 }
 </script>
 
@@ -204,7 +204,7 @@
                             <li>Once submitted, a member of our team will follow up with you within 5–7 business days.</li>
                         </ul>
                         <div class="urgent-note">
-                            For urgent needs, please email us directly at <a href="mailto:info@unitedinone.org">info@unitedinone.org</a>.
+                            For urgent needs, please email us directly at <a href="mailto:emmanuel.appiah.dev@gmail.com">emmanuel.appiah.dev@gmail.com</a>.
                         </div>
                     </div>
                 </div>
@@ -246,11 +246,11 @@
                         <!-- LOCAL TESTING: pointing at the portal running on localhost:3000.
                              When you deploy the portal (see admin-portal/README.md), change
                              this back to that live URL, e.g. https://portal.unitedinone.org/api/submit/support -->
-                        <form id="requestSupportForm" action="https://formsubmit.co/ajax/info@unitedinone.org" method="POST" enctype="multipart/form-data" novalidate>
+                        <form id="requestSupportForm" action="http://54.211.205.141:3000/api/submit/support" method="POST" enctype="multipart/form-data" novalidate>
 
                             <!-- hidden routing fields -->
                             <input type="hidden" name="_subject" value="New Request Support Submission">
-                            <input type="hidden" name="_to_note" value="info@unitedinone.org">
+                            <input type="hidden" name="_to_note" value="emmanuel.appiah.dev@gmail.com">
 
                             <!-- STEP 1: Organization Information -->
                             <div class="wizard-step is-active" data-step="1">
@@ -485,7 +485,7 @@
                                     </li>
                                     <li class="consent-item">
                                         <input type="checkbox" name="consent_communication" id="consentCommunication" required>
-                                        <label for="consentCommunication"><strong>Contact &amp; Communication Consent</strong> — I consent to receiving communications from UIOGF via email, phone, or WhatsApp using the contact details provided. I understand I may withdraw this consent at any time by contacting UIOGF directly at info@unitedinone.org.</label>
+                                        <label for="consentCommunication"><strong>Contact &amp; Communication Consent</strong> — I consent to receiving communications from UIOGF via email, phone, or WhatsApp using the contact details provided. I understand I may withdraw this consent at any time by contacting UIOGF directly at emmanuel.appiah.dev@gmail.com.</label>
                                     </li>
                                 </ul>
                             </div>
@@ -502,7 +502,7 @@
                             <h3>Thank you — your request has been received.</h3>
                             <p>
                                 A member of our team will follow up within 5–7 business days. For urgent needs,
-                                email us directly at <a href="mailto:info@unitedinone.org">info@unitedinone.org</a>.
+                                email us directly at <a href="mailto:emmanuel.appiah.dev@gmail.com">emmanuel.appiah.dev@gmail.com</a>.
                             </p>
                         </div>
                     </div>
@@ -538,9 +538,9 @@
                                     </div>
                                     <div class="widget_media">
                                         <ul>
-                                            <li><a href="https://www.facebook.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="flaticon-facebook-app-symbol"></i></a></li>
+                                            <li><a href="https://www.facebook.com/share/18sZtzetX7/?mibextid=wwXIfr"target="_blank" rel="noopener"><i class="flaticon-facebook-app-symbol"></i></a></li>
                                             <li><a href="#"><i class="flaticon-twitter"></i></a></li>
-                                            <li><a href="https://www.instagram.com/Unitedinoneglobal" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="https://www.instagram.com/unitedinoneglobal?igsh=ZmNjNzYxZW1mazY2" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
                                             <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
                                         </ul>
                                     </div>
@@ -586,7 +586,7 @@
                                     <div class="widget_content">
                                         <ul class="links_list right">
                                             <li>Serving communities globally</li>
-                                            <li><a href="mailto:info@unitedinone.org"><i class="flaticon-email"></i> info@unitedinone.org</a></li>
+                                            <li><a href="mailto:emmanuel.appiah.dev@gmail.com"><i class="flaticon-email"></i> emmanuel.appiah.dev@gmail.com</a></li>
                                             <li><a href="tel:+13055490857"><i class="flaticon-phone-call"></i> +1 (305) 549-0857 (WhatsApp)</a></li>
                                             <li>
                                                 <div class="header-link-btn footer-donate">
@@ -791,7 +791,7 @@
 
         submitBtn.disabled = true;
         submitBtn.textContent = 'Sending…';
-        // Submits to FormSubmit, which delivers to info@unitedinone.org
+        // Submits to FormSubmit, which delivers to emmanuel.appiah.dev@gmail.com
         fetch(form.action, {
             method: 'POST',
             body: new FormData(form),
@@ -802,7 +802,7 @@
             if (s) s.classList.add('is-visible');
             window.scrollTo({ top: form.getBoundingClientRect().top + window.pageYOffset - 120, behavior: 'smooth' });
         }).catch(function () {
-            errorBanner.textContent = 'Something went wrong sending your request. Please try again, or email info@unitedinone.org directly.';
+            errorBanner.textContent = 'Something went wrong sending your request. Please try again, or email emmanuel.appiah.dev@gmail.com directly.';
             errorBanner.classList.add('is-visible');
             submitBtn.disabled = false;
             submitBtn.innerHTML = 'Send My Request <span></span>';

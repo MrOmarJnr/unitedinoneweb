@@ -1,0 +1,19 @@
+# --- Secrets (NEVER commit) ---
+mailer/config.php
+**/config.php
+*.env
+.env
+.env.*
+
+# Saved form submissions / logs
+mailer/submissions/
+**/submissions/
+*.log
+
+# Deprecated Node backend
+portal-mailer/
+node_modules/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db

@@ -9,9 +9,7 @@ return [
     'ADMIN_FULL_DETAILS' => true,
     'ALLOWED_ORIGINS'    => ['*'],
 
-    // Vercel Blob — stores uploaded CVs/documents for the portal.
-    'BLOB_READ_WRITE_TOKEN' => 'vercel_blob_rw_your_token_here',
-    'BLOB_ACCESS'           => 'private',
-    'BLOB_API_VERSION'      => '10',
-    'BLOB_PREFIX'           => 'uioogf',
+    // Private file storage — absolute path OUTSIDE the web root.
+    // Holds uploads/ and submissions/. The portal reads from here.
+    'PRIVATE_DIR'           => '/var/www/uiogf-private',
 ];

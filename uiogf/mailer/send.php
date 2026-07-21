@@ -84,7 +84,7 @@ function resendSend(array $config, $to, string $subject, string $html, ?string $
     return ['ok' => ($code >= 200 && $code < 300), 'code' => $code, 'resp' => (string)$resp, 'err' => $err];
 }
 
-// ---- Vercel Blob upload (private) via HTTP API. No SDK / Node needed. ----
+// ---- File type helper ----
 function guessMime(string $name): string {
     $ext = strtolower(pathinfo($name, PATHINFO_EXTENSION));
     $map = [
@@ -96,44 +96,21 @@ function guessMime(string $name): string {
     ];
     return $map[$ext] ?? 'application/octet-stream';
 }
-function blobPut(array $config, string $pathname, string $bytes, string $contentType): array {
-    $token = (string)($config['BLOB_READ_WRITE_TOKEN'] ?? '');
-    if ($token === '') return ['ok' => false, 'skip' => true, 'err' => 'no BLOB token'];
-    $url = 'https://blob.vercel-storage.com/?pathname=' . rawurlencode($pathname);
-    $headers = [
-        'access: ' . ($config['BLOB_ACCESS'] ?? 'private'),
-        'authorization: Bearer ' . $token,
-        'x-api-version: ' . ($config['BLOB_API_VERSION'] ?? '10'),
-        'x-content-type: ' . $contentType,
-        'x-add-random-suffix: 1',
-        'Content-Type: ' . $contentType,
-    ];
-    $ch = curl_init($url);
-    curl_setopt_array($ch, [
-        CURLOPT_CUSTOMREQUEST  => 'PUT',
-        CURLOPT_POSTFIELDS     => $bytes,
-        CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_HTTPHEADER     => $headers,
-        CURLOPT_TIMEOUT        => 60,
-    ]);
-    $resp = curl_exec($ch);
-    $code = (int) curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    $err  = curl_error($ch);
-    curl_close($ch);
-    $json = json_decode((string)$resp, true);
-    return ['ok' => ($code >= 200 && $code < 300), 'code' => $code, 'resp' => (string)$resp, 'err' => $err, 'data' => is_array($json) ? $json : null];
-}
 
-$logDir = __DIR__ . '/submissions';
-@mkdir($logDir, 0775, true);
+// All private data (submission records + uploaded files) lives OUTSIDE the web root
+// so it can never be downloaded directly. The portal reads from this same folder.
+$baseDir   = rtrim((string)($config['PRIVATE_DIR'] ?? (__DIR__ . '/data')), '/');
+$logDir    = $baseDir . '/submissions';
+$uploadDir = $baseDir . '/uploads';
+@mkdir($logDir, 0770, true);
+@mkdir($uploadDir, 0770, true);
 function logLine(string $dir, string $msg): void {
     @file_put_contents($dir . '/mail.log', '[' . date('c') . '] ' . $msg . PHP_EOL, FILE_APPEND);
 }
 
-// ---- Save the full submission + push any uploaded files to Vercel Blob (private) ----
+// ---- Save the full submission + store any uploaded files privately on disk ----
 $fileNames = [];
-$fileBlobs = [];
-$blobPrefix = trim((string)($config['BLOB_PREFIX'] ?? 'uioogf'), '/');
+$uploads   = [];
 $stamp = date('Ymd-His');
 if (!empty($_FILES)) {
     foreach ($_FILES as $field => $f) {
@@ -151,29 +128,29 @@ if (!empty($_FILES)) {
                 logLine($logDir, 'file err field=' . $field . ' name=' . $origName . ' code=' . $errCode);
                 continue;
             }
-            $bytes = @file_get_contents($tmp);
-            if ($bytes === false) { logLine($logDir, 'file read fail ' . $origName); continue; }
             $safeName = preg_replace('/[^A-Za-z0-9._-]+/', '-', $origName);
             $ctype    = ($types[$i] ?? '') ?: guessMime($origName);
-            $pathname = $blobPrefix . '/' . preg_replace('/[^a-z]/', '', $type) . '/' . $stamp . '-' . $safeName;
-            $b = blobPut($config, $pathname, $bytes, $ctype);
-            if ($b['ok'] && !empty($b['data'])) {
-                $fileBlobs[] = [
+            $subDir   = $uploadDir . '/' . (preg_replace('/[^a-z]/', '', $type) ?: 'general');
+            @mkdir($subDir, 0770, true);
+            $rand     = substr(md5(uniqid('', true)), 0, 8);
+            $stored   = $subDir . '/' . $stamp . '-' . $rand . '-' . $safeName;
+            if (@move_uploaded_file($tmp, $stored)) {
+                @chmod($stored, 0640);
+                $uploads[] = [
                     'field'        => $field,
                     'originalName' => $origName,
-                    'contentType'  => $b['data']['contentType'] ?? $ctype,
-                    'pathname'     => $b['data']['pathname'] ?? $pathname,
-                    'url'          => $b['data']['url'] ?? null,
-                    'downloadUrl'  => $b['data']['downloadUrl'] ?? null,
-                    'size'         => strlen($bytes),
+                    'contentType'  => $ctype,
+                    'storedPath'   => $stored,
+                    'relPath'      => ltrim(str_replace($baseDir, '', $stored), '/'),
+                    'size'         => @filesize($stored) ?: null,
                 ];
-            } elseif (empty($b['skip'])) {
-                logLine($logDir, 'blob FAIL field=' . $field . ' ' . ($b['code'] ?? '') . ' ' . ($b['resp'] ?? '') . ' ' . ($b['err'] ?? ''));
+            } else {
+                logLine($logDir, 'file save FAIL field=' . $field . ' name=' . $origName . ' -> ' . $stored);
             }
         }
     }
 }
-$record = ['type' => $type, 'submittedAt' => date('c'), 'fields' => $fields, 'files' => $fileNames, 'fileBlobs' => $fileBlobs];
+$record = ['type' => $type, 'submittedAt' => date('c'), 'fields' => $fields, 'files' => $fileNames, 'uploads' => $uploads];
 @file_put_contents(
     $logDir . '/' . preg_replace('/[^a-z]/', '', $type) . '-' . date('Ymd-His') . '-' . substr(md5(uniqid('', true)), 0, 6) . '.json',
     json_encode($record, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)

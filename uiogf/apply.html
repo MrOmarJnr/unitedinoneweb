@@ -210,7 +210,8 @@
                         <!-- LOCAL TESTING: pointing at the portal running on localhost:3000.
                              When you deploy the portal (see admin-portal/README.md), change
                              this back to that live URL, e.g. https://portal.unitedinone.org/api/submit/opportunity -->
-                        <form id="applyForm" action="http://54.211.205.141:3000/api/submit/opportunity" method="POST" enctype="multipart/form-data">
+                        <form id="applyForm" action="mailer/send.php" method="POST" enctype="multipart/form-data">
+                            <input type="hidden" name="form_type" value="opportunity">
 
                             <div class="field-group">
                                 <label class="field-label">Which type of role are you applying for? <span class="req">*</span></label>

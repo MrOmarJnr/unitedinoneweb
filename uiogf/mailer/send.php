@@ -84,21 +84,96 @@ function resendSend(array $config, $to, string $subject, string $html, ?string $
     return ['ok' => ($code >= 200 && $code < 300), 'code' => $code, 'resp' => (string)$resp, 'err' => $err];
 }
 
+// ---- Vercel Blob upload (private) via HTTP API. No SDK / Node needed. ----
+function guessMime(string $name): string {
+    $ext = strtolower(pathinfo($name, PATHINFO_EXTENSION));
+    $map = [
+        'pdf'  => 'application/pdf',
+        'doc'  => 'application/msword',
+        'docx' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+        'jpg'  => 'image/jpeg', 'jpeg' => 'image/jpeg',
+        'png'  => 'image/png',
+    ];
+    return $map[$ext] ?? 'application/octet-stream';
+}
+function blobPut(array $config, string $pathname, string $bytes, string $contentType): array {
+    $token = (string)($config['BLOB_READ_WRITE_TOKEN'] ?? '');
+    if ($token === '') return ['ok' => false, 'skip' => true, 'err' => 'no BLOB token'];
+    $url = 'https://blob.vercel-storage.com/?pathname=' . rawurlencode($pathname);
+    $headers = [
+        'access: ' . ($config['BLOB_ACCESS'] ?? 'private'),
+        'authorization: Bearer ' . $token,
+        'x-api-version: ' . ($config['BLOB_API_VERSION'] ?? '10'),
+        'x-content-type: ' . $contentType,
+        'x-add-random-suffix: 1',
+        'Content-Type: ' . $contentType,
+    ];
+    $ch = curl_init($url);
+    curl_setopt_array($ch, [
+        CURLOPT_CUSTOMREQUEST  => 'PUT',
+        CURLOPT_POSTFIELDS     => $bytes,
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_HTTPHEADER     => $headers,
+        CURLOPT_TIMEOUT        => 60,
+    ]);
+    $resp = curl_exec($ch);
+    $code = (int) curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    $err  = curl_error($ch);
+    curl_close($ch);
+    $json = json_decode((string)$resp, true);
+    return ['ok' => ($code >= 200 && $code < 300), 'code' => $code, 'resp' => (string)$resp, 'err' => $err, 'data' => is_array($json) ? $json : null];
+}
+
 $logDir = __DIR__ . '/submissions';
 @mkdir($logDir, 0775, true);
 function logLine(string $dir, string $msg): void {
     @file_put_contents($dir . '/mail.log', '[' . date('c') . '] ' . $msg . PHP_EOL, FILE_APPEND);
 }
 
-// ---- Save the full submission so nothing is lost, even if email hiccups ----
+// ---- Save the full submission + push any uploaded files to Vercel Blob (private) ----
 $fileNames = [];
+$fileBlobs = [];
+$blobPrefix = trim((string)($config['BLOB_PREFIX'] ?? 'uioogf'), '/');
+$stamp = date('Ymd-His');
 if (!empty($_FILES)) {
-    foreach ($_FILES as $f) {
-        if (is_array($f['name'])) { foreach ($f['name'] as $n) if ($n) $fileNames[] = $n; }
-        elseif (!empty($f['name'])) { $fileNames[] = $f['name']; }
+    foreach ($_FILES as $field => $f) {
+        $names = is_array($f['name'])     ? $f['name']     : [$f['name']];
+        $tmps  = is_array($f['tmp_name']) ? $f['tmp_name'] : [$f['tmp_name']];
+        $types = is_array($f['type'])     ? $f['type']     : [$f['type']];
+        $errs  = is_array($f['error'])    ? $f['error']    : [$f['error']];
+        foreach ($names as $i => $origName) {
+            $origName = (string)$origName;
+            if ($origName === '') continue;
+            $fileNames[] = $origName;
+            $tmp = (string)($tmps[$i] ?? '');
+            $errCode = $errs[$i] ?? UPLOAD_ERR_NO_FILE;
+            if ($errCode !== UPLOAD_ERR_OK || !is_uploaded_file($tmp)) {
+                logLine($logDir, 'file err field=' . $field . ' name=' . $origName . ' code=' . $errCode);
+                continue;
+            }
+            $bytes = @file_get_contents($tmp);
+            if ($bytes === false) { logLine($logDir, 'file read fail ' . $origName); continue; }
+            $safeName = preg_replace('/[^A-Za-z0-9._-]+/', '-', $origName);
+            $ctype    = ($types[$i] ?? '') ?: guessMime($origName);
+            $pathname = $blobPrefix . '/' . preg_replace('/[^a-z]/', '', $type) . '/' . $stamp . '-' . $safeName;
+            $b = blobPut($config, $pathname, $bytes, $ctype);
+            if ($b['ok'] && !empty($b['data'])) {
+                $fileBlobs[] = [
+                    'field'        => $field,
+                    'originalName' => $origName,
+                    'contentType'  => $b['data']['contentType'] ?? $ctype,
+                    'pathname'     => $b['data']['pathname'] ?? $pathname,
+                    'url'          => $b['data']['url'] ?? null,
+                    'downloadUrl'  => $b['data']['downloadUrl'] ?? null,
+                    'size'         => strlen($bytes),
+                ];
+            } elseif (empty($b['skip'])) {
+                logLine($logDir, 'blob FAIL field=' . $field . ' ' . ($b['code'] ?? '') . ' ' . ($b['resp'] ?? '') . ' ' . ($b['err'] ?? ''));
+            }
+        }
     }
 }
-$record = ['type' => $type, 'submittedAt' => date('c'), 'fields' => $fields, 'files' => $fileNames];
+$record = ['type' => $type, 'submittedAt' => date('c'), 'fields' => $fields, 'files' => $fileNames, 'fileBlobs' => $fileBlobs];
 @file_put_contents(
     $logDir . '/' . preg_replace('/[^a-z]/', '', $type) . '-' . date('Ymd-His') . '-' . substr(md5(uniqid('', true)), 0, 6) . '.json',
     json_encode($record, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)

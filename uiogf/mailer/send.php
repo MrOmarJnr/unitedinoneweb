@@ -1,6 +1,6 @@
 <?php
 // mailer/send.php — receives the website forms, emails via Resend, saves a record.
-// Works on any host with PHP + cURL (standard cPanel). No Node / npm needed.
+// Works on any host with PHP + cURL. No Node / npm needed.
 declare(strict_types=1);
 
 $config = require __DIR__ . '/config.php';
@@ -45,8 +45,26 @@ if ($senderName === '') $senderName = 'there';
 
 function e(string $s): string { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
 
-// ---- Resend send helper ----
-// $to may be a single address (string) or several (array). Resend takes a list.
+// ---- Branded email wrapper (table-based + inline styles for email clients) ----
+function emailShell(string $bodyHtml): string {
+    return
+      '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>'
+    . '<body style="margin:0;padding:0;background:#f4f2ee;">'
+    . '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f4f2ee;padding:24px 12px;">'
+    . '<tr><td align="center">'
+    . '<table role="presentation" width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;font-family:Arial,Helvetica,sans-serif;">'
+    . '<tr><td style="background:#2D4A3E;padding:26px 30px;text-align:center;border-radius:14px 14px 0 0;">'
+    . '<div style="color:#ffffff;font-size:20px;font-weight:bold;letter-spacing:.3px;">United in One <span style="color:#D4933A;">Global Foundation</span></div>'
+    . '</td></tr>'
+    . '<tr><td style="height:4px;background:#D4933A;font-size:0;line-height:0;">&nbsp;</td></tr>'
+    . '<tr><td style="background:#ffffff;padding:34px 32px 26px;">' . $bodyHtml . '</td></tr>'
+    . '<tr><td style="background:#ffffff;border-radius:0 0 14px 14px;border-top:1px solid #f0ede7;padding:18px 32px 26px;text-align:center;color:#9a9a9a;font-size:12px;line-height:1.7;">'
+    . 'United in One Global Foundation &middot; 501(c)(3) nonprofit<br>'
+    . '<a href="https://unitedinone.org" style="color:#9a9a9a;">unitedinone.org</a></td></tr>'
+    . '</table></td></tr></table></body></html>';
+}
+
+// ---- Resend send helper (single or multiple recipients) ----
 function resendSend(array $config, $to, string $subject, string $html, ?string $replyTo = null): array {
     $toList = is_array($to) ? array_values($to) : [$to];
     $payload = ['from' => $config['MAIL_FROM'], 'to' => $toList, 'subject' => $subject, 'html' => $html];
@@ -90,12 +108,14 @@ $mailOk = true;
 
 // 1) Confirmation to the person who submitted
 if ($senderEmail !== '' && filter_var($senderEmail, FILTER_VALIDATE_EMAIL)) {
-    $html = '<div style="font-family:Inter,Arial,sans-serif;color:#1b1b1b;max-width:520px">'
-          . '<h2 style="color:#2D4A3E">Thank you, ' . e($senderName) . '!</h2>'
-          . '<p>Your <strong>' . e($noun) . '</strong> has been submitted successfully.</p>'
-          . '<p>Our team will review it and get back to you soon. You don\'t need to do anything else right now.</p>'
-          . '<p style="margin-top:24px;color:#6D6D6D">With gratitude,<br>United in One Global Foundation</p></div>';
-    $r = resendSend($config, $senderEmail, 'We\'ve received your ' . $noun . ' — United in One Global Foundation', $html);
+    $body = '<div style="text-align:center;margin:0 0 6px;">'
+          . '<span style="display:inline-block;width:56px;height:56px;line-height:56px;border-radius:50%;background:#eef4f0;color:#2D4A3E;font-size:28px;font-weight:bold;">&#10003;</span></div>'
+          . '<h1 style="color:#2D4A3E;font-size:23px;margin:14px 0 10px;text-align:center;">Thank you, ' . e($senderName) . '!</h1>'
+          . '<p style="color:#555;font-size:15px;line-height:1.7;margin:0 0 18px;text-align:center;">Your <strong>' . e($noun) . '</strong> has been received. Our team will review it and get back to you soon &mdash; you don&rsquo;t need to do anything else right now.</p>'
+          . '<div style="background:#eef4f0;border-left:4px solid #D4933A;padding:13px 18px;border-radius:8px;color:#2D4A3E;font-size:14px;margin:0 0 24px;">We typically respond within <strong>two business days</strong>.</div>'
+          . '<div style="text-align:center;margin:0 0 6px;"><a href="https://unitedinone.org" style="display:inline-block;background:#D4933A;color:#182E25;font-weight:bold;text-decoration:none;padding:12px 28px;border-radius:30px;font-size:14px;">Visit our website</a></div>'
+          . '<p style="color:#9a9a9a;font-size:13px;margin:24px 0 0;text-align:center;">With gratitude,<br>The United in One team</p>';
+    $r = resendSend($config, $senderEmail, 'We\'ve received your ' . $noun . ' — United in One Global Foundation', emailShell($body));
     if (!$r['ok']) { $mailOk = false; logLine($logDir, 'sender FAIL ' . $r['code'] . ' ' . $r['resp'] . ' ' . $r['err']); }
 }
 
@@ -103,25 +123,28 @@ if ($senderEmail !== '' && filter_var($senderEmail, FILTER_VALIDATE_EMAIL)) {
 if (!empty($config['ADMIN_FULL_DETAILS'])) {
     $rows = '';
     foreach ($fields as $k => $v) {
+        if ($k === '' || $k[0] === '_') continue;          // skip internal / relay fields
         if (is_array($v)) $v = implode(', ', $v);
-        $rows .= '<tr><td style="padding:3px 12px 3px 0;color:#6D6D6D;vertical-align:top">' . e((string)$k)
-               . '</td><td>' . nl2br(e((string)$v)) . '</td></tr>';
+        if (trim((string)$v) === '') continue;             // skip empty
+        $niceKey = ucwords(trim(str_replace(['_', '-'], ' ', (string)$k)));
+        $rows .= '<tr>'
+               . '<td style="padding:9px 14px;border:1px solid #eee;background:#f7f5f0;color:#2D4A3E;font-weight:bold;vertical-align:top;white-space:nowrap;">' . e($niceKey) . '</td>'
+               . '<td style="padding:9px 14px;border:1px solid #eee;color:#1b1b1b;">' . nl2br(e((string)$v)) . '</td>'
+               . '</tr>';
     }
     $note = $fileNames ? (count($fileNames) . ' file(s): ' . e(implode(', ', $fileNames))) : 'No files attached.';
-    $adminHtml = '<div style="font-family:Inter,Arial,sans-serif;color:#1b1b1b;max-width:640px">'
-               . '<h3 style="color:#2D4A3E">New ' . e($label) . '</h3>'
-               . '<p>A new ' . e($noun) . ' came in from the website (' . date('M j, Y g:i A') . ').</p>'
-               . '<table style="font-size:14px;border-collapse:collapse">' . $rows . '</table>'
-               . '<p style="color:#6D6D6D;font-size:13px;margin-top:12px">' . $note . '</p></div>';
+    $body = '<h2 style="color:#2D4A3E;font-size:21px;margin:0 0 4px;">New ' . e($label) . '</h2>'
+          . '<p style="color:#9a9a9a;font-size:13px;margin:0 0 20px;">Received ' . date('M j, Y \a\t g:i A') . '</p>'
+          . '<table cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse;font-size:14px;">' . $rows . '</table>'
+          . '<p style="color:#9a9a9a;font-size:13px;margin-top:16px;">' . $note . '</p>';
 } else {
-    $adminHtml = '<div style="font-family:Inter,Arial,sans-serif;color:#1b1b1b;max-width:520px">'
-               . '<h3 style="color:#2D4A3E">New ' . e($label) . ' submitted</h3>'
-               . '<p>A new ' . e($noun) . ' just came in from ' . e($senderName)
-               . ($senderEmail ? ' (' . e($senderEmail) . ')' : '') . '. Open the portal to view the details.</p></div>';
+    $body = '<h2 style="color:#2D4A3E;font-size:21px;margin:0 0 10px;">New ' . e($label) . ' submitted</h2>'
+          . '<p style="color:#555;font-size:15px;line-height:1.7;">A new ' . e($noun) . ' just came in from <strong>' . e($senderName) . '</strong>'
+          . ($senderEmail ? ' (' . e($senderEmail) . ')' : '') . '.</p>'
+          . '<p style="color:#555;font-size:15px;">Log in to the portal to view the full details.</p>';
 }
-// Support one or more admin addresses, separated by ";" or ","
 $adminList = array_values(array_filter(array_map('trim', preg_split('/[;,]+/', (string)$config['ADMIN_EMAIL']))));
-$r2 = resendSend($config, $adminList, 'New ' . $label . ' submitted', $adminHtml, $senderEmail ?: null);
+$r2 = resendSend($config, $adminList, 'New ' . $label . ' submitted', emailShell($body), $senderEmail ?: null);
 if (!$r2['ok']) { $mailOk = false; logLine($logDir, 'admin FAIL ' . $r2['code'] . ' ' . $r2['resp'] . ' ' . $r2['err']); }
 
 // The visitor always sees success once we've safely received + saved the submission.

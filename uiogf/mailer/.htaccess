@@ -1,7 +1,19 @@
-# Block direct web access to config + saved submissions; allow send.php only
-<FilesMatch "\.(php)$">
-  Require all granted
-</FilesMatch>
+# Protect the secret config across both Apache 2.2 and 2.4
 <Files "config.php">
-  Require all denied
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
+</Files>
+<Files "config.example.php">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
 </Files>

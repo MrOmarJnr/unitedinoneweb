@@ -789,12 +789,16 @@
 
         submitBtn.disabled = true;
         submitBtn.textContent = 'Sending…';
-        // Submits to FormSubmit, which delivers to emmanuel.appiah.dev@gmail.com
+        var fd = new FormData(form);
+        // 1) Email confirmation + admin alert via the website mailer (best-effort).
+        fetch('/send.php', { method: 'POST', body: fd }).catch(function () {});
+        // 2) Save the record into the portal (source of truth — gates the success message).
         fetch(form.action, {
             method: 'POST',
-            body: new FormData(form),
+            body: fd,
             headers: { 'Accept': 'application/json' }
-        }).then(function () {
+        }).then(function (res) {
+            if (!res.ok) throw new Error('Portal rejected the submission');
             form.style.display = 'none';
             var s = document.getElementById('wizardSuccess');
             if (s) s.classList.add('is-visible');

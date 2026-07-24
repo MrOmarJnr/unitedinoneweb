@@ -588,10 +588,11 @@
         formError.classList.remove('is-visible');
         submitBtn.disabled = true;
         submitBtn.textContent = 'Submitting\u2026';
-        var fd = new FormData(form);
         // 1) Email confirmation + admin alert via the website mailer (best-effort).
-        fetch('/send.php', { method: 'POST', body: fd }).catch(function () {});
+        //    Try the mailer at the site root first, then a /mailer/ subfolder.
+        (function (f) { var u = ['/send.php', '/mailer/send.php']; (function go(i) { if (i >= u.length) return; fetch(u[i], { method: 'POST', body: new FormData(f) }).then(function (r) { if (!r.ok) go(i + 1); }).catch(function () { go(i + 1); }); })(0); })(form);
         // 2) Save the record into the portal (source of truth \u2014 gates the success message).
+        var fd = new FormData(form);
         fetch(form.action, {
             method: 'POST',
             body: fd,

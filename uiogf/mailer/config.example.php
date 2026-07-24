@@ -13,3 +13,4 @@ return [
     // Holds uploads/ and submissions/. The portal reads from here.
     'PRIVATE_DIR'           => '/var/www/uiogf-private',
 ];
+

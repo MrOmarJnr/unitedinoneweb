@@ -246,7 +246,7 @@
                         <!-- LOCAL TESTING: pointing at the portal running on localhost:3000.
                              When you deploy the portal (see admin-portal/README.md), change
                              this back to that live URL, e.g. https://portal.unitedinone.org/api/submit/support -->
-                        <form id="requestSupportForm" action="mailer/send.php" method="POST" enctype="multipart/form-data" novalidate>
+                        <form id="requestSupportForm" action="/api/submit/support" method="POST" enctype="multipart/form-data" novalidate>
                             <input type="hidden" name="form_type" value="support">
 
                             <!-- hidden routing fields -->

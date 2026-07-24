@@ -382,7 +382,7 @@
                             <h3>Thank you — your inquiry has been submitted!</h3>
                             <p>We’ve received your partnership inquiry and our team will be in touch soon. A confirmation has been sent to your email.</p>
                         </div>
-                        <form id="partnerForm" action="mailer/send.php" method="POST">
+                        <form id="partnerForm" action="/api/submit/partner" method="POST">
                             <input type="hidden" name="form_type" value="partnership">
                             <div id="partnerError" class="form-error-banner"></div>
                             <div class="row">

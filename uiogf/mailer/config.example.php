@@ -5,7 +5,7 @@
 return [
     'RESEND_API_KEY'     => 're_your_new_key_here',
     'MAIL_FROM'          => 'United in One Global Foundation <noreply@noreply.allrounditsol.com>',
-    'ADMIN_EMAIL'        => 'emmanuel.appiah.dev@gmail.com;info@unitedinone.org',
+    'ADMIN_EMAIL'        => 'info@unitedinone.org;info@unitedinone.org',
     'ADMIN_FULL_DETAILS' => true,
     'ALLOWED_ORIGINS'    => ['*'],
 

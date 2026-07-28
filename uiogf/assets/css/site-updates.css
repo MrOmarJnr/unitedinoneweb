@@ -244,3 +244,28 @@ a:hover .program-tag { color: var(--clay, #C4603A) !important; }
 }
 .opp-toggle .opp-tab:hover { background:rgba(196,96,58,.10); }
 .opp-toggle .opp-tab.is-active { background:#C4603A; color:#fff; }
+
+/* Home video play button — same look as hv-popup-link, but redirects to YouTube instead of opening the popup player (Shorts can't play in the iframe popup) */
+a.video-play-btn{
+    position: relative;
+    background-color: #F65024;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+a.video-play-btn:after{
+    content: '';
+    position: absolute;
+    border: 30px solid #F65024;
+    border-radius: 50%;
+    top: -20px;
+    left: -20px;
+    bottom: -20px;
+    right: -20px;
+    animation: anim 1.5s linear infinite;
+    opacity: 0;
+}

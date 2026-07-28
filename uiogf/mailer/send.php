@@ -1,6 +1,5 @@
 <?php
-// mailer/send.php — receives the website forms, emails via Resend, saves a record.
-// Works on any host with PHP + cURL. No Node / npm needed.
+
 declare(strict_types=1);
 
 $config = require __DIR__ . '/config.php';
@@ -21,7 +20,7 @@ $method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
 if ($method === 'OPTIONS') { http_response_code(204); exit; }
 if ($method !== 'POST') { http_response_code(405); echo json_encode(['ok'=>false,'error'=>'POST only']); exit; }
 
-// ---- Which form is this? ----
+
 $type = $_POST['form_type'] ?? ($_GET['type'] ?? 'general');
 $fields = $_POST;
 unset($fields['form_type']);
@@ -45,7 +44,7 @@ if ($senderName === '') $senderName = 'there';
 
 function e(string $s): string { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
 
-// ---- Branded email wrapper (table-based + inline styles for email clients) ----
+// ---- Branded email wrapper  ----
 function emailShell(string $bodyHtml): string {
     return
       '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>'
@@ -97,8 +96,7 @@ function guessMime(string $name): string {
     return $map[$ext] ?? 'application/octet-stream';
 }
 
-// All private data (submission records + uploaded files) lives OUTSIDE the web root
-// so it can never be downloaded directly. The portal reads from this same folder.
+
 $baseDir   = rtrim((string)($config['PRIVATE_DIR'] ?? (__DIR__ . '/data')), '/');
 $logDir    = $baseDir . '/submissions';
 $uploadDir = $baseDir . '/uploads';
@@ -108,7 +106,7 @@ function logLine(string $dir, string $msg): void {
     @file_put_contents($dir . '/mail.log', '[' . date('c') . '] ' . $msg . PHP_EOL, FILE_APPEND);
 }
 
-// ---- Save the full submission + store any uploaded files privately on disk ----
+// ---- Save the full submission + store any uploaded files  ----
 $fileNames = [];
 $uploads   = [];
 $stamp = date('Ymd-His');
@@ -199,5 +197,5 @@ $adminList = array_values(array_filter(array_map('trim', preg_split('/[;,]+/', (
 $r2 = resendSend($config, $adminList, 'New ' . $label . ' submitted', emailShell($body), $senderEmail ?: null);
 if (!$r2['ok']) { $mailOk = false; logLine($logDir, 'admin FAIL ' . $r2['code'] . ' ' . $r2['resp'] . ' ' . $r2['err']); }
 
-// The visitor always sees success once we've safely received + saved the submission.
+
 echo json_encode(['ok' => true, 'emailed' => $mailOk]);

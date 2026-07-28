@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5 {
     padding: 170px 0 120px;
     background:
         linear-gradient(rgba(0,0,0,.70), rgba(0,0,0,.70)),
-        url('../images/sitepics/career.png') center/cover no-repeat;
+        url('../images/sitepics/career_banner.png') center/cover no-repeat;
     overflow: hidden;
     color: #fff;
 }

@@ -6,8 +6,8 @@
 .handle-preloader .preloader-logo { max-width: 270px; height: auto; display: block; margin: 0 auto; }
 
 /* Bigger, more visible header logo across the whole site (client request) */
-.main-header .logo-box .logo img { width: 250px !important; height: auto !important; display: block; }
-.main-header .sticky-header .logo-box .logo img { width: 210px !important; height: auto !important; }
+.main-header .logo-box .logo img { width: 300px !important; height: auto !important; display: block; }
+.main-header .sticky-header .logo-box .logo img { width: 255px !important; height: auto !important; }
 
 /* Fix the green accent panel behind the logo: it was a fixed 100px, so the
    enlarged logo left an empty strip under it. Make it match the header height
@@ -16,7 +16,7 @@
 .main-header.style-one .logo__shape { height: 100% !important; }
 
 @media only screen and (max-width: 600px) {
-  .main-header .logo-box .logo img { width: 165px !important; }
+  .main-header .logo-box .logo img { width: 195px !important; }
   .main-header .logo-box .logo { padding: 4px 0 !important; }
   .handle-preloader .preloader-logo { max-width: 210px !important; }
 }
@@ -129,6 +129,10 @@ blockquote cite { display:block; margin-top:18px; font-style:normal; font-weight
 .contact-hero:after, .donate-hero:after, .grant-hero:after, .opportunities-hero:after,
 .partner-hero:after, .projects-hero:after { display: none !important; }
 
+/* About hero: trim the empty space below the heading (the removed arch left a big gap
+   before the Our Story section) — client feedback. */
+.about-hero { padding-bottom: 60px !important; }
+
 /* Donation giving tiers -> two columns on tablet/desktop */
 @media only screen and (min-width: 768px) {
   .give-list { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 30px; }
@@ -178,3 +182,65 @@ blockquote cite { display:block; margin-top:18px; font-style:normal; font-weight
 
 /* Givebutter donate button inside the project donation card */
 .donate-action .gb-donate-btn { display:inline-block; margin:0 auto 26px; }
+
+/* --- Team cards: keep the theme's clean hover-reveal (name + title by default,
+   bio on hover). Just let the hover panel grow enough for long bios (e.g. Mery's),
+   and lift the hovered card above its neighbours so it never overlaps them. --- */
+.main-team-container .volunteers-content:hover { position: relative; z-index: 5; }
+.main-team-container .volunteers-content:hover .volunteers-info { max-height: 560px !important; }
+
+/* --- "Learn more" links must be clearly visible at ALL times, not just on hover (client requirement) --- */
+.project-link,
+.program-card .project-link,
+.program-content .project-link {
+    opacity: 1 !important;
+    visibility: visible !important;
+    color: var(--clay, #C4603A) !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+    display: inline-flex !important;
+    align-items: center;
+    gap: 8px;
+}
+.program-card:hover .project-link,
+.project-link:hover { color: var(--earth, #2D4A3E) !important; }
+
+/* global.css has `a:hover span { color:#fff }`. The whole project card is a link,
+   so its category tags (Education/Health/Water/Grants — spans) turned white and
+   vanished on hover. Keep the tags their clay color on hover. */
+.program-card:hover .program-tag,
+a:hover .program-tag { color: var(--clay, #C4603A) !important; }
+
+/* About team: the container had 120px top padding, leaving a big gap between the
+   "Our Team" intro and the photos — close it up (client feedback). */
+.main-team-container { padding-top: 30px !important; }
+
+/* Clean Water — "The Global Water Crisis in Numbers" stat cards (client feedback) */
+.water-stats-band .water-stat {
+    background:#fff; border:1px solid rgba(45,74,62,.10); border-top:4px solid #C4603A;
+    border-radius:16px; padding:30px 24px; height:100%; text-align:center;
+    box-shadow:0 12px 34px rgba(45,74,62,.07);
+}
+.water-stats-band .water-stat h3 {
+    color:#C4603A; font-family:'Fraunces',serif; font-size:42px; line-height:1.05; margin-bottom:12px;
+}
+.water-stats-band .water-stat h3 span { font-size:20px; color:#6D6D6D; }
+.water-stats-band .water-stat p { color:#4a4a4a; font-size:15px; line-height:1.65; margin:0; }
+@media only screen and (max-width:767px){ .water-stats-band .water-stat h3 { font-size:34px; } }
+
+/* Grants: focus-area example lists + eligibility FAQ answer lists (client feedback) */
+.grant-focus h2 { margin-bottom:12px; }
+.grant-focus .grant-focus-list { color:#4a4a4a; line-height:1.7; padding-left:20px; }
+.grant-focus .grant-focus-list li { margin-bottom:12px; }
+.faq-item .faq-answer ul, .faq-item .faq-answer ol { color:#5a5a5a; line-height:1.7; padding-left:20px; margin:8px 0 0; }
+.faq-item .faq-answer li { margin-bottom:8px; }
+.faq-item .faq-answer p { margin-bottom:8px; }
+
+/* Opportunities page: Remote / On-the-Ground toggle (client feedback) */
+.opp-toggle .opp-tab {
+    border:2px solid #C4603A; background:transparent; color:#C4603A; font-weight:700;
+    padding:12px 34px; border-radius:40px; cursor:pointer; margin:0 6px 8px;
+    transition:all .2s ease; font-size:15px;
+}
+.opp-toggle .opp-tab:hover { background:rgba(196,96,58,.10); }
+.opp-toggle .opp-tab.is-active { background:#C4603A; color:#fff; }

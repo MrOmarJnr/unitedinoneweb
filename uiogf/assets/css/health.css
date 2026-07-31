@@ -243,8 +243,9 @@
 
         .wellness-img img {
             width: 100%;
-            height: 560px;
-            object-fit: cover;
+            height: auto;
+            display: block;
+            object-fit: contain;
         }
 
         .quote-box {
@@ -530,7 +531,7 @@
 
             .wellness-img img,
             .commitment-img img {
-                height: 420px;
+                height: auto;
                 margin-top: 35px;
             }
 

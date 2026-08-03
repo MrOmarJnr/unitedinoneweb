@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "//": "Forward the website's form posts to the PORTAL project. Replace the host below with your portal's real Vercel URL (or custom domain) after you deploy it — keep the /api/submit/:path* on both sides. The browser posts same-origin to the website; Vercel proxies it to the portal, so no CORS and no HTML changes.",
+      "source": "/api/submit/:path*",
+      "destination": "https://oneconnectportal.vercel.app/api/submit/:path*"
+    }
+  ]
+}

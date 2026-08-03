@@ -1,1 +1,0 @@
-# PHP mailer (Resend)

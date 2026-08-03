@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/api/submit/:path*",
-      "destination": "https://oneconnectportal.vercel.app/api/submit/:path*"
+      "destination": "https://oneconnectportal-livid.vercel.app/api/submit/:path*"
     }
   ]
 }
